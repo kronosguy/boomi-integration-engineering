@@ -1,0 +1,82 @@
+<process allowSimultaneous="false" enableUserLog="false" processLogOnErrorOnly="false" purgeDataImmediately="false" stopProcessingIfZeroDocuments="true" updateRunDates="false" workload="general">
+  <shapes>
+
+    <shape image="start" name="shape1" shapetype="start" userlabel="Validation Input" x="48.0" y="48.0">
+      <configuration><passthroughaction/></configuration>
+      <dragpoints><dragpoint name="shape1.dragpoint1" toShape="shape2" x="256.0" y="56.0"/></dragpoints>
+    </shape>
+
+    <shape image="decision_icon" name="shape2" shapetype="decision" userlabel="Byte Count Matches Manifest?" x="272.0" y="48.0">
+      <configuration>
+        <decision comparison="equals" name="Byte Count Matches Manifest?">
+          <decisionvalue valueType="track">
+            <trackparameter defaultValue="" propertyId="dynamicdocument.DDP_P01_ACTUAL_BYTES" propertyName="Dynamic Document Property - DDP_P01_ACTUAL_BYTES"/>
+          </decisionvalue>
+          <decisionvalue valueType="track">
+            <trackparameter defaultValue="" propertyId="dynamicdocument.DDP_P01_EXPECTED_BYTES" propertyName="Dynamic Document Property - DDP_P01_EXPECTED_BYTES"/>
+          </decisionvalue>
+        </decision>
+      </configuration>
+      <dragpoints>
+        <dragpoint identifier="true" name="shape2.dragpoint1" text="True" toShape="shape3" x="480.0" y="56.0"/>
+        <dragpoint identifier="false" name="shape2.dragpoint2" text="False" toShape="shape5" x="480.0" y="216.0"/>
+      </dragpoints>
+    </shape>
+
+    <shape image="decision_icon" name="shape3" shapetype="decision" userlabel="SHA-256 Matches Manifest?" x="496.0" y="48.0">
+      <configuration>
+        <decision comparison="equals" name="SHA-256 Matches Manifest?">
+          <decisionvalue valueType="track">
+            <trackparameter defaultValue="" propertyId="dynamicdocument.DDP_P01_ACTUAL_SHA256" propertyName="Dynamic Document Property - DDP_P01_ACTUAL_SHA256"/>
+          </decisionvalue>
+          <decisionvalue valueType="track">
+            <trackparameter defaultValue="" propertyId="dynamicdocument.DDP_P01_EXPECTED_SHA256" propertyName="Dynamic Document Property - DDP_P01_EXPECTED_SHA256"/>
+          </decisionvalue>
+        </decision>
+      </configuration>
+      <dragpoints>
+        <dragpoint identifier="true" name="shape3.dragpoint1" text="True" toShape="shape4" x="704.0" y="56.0"/>
+        <dragpoint identifier="false" name="shape3.dragpoint2" text="False" toShape="shape7" x="704.0" y="216.0"/>
+      </dragpoints>
+    </shape>
+
+    <shape image="documentproperties_icon" name="shape4" shapetype="documentproperties" userlabel="Mark Validation PASSED" x="720.0" y="48.0">
+      <configuration>
+        <documentproperties>
+          <documentproperty defaultValue="" isDynamicCredential="false" isTradingPartner="false" name="Dynamic Document Property - DDP_P01_VALIDATION_STATUS" persist="false" propertyId="dynamicdocument.DDP_P01_VALIDATION_STATUS" shouldEncrypt="false">
+            <sourcevalues>
+              <parametervalue key="0" valueType="static"><staticparameter staticproperty="PASSED"/></parametervalue>
+            </sourcevalues>
+          </documentproperty>
+        </documentproperties>
+      </configuration>
+      <dragpoints><dragpoint name="shape4.dragpoint1" toShape="shape6" x="928.0" y="56.0"/></dragpoints>
+    </shape>
+
+    <shape image="exception_icon" name="shape5" shapetype="exception" userlabel="Byte Validation Failed" x="496.0" y="208.0">
+      <configuration>
+        <exception stopProcessReturnSingleDoc="false" stopsingledoc="true" title="Byte Validation Failed">
+          <exMessage>Chunk byte count does not match manifest.</exMessage>
+          <exParameters/>
+        </exception>
+      </configuration>
+      <dragpoints/>
+    </shape>
+
+    <shape image="returndocuments_icon" name="shape6" shapetype="returndocuments" userlabel="Validated" x="944.0" y="48.0">
+      <configuration><returndocuments label="Validated"/></configuration>
+      <dragpoints/>
+    </shape>
+
+    <shape image="exception_icon" name="shape7" shapetype="exception" userlabel="SHA Validation Failed" x="720.0" y="208.0">
+      <configuration>
+        <exception stopProcessReturnSingleDoc="false" stopsingledoc="true" title="SHA Validation Failed">
+          <exMessage>Chunk SHA-256 does not match manifest.</exMessage>
+          <exParameters/>
+        </exception>
+      </configuration>
+      <dragpoints/>
+    </shape>
+
+  </shapes>
+</process>
