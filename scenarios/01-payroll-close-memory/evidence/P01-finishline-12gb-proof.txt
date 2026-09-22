@@ -1,0 +1,24 @@
+PROJECT 01 - 12GB HARD MEMORY CEILING FINISH-LINE PROOF
+========================================================
+Status              : PASSED
+Source               : D:\BoomiLab\Project01\source\monolithic\ukg-payroll-close-12gb.json
+Source bytes         : 12884931079
+Source GiB           : 12.000027
+Source SHA-256       : d4f808f83cd00505cd180e6e6be78d923a1cd4056c419de097eb6e2125d2b7c8
+Runtime              : KG-P01-PAYROLL-2GB
+Environment          : KG-LAB-LOCAL
+Manifest chunks      : 374
+Employees            : 418418
+READY after          : 0
+PROCESSING after     : 0
+COMMITTED after      : 374
+QUARANTINE after     : 0
+Max JVM heap bytes   : 2147483648
+Max JVM heap GiB     : 2
+Heap ceiling bytes   : 2147483648
+Heap within ceiling  : True
+Stream buffer bytes  : 65536
+P01.15 execution     : execution-617b8faf-db35-4d2e-9cb7-c78f55834edb-2026.09.21
+P01.20 execution     : execution-d8f3c21e-a53c-42d6-96c4-7c8abfc812f0-2026.09.21
+P01.30 execution     : execution-6b58a013-38e3-4563-9c1f-b85b618ed787-2026.09.21
+========================================================
