@@ -17,6 +17,65 @@ The integration must process the complete workforce dataset without materializin
 
 ---
 
+## Verified Execution — 12 GiB Source Under a 2 GiB Heap
+
+**Status: PASSED — 2026-09-21**
+
+The hard-memory-ceiling path was executed on the Boomi Runtime `KG-P01-PAYROLL-2GB`, configured with a **2 GiB maximum JVM heap**.
+
+| Proof point | Verified result |
+|---|---:|
+| Actual monolithic source | 12.000027 GiB |
+| Source bytes | 12,884,931,079 |
+| SHA-256 | `d4f808f83cd00505cd180e6e6be78d923a1cd4056c419de097eb6e2125d2b7c8` |
+| JVM max heap | 2 GiB |
+| Stream buffer | 64 KiB |
+| Manifest work units | 374 |
+| Employees represented by manifest | 418,418 |
+| Final READY | 0 |
+| Final PROCESSING | 0 |
+| Final COMMITTED | 374 |
+| Final QUARANTINE | 0 |
+
+Executed Boomi path:
+
+```text
+P01.15 - 12GB Source Proof
+    -> P01.C01 - Stream File Integrity
+
+P01.20 - Manifest Controller
+
+P01.30 - Chunk Processor
+    -> P01.C01 - Stream File Integrity
+    -> P01.40 - Validation
+    -> P01.50 - SQL Staging Contract
+```
+
+The actual 12 GiB monolithic source was read by the Boomi Runtime through a fixed **64 KiB streaming buffer** and verified by complete byte count plus SHA-256. The runtime-recorded maximum heap was **2,147,483,648 bytes**.
+
+The corresponding 374-entry stress manifest was then processed serially through durable work-state transitions. The run completed with **374 COMMITTED / 0 QUARANTINED** work units.
+
+### Evidence and implementation source
+
+- [Boomi process XML](./boomi/processes/)
+- [Process walkthrough](./docs/process-walkthrough.md)
+- [Evidence chain](./docs/evidence-chain.md)
+- [Finish-line proof JSON](./evidence/P01-finishline-12gb-proof.json)
+- [Source proof JSON](./evidence/P01.15-12gb-source-proof.json)
+- [374-entry manifest](./data/manifest.json)
+- [12 GiB source SHA-256](./data/ukg-payroll-close-12gb.sha256)
+- [Deterministic stress-data generator](./data/stress-kit/generate_12gb.py)
+
+### Scope of this verified result
+
+This execution proves the **12 GiB source streaming/integrity mechanism**, **2 GiB heap ceiling**, manifest control, serial bounded chunk processing, integrity validation, and READY → PROCESSING → COMMITTED / QUARANTINE terminal-state reconciliation.
+
+The current verified path uses the previously generated 374 bounded chunk files described by the manifest after separately streaming and validating the 12 GiB monolith. It does **not** claim that Boomi partitioned the monolithic source into those chunks during this run.
+
+The physical SQL Server binding, oversized-employee fragmentation execution, Atom-termination recovery injection, disk-exhaustion recovery, concurrency benchmark matrix, and final payroll publication remain separate acceptance criteria.
+
+---
+
 ## Business Context
 
 Payroll close is approaching its cutoff.
