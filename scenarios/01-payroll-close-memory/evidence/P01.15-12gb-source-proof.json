@@ -1,0 +1,14 @@
+{
+  "status": "PASSED",
+  "sourceFile": "D:\\BoomiLab\\Project01\\source\\monolithic\\ukg-payroll-close-12gb.json",
+  "sourceBytes": 12884931079,
+  "sourceGiB": 12.000027186237276,
+  "expectedSha256": "d4f808f83cd00505cd180e6e6be78d923a1cd4056c419de097eb6e2125d2b7c8",
+  "actualSha256": "d4f808f83cd00505cd180e6e6be78d923a1cd4056c419de097eb6e2125d2b7c8",
+  "maxHeapBytes": 2147483648,
+  "maxHeapGiB": 2,
+  "manifestChunks": 374,
+  "manifestGeneratedBytes": 12884931826,
+  "manifestEmployees": 418418,
+  "bufferBytes": 65536
+}
