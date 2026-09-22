@@ -1,0 +1,83 @@
+<process allowSimultaneous="false" enableUserLog="false" processLogOnErrorOnly="false" purgeDataImmediately="false" stopProcessingIfZeroDocuments="true" updateRunDates="false" workload="general">
+  <shapes>
+
+    <shape image="start" name="shape1" shapetype="start" userlabel="Validated Chunk Input" x="48.0" y="48.0">
+      <configuration><passthroughaction/></configuration>
+      <dragpoints><dragpoint name="shape1.dragpoint1" toShape="shape2" x="256.0" y="56.0"/></dragpoints>
+    </shape>
+
+    <shape image="documentproperties_icon" name="shape2" shapetype="documentproperties" userlabel="Stage integration_run Contract" x="272" y="48">
+      <configuration>
+        <documentproperties>
+          <documentproperty defaultValue="" isDynamicCredential="false" isTradingPartner="false" name="Dynamic Document Property - DDP_P01_SQL_INTEGRATION_RUN" persist="false" propertyId="dynamicdocument.DDP_P01_SQL_INTEGRATION_RUN" shouldEncrypt="false">
+            <sourcevalues>
+              <parametervalue key="0" valueType="static">
+                <staticparameter staticproperty="integration_run"/>
+              </parametervalue>
+            </sourcevalues>
+          </documentproperty>
+        </documentproperties>
+      </configuration>
+      <dragpoints>
+        <dragpoint name="shape2.dragpoint1" toShape="shape3" x="480" y="56"/>
+      </dragpoints>
+    </shape>
+
+    <shape image="documentproperties_icon" name="shape3" shapetype="documentproperties" userlabel="Stage chunk_manifest Contract" x="496" y="48">
+      <configuration>
+        <documentproperties>
+          <documentproperty defaultValue="" isDynamicCredential="false" isTradingPartner="false" name="Dynamic Document Property - DDP_P01_SQL_CHUNK_MANIFEST" persist="false" propertyId="dynamicdocument.DDP_P01_SQL_CHUNK_MANIFEST" shouldEncrypt="false">
+            <sourcevalues>
+              <parametervalue key="0" valueType="static">
+                <staticparameter staticproperty="chunk_manifest"/>
+              </parametervalue>
+            </sourcevalues>
+          </documentproperty>
+        </documentproperties>
+      </configuration>
+      <dragpoints>
+        <dragpoint name="shape3.dragpoint1" toShape="shape4" x="704" y="56"/>
+      </dragpoints>
+    </shape>
+
+    <shape image="documentproperties_icon" name="shape4" shapetype="documentproperties" userlabel="Stage payroll_stage Contract" x="720" y="48">
+      <configuration>
+        <documentproperties>
+          <documentproperty defaultValue="" isDynamicCredential="false" isTradingPartner="false" name="Dynamic Document Property - DDP_P01_SQL_PAYROLL_STAGE" persist="false" propertyId="dynamicdocument.DDP_P01_SQL_PAYROLL_STAGE" shouldEncrypt="false">
+            <sourcevalues>
+              <parametervalue key="0" valueType="static">
+                <staticparameter staticproperty="payroll_stage"/>
+              </parametervalue>
+            </sourcevalues>
+          </documentproperty>
+        </documentproperties>
+      </configuration>
+      <dragpoints>
+        <dragpoint name="shape4.dragpoint1" toShape="shape5" x="928" y="56"/>
+      </dragpoints>
+    </shape>
+
+    <shape image="documentproperties_icon" name="shape5" shapetype="documentproperties" userlabel="Database V2 Binding Required" x="944" y="48">
+      <configuration>
+        <documentproperties>
+          <documentproperty defaultValue="" isDynamicCredential="false" isTradingPartner="false" name="Dynamic Document Property - DDP_P01_SQL_STAGE_STATUS" persist="false" propertyId="dynamicdocument.DDP_P01_SQL_STAGE_STATUS" shouldEncrypt="false">
+            <sourcevalues>
+              <parametervalue key="0" valueType="static">
+                <staticparameter staticproperty="DESIGN_COMPLETE_DATABASE_BINDING_REQUIRED"/>
+              </parametervalue>
+            </sourcevalues>
+          </documentproperty>
+        </documentproperties>
+      </configuration>
+      <dragpoints>
+        <dragpoint name="shape5.dragpoint1" toShape="shape6" x="1152" y="56"/>
+      </dragpoints>
+    </shape>
+
+    <shape image="returndocuments_icon" name="shape6" shapetype="returndocuments" userlabel="SQL Staging Contract Complete" x="1168.0" y="48.0">
+      <configuration><returndocuments label="SQL Staging Contract Complete"/></configuration>
+      <dragpoints/>
+    </shape>
+
+  </shapes>
+</process>
