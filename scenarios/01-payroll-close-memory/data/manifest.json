@@ -1,0 +1,2632 @@
+{
+  "synthetic": true,
+  "targetBytes": 12884901888,
+  "chunkTargetBytes": 33554432,
+  "period": {
+    "startDate": "2026-09-14",
+    "endDate": "2026-09-20"
+  },
+  "chunks": [
+    {
+      "chunk": 1,
+      "file": "timecard_metrics\\chunk-000001.json",
+      "bytes": 33560447,
+      "employees": 1123,
+      "sha256": "99690ec245fc60312e8efbe065b5c5848867569ae8a667b9977ead326fcd88cd"
+    },
+    {
+      "chunk": 2,
+      "file": "timecard_metrics\\chunk-000002.json",
+      "bytes": 33562568,
+      "employees": 1123,
+      "sha256": "6300d48ea15dce738f44ae7283c66fe734ca3be36f119476231d2dfa756226dd"
+    },
+    {
+      "chunk": 3,
+      "file": "timecard_metrics\\chunk-000003.json",
+      "bytes": 387729119,
+      "employees": 254,
+      "sha256": "0b5c39a9ff7b380205c9e115a7ab5793fb196bbaf0179057b0ec3332ba096e83"
+    },
+    {
+      "chunk": 4,
+      "file": "timecard_metrics\\chunk-000004.json",
+      "bytes": 33561928,
+      "employees": 1123,
+      "sha256": "136193238804741162215b76473a9dedcf881f7e7713c4d6a8f7d8000cf82cc8"
+    },
+    {
+      "chunk": 5,
+      "file": "timecard_metrics\\chunk-000005.json",
+      "bytes": 33561090,
+      "employees": 1123,
+      "sha256": "bb699fe0cc965fc5f9f083c400aa9ef3ba217ffef6f001ee49243695ad1847f9"
+    },
+    {
+      "chunk": 6,
+      "file": "timecard_metrics\\chunk-000006.json",
+      "bytes": 33561888,
+      "employees": 1123,
+      "sha256": "21387bb41e83a3c60d8aacaa39691252a3a601b99ea20a39f8cc5d5a62d8653b"
+    },
+    {
+      "chunk": 7,
+      "file": "timecard_metrics\\chunk-000007.json",
+      "bytes": 33560647,
+      "employees": 1123,
+      "sha256": "f83d751ee2b8a34e29e18058b28cd2cd84ea8a00fba1dc7a21fff624d3303acd"
+    },
+    {
+      "chunk": 8,
+      "file": "timecard_metrics\\chunk-000008.json",
+      "bytes": 33564172,
+      "employees": 1123,
+      "sha256": "35f0b3fc4d9fe5c78df09ffb9ce7d45a3bf3717bcbdb76d3fb720ba0a625363e"
+    },
+    {
+      "chunk": 9,
+      "file": "timecard_metrics\\chunk-000009.json",
+      "bytes": 33561928,
+      "employees": 1123,
+      "sha256": "0be77da915b7d7edab498d8cc75ded0d70b1d68323b36fe39ff3901b42dcb4a1"
+    },
+    {
+      "chunk": 10,
+      "file": "timecard_metrics\\chunk-000010.json",
+      "bytes": 33561090,
+      "employees": 1123,
+      "sha256": "1f7c0b257fe809a60045d2362ca926a42e80d47deafa6b7ba85d7ab7a0e8f1c0"
+    },
+    {
+      "chunk": 11,
+      "file": "timecard_metrics\\chunk-000011.json",
+      "bytes": 33561888,
+      "employees": 1123,
+      "sha256": "240bc9bd561a2751c5a6bc3f76df8f053af97a43f99494e00e0b16f6dfba64bc"
+    },
+    {
+      "chunk": 12,
+      "file": "timecard_metrics\\chunk-000012.json",
+      "bytes": 33562134,
+      "employees": 1123,
+      "sha256": "d5b6e2521911bf531ff8855b7eccbcd9464ffd66de78692eb4e0f9726400c473"
+    },
+    {
+      "chunk": 13,
+      "file": "timecard_metrics\\chunk-000013.json",
+      "bytes": 33561205,
+      "employees": 1123,
+      "sha256": "ccbeceb18fb80a49186abce25089c1ab1b5de0d35b512ab518c1d2c1d6b8391a"
+    },
+    {
+      "chunk": 14,
+      "file": "timecard_metrics\\chunk-000014.json",
+      "bytes": 33561933,
+      "employees": 1123,
+      "sha256": "c96599444c81db32ae0b163c602bdc534cb377ab6ebbecde043c8ea8e13e2133"
+    },
+    {
+      "chunk": 15,
+      "file": "timecard_metrics\\chunk-000015.json",
+      "bytes": 33561087,
+      "employees": 1123,
+      "sha256": "0fb2ba6853b9a4e8df91fb60a5f04d290c68baa1f520cba084014da622194d6c"
+    },
+    {
+      "chunk": 16,
+      "file": "timecard_metrics\\chunk-000016.json",
+      "bytes": 33563372,
+      "employees": 1123,
+      "sha256": "7a32fe30993f7787c2e72ab7c64481d733c8c774c86e92cc3bd5cd1cd66628f1"
+    },
+    {
+      "chunk": 17,
+      "file": "timecard_metrics\\chunk-000017.json",
+      "bytes": 33562128,
+      "employees": 1123,
+      "sha256": "1d54820368e3e2ca8547bee5d6e3fdc6c7dbe9ed46c780d354b6a6c7f4f03a2c"
+    },
+    {
+      "chunk": 18,
+      "file": "timecard_metrics\\chunk-000018.json",
+      "bytes": 33561205,
+      "employees": 1123,
+      "sha256": "345738f7349200571c55195e08bb63be1e891948793d65ae264491249b40fe5b"
+    },
+    {
+      "chunk": 19,
+      "file": "timecard_metrics\\chunk-000019.json",
+      "bytes": 33561933,
+      "employees": 1123,
+      "sha256": "3cfe064e7accd29bb271ce97afd3d2812ff4d4d5ff5cd5a72d96b7c867f0c8b7"
+    },
+    {
+      "chunk": 20,
+      "file": "timecard_metrics\\chunk-000020.json",
+      "bytes": 33561088,
+      "employees": 1123,
+      "sha256": "bdba1fdd937e7ecdee64919927b01d0bfada317109c185a0937f8d1376dee552"
+    },
+    {
+      "chunk": 21,
+      "file": "timecard_metrics\\chunk-000021.json",
+      "bytes": 33561891,
+      "employees": 1123,
+      "sha256": "3e2cf9822d70d7c45f57c8fa9eea2dd0881bfc1404c0e4e99858e74096c002a1"
+    },
+    {
+      "chunk": 22,
+      "file": "timecard_metrics\\chunk-000022.json",
+      "bytes": 33562128,
+      "employees": 1123,
+      "sha256": "99618553b0b42defdcfb7848264ed4906c420bd35f860adc43958681b54ebd25"
+    },
+    {
+      "chunk": 23,
+      "file": "timecard_metrics\\chunk-000023.json",
+      "bytes": 33561212,
+      "employees": 1123,
+      "sha256": "10213f761d9187f783e37ed1eb244040e8a3cb65dbf96b83f68af3f54e47a80b"
+    },
+    {
+      "chunk": 24,
+      "file": "timecard_metrics\\chunk-000024.json",
+      "bytes": 33563407,
+      "employees": 1123,
+      "sha256": "116d874375200f810326c0eae34d458bae5b3c69ac479980e22ccfa8ed3caed8"
+    },
+    {
+      "chunk": 25,
+      "file": "timecard_metrics\\chunk-000025.json",
+      "bytes": 33562573,
+      "employees": 1123,
+      "sha256": "83bad83c21527a82d0836fe5f8dfb178218a0461047dff931a126c1841ef83d6"
+    },
+    {
+      "chunk": 26,
+      "file": "timecard_metrics\\chunk-000026.json",
+      "bytes": 33560405,
+      "employees": 1123,
+      "sha256": "27c9f6726e00974a345fe5c46656f700b2f32c4af06a394c199d4621f892220c"
+    },
+    {
+      "chunk": 27,
+      "file": "timecard_metrics\\chunk-000027.json",
+      "bytes": 33562128,
+      "employees": 1123,
+      "sha256": "85c3b22adf5408e9eee79e56627f8da08fbb6d1c4cd026f17340f24a286d264b"
+    },
+    {
+      "chunk": 28,
+      "file": "timecard_metrics\\chunk-000028.json",
+      "bytes": 33561213,
+      "employees": 1123,
+      "sha256": "5bdabddd60e72d02052809283c37c7bdb0f96c6424e7ecf07308a5ec38e5d251"
+    },
+    {
+      "chunk": 29,
+      "file": "timecard_metrics\\chunk-000029.json",
+      "bytes": 33561926,
+      "employees": 1123,
+      "sha256": "200227383ba40775299849ca46715df5104a7237e27c78b9c58b560354f43f02"
+    },
+    {
+      "chunk": 30,
+      "file": "timecard_metrics\\chunk-000030.json",
+      "bytes": 33562573,
+      "employees": 1123,
+      "sha256": "3bd0f36bc3f46f42d53a878f434ac76e557aaf75a958ac4dd8ba87a5a8cde604"
+    },
+    {
+      "chunk": 31,
+      "file": "timecard_metrics\\chunk-000031.json",
+      "bytes": 33560407,
+      "employees": 1123,
+      "sha256": "d1e839c86c14a621f0f5a124e5a0dda19e818fa9d06004ca4998ee747489b553"
+    },
+    {
+      "chunk": 32,
+      "file": "timecard_metrics\\chunk-000032.json",
+      "bytes": 33563612,
+      "employees": 1123,
+      "sha256": "d4ad7b18a2eb1b86562960e023e63ad9ce4c36f41d4075f6ad1346c95fd1d9f9"
+    },
+    {
+      "chunk": 33,
+      "file": "timecard_metrics\\chunk-000033.json",
+      "bytes": 33561207,
+      "employees": 1123,
+      "sha256": "bb5e41140d240df33bddc15b074d7c20388e37b63f61fdbc30c688c638ee8d99"
+    },
+    {
+      "chunk": 34,
+      "file": "timecard_metrics\\chunk-000034.json",
+      "bytes": 33561931,
+      "employees": 1123,
+      "sha256": "09eeb8ebb45c3bbfa19649a3b2a8a760784364d88cf1d22c6d29280ecac17c30"
+    },
+    {
+      "chunk": 35,
+      "file": "timecard_metrics\\chunk-000035.json",
+      "bytes": 33562568,
+      "employees": 1123,
+      "sha256": "c5e8b23904626fc2687d40582f482d9e66a7456d028e5babb6b2f29a78fb79e0"
+    },
+    {
+      "chunk": 36,
+      "file": "timecard_metrics\\chunk-000036.json",
+      "bytes": 33560408,
+      "employees": 1123,
+      "sha256": "6d0e30d41c22cb849147859246ef0f4d1e9f15bb7325e37ba25cd72a365350a0"
+    },
+    {
+      "chunk": 37,
+      "file": "timecard_metrics\\chunk-000037.json",
+      "bytes": 33562131,
+      "employees": 1123,
+      "sha256": "2e178d10ca4ab63ff26e6a71484e0c3943319135b96b734af9818a10d437fbef"
+    },
+    {
+      "chunk": 38,
+      "file": "timecard_metrics\\chunk-000038.json",
+      "bytes": 33562688,
+      "employees": 1123,
+      "sha256": "cbeb16e91e92b7e3bdba7723cfb0c37acf673f761359cc87e831f846bc13a8b9"
+    },
+    {
+      "chunk": 39,
+      "file": "timecard_metrics\\chunk-000039.json",
+      "bytes": 33560452,
+      "employees": 1123,
+      "sha256": "fccc182656e64776c134d5c1840443f54d3bf6d94e8e66a46dca6d0da8307dff"
+    },
+    {
+      "chunk": 40,
+      "file": "timecard_metrics\\chunk-000040.json",
+      "bytes": 33564047,
+      "employees": 1123,
+      "sha256": "51f5fe68599e4718dc4348a49b0515d5bbe2af11cef5b0a4a4ef04e7a2829752"
+    },
+    {
+      "chunk": 41,
+      "file": "timecard_metrics\\chunk-000041.json",
+      "bytes": 33560412,
+      "employees": 1123,
+      "sha256": "bd7b219c4a1639fc71c8d8d00087e2a87ea5e95e750af5bab56960d957d4e60b"
+    },
+    {
+      "chunk": 42,
+      "file": "timecard_metrics\\chunk-000042.json",
+      "bytes": 33562126,
+      "employees": 1123,
+      "sha256": "e11593b9b2127f0495e54d23ede0eb3b763df81b414a67d95f52c6221e7e89d7"
+    },
+    {
+      "chunk": 43,
+      "file": "timecard_metrics\\chunk-000043.json",
+      "bytes": 33562693,
+      "employees": 1123,
+      "sha256": "84489fd5ad5dc96ef299486ac908ebd5c44e0000a7d36e25c67a584d53610065"
+    },
+    {
+      "chunk": 44,
+      "file": "timecard_metrics\\chunk-000044.json",
+      "bytes": 33560448,
+      "employees": 1123,
+      "sha256": "6437513f0edd13b879cb9ae402a03947f1991055a5dd85ffee74bb5b3bc748de"
+    },
+    {
+      "chunk": 45,
+      "file": "timecard_metrics\\chunk-000045.json",
+      "bytes": 33562566,
+      "employees": 1123,
+      "sha256": "7667b61a24a8ef84bab4c6361ec31e0b347eea7423cde72cb080f02c15374259"
+    },
+    {
+      "chunk": 46,
+      "file": "timecard_metrics\\chunk-000046.json",
+      "bytes": 33560412,
+      "employees": 1123,
+      "sha256": "072ca107efccceff751e949002919669483adc06e9867b8eb1611ab4f1906b7d"
+    },
+    {
+      "chunk": 47,
+      "file": "timecard_metrics\\chunk-000047.json",
+      "bytes": 33562128,
+      "employees": 1123,
+      "sha256": "0fe413eb729c708cf465cd45003c8710a4c13e04f9e13b104b71d48920db72ae"
+    },
+    {
+      "chunk": 48,
+      "file": "timecard_metrics\\chunk-000048.json",
+      "bytes": 33564172,
+      "employees": 1123,
+      "sha256": "5aa46d8612aae9faf5f33f1e4fdec7be1c4f2c25176dee53dea93de93e72d13f"
+    },
+    {
+      "chunk": 49,
+      "file": "timecard_metrics\\chunk-000049.json",
+      "bytes": 33560447,
+      "employees": 1123,
+      "sha256": "55f3afca169f7c359a7bd7d20c8cc67cd3f3ff417e27d3c9e7a4db9e41362b6e"
+    },
+    {
+      "chunk": 50,
+      "file": "timecard_metrics\\chunk-000050.json",
+      "bytes": 33562571,
+      "employees": 1123,
+      "sha256": "c31983572902dda1292cbebc02582bfe9abf42ae455fe4cd04df760ea7fa4528"
+    },
+    {
+      "chunk": 51,
+      "file": "timecard_metrics\\chunk-000051.json",
+      "bytes": 33561888,
+      "employees": 1123,
+      "sha256": "1180c285bc56e80ddd109495a874865eac0c72752e5aeaafd054fecf6560e48c"
+    },
+    {
+      "chunk": 52,
+      "file": "timecard_metrics\\chunk-000052.json",
+      "bytes": 33560653,
+      "employees": 1123,
+      "sha256": "fe6aba1fb66321fa827151338da261bd71f359a3cf702532edd7d039a7564e91"
+    },
+    {
+      "chunk": 53,
+      "file": "timecard_metrics\\chunk-000053.json",
+      "bytes": 33562686,
+      "employees": 1123,
+      "sha256": "58a4751a3f273f9826ddf54646706156843eb6ae925e840177bbf4b8a364674a"
+    },
+    {
+      "chunk": 54,
+      "file": "timecard_metrics\\chunk-000054.json",
+      "bytes": 33560447,
+      "employees": 1123,
+      "sha256": "31f65a30b5ff6e40e840fdea9905ef7e33822dd1723da32c2e879d3a0dfa98cf"
+    },
+    {
+      "chunk": 55,
+      "file": "timecard_metrics\\chunk-000055.json",
+      "bytes": 33562573,
+      "employees": 1123,
+      "sha256": "b253f065fa9358cd337749ef3d01073dd6669f098498136317256a678391b487"
+    },
+    {
+      "chunk": 56,
+      "file": "timecard_metrics\\chunk-000056.json",
+      "bytes": 33563367,
+      "employees": 1123,
+      "sha256": "35af7ad8a0418dc9d8b18e64b9837a4c3fd1ef77e28b668d92cac6155dc39953"
+    },
+    {
+      "chunk": 57,
+      "file": "timecard_metrics\\chunk-000057.json",
+      "bytes": 33560652,
+      "employees": 1123,
+      "sha256": "149bfec21ff7aab1e277c686131ad47eb88b3b00a5873444a4c5f8f5279826b8"
+    },
+    {
+      "chunk": 58,
+      "file": "timecard_metrics\\chunk-000058.json",
+      "bytes": 33562688,
+      "employees": 1123,
+      "sha256": "95971ef175a645edb1360ec218413418c7525eacf49eb0a24a9994872b1d79df"
+    },
+    {
+      "chunk": 59,
+      "file": "timecard_metrics\\chunk-000059.json",
+      "bytes": 33560450,
+      "employees": 1123,
+      "sha256": "becc39364b429af6c7a9bb9018262e279bbdcf1062b526bf69c976ea2750bab4"
+    },
+    {
+      "chunk": 60,
+      "file": "timecard_metrics\\chunk-000060.json",
+      "bytes": 33562569,
+      "employees": 1123,
+      "sha256": "c794c3ce38eef9274e6a0f3fd11c8b0b4a38506fc4e5f6576df4bf6691cb547b"
+    },
+    {
+      "chunk": 61,
+      "file": "timecard_metrics\\chunk-000061.json",
+      "bytes": 33561891,
+      "employees": 1123,
+      "sha256": "6103771a2aa2a276b9a58e603662f513ea5d572230a82ad5ecc09b7dd5a7b469"
+    },
+    {
+      "chunk": 62,
+      "file": "timecard_metrics\\chunk-000062.json",
+      "bytes": 33560647,
+      "employees": 1123,
+      "sha256": "91a8f50c3b01691812c75daeffb80a79967824df142ceef9707edbcfeb948afa"
+    },
+    {
+      "chunk": 63,
+      "file": "timecard_metrics\\chunk-000063.json",
+      "bytes": 33562688,
+      "employees": 1123,
+      "sha256": "8db79db6ed4dee95f85a698c8ab4adddcbc078651f627ec2b29a4e1518d7d073"
+    },
+    {
+      "chunk": 64,
+      "file": "timecard_metrics\\chunk-000064.json",
+      "bytes": 33563412,
+      "employees": 1123,
+      "sha256": "9c99c4eaa2120f48f7d77c9d3cdfb41397557e1f2ee7b6460d1160f7d28cb525"
+    },
+    {
+      "chunk": 65,
+      "file": "timecard_metrics\\chunk-000065.json",
+      "bytes": 33561087,
+      "employees": 1123,
+      "sha256": "cde3ebac24033dbcd76519c7614ea1722d87959f3c622882bbce049be3af85c9"
+    },
+    {
+      "chunk": 66,
+      "file": "timecard_metrics\\chunk-000066.json",
+      "bytes": 33561893,
+      "employees": 1123,
+      "sha256": "62c603ee52f5c959db3654bc5431c5fe621924e26ef33c5ee5a12156569c1cb0"
+    },
+    {
+      "chunk": 67,
+      "file": "timecard_metrics\\chunk-000067.json",
+      "bytes": 33560645,
+      "employees": 1123,
+      "sha256": "2f3bc7674ff0179d96a5c1a8d0895ce4d23dfd5b4febc5027ea795e46385f091"
+    },
+    {
+      "chunk": 68,
+      "file": "timecard_metrics\\chunk-000068.json",
+      "bytes": 33562693,
+      "employees": 1123,
+      "sha256": "3276474521311bf4f094bc848a56afb6271d1c6d243b28f8188b76b2ebbae93b"
+    },
+    {
+      "chunk": 69,
+      "file": "timecard_metrics\\chunk-000069.json",
+      "bytes": 33561927,
+      "employees": 1123,
+      "sha256": "9d127b044b4ad1ca8cbffe7a28f6ac8e0dc0bebf46aa74920e7e3d93609c9e13"
+    },
+    {
+      "chunk": 70,
+      "file": "timecard_metrics\\chunk-000070.json",
+      "bytes": 33561092,
+      "employees": 1123,
+      "sha256": "84236c1bd883b263791896d4c991d3f1ab584bb2d542880ad406ed91c1923b91"
+    },
+    {
+      "chunk": 71,
+      "file": "timecard_metrics\\chunk-000071.json",
+      "bytes": 33561888,
+      "employees": 1123,
+      "sha256": "e1ea6d8b3e33f43b12dbfbf6a259b43c180f138aa9c2326eff1208ecbe7c3432"
+    },
+    {
+      "chunk": 72,
+      "file": "timecard_metrics\\chunk-000072.json",
+      "bytes": 33560645,
+      "employees": 1123,
+      "sha256": "29476ccd76a762038d1d2a818ebfb3afdd2a48649ac0a58c3d2924b761eaee9f"
+    },
+    {
+      "chunk": 73,
+      "file": "timecard_metrics\\chunk-000073.json",
+      "bytes": 33564174,
+      "employees": 1123,
+      "sha256": "52bee1c6edae03e0d6d0be1c81977f7c22446969d913e6115337d6601f91f971"
+    },
+    {
+      "chunk": 74,
+      "file": "timecard_metrics\\chunk-000074.json",
+      "bytes": 33561928,
+      "employees": 1123,
+      "sha256": "61bf4ff2d64ba4a10433a4b7c7bf7bd6157a68d5a290ffe2d3e88aa1680d979c"
+    },
+    {
+      "chunk": 75,
+      "file": "timecard_metrics\\chunk-000075.json",
+      "bytes": 33561090,
+      "employees": 1123,
+      "sha256": "47ba4dd5f1b376a07023a7fb3e01c3419d94e0f06f44bd4d345182d1eb60820d"
+    },
+    {
+      "chunk": 76,
+      "file": "timecard_metrics\\chunk-000076.json",
+      "bytes": 33561888,
+      "employees": 1123,
+      "sha256": "f0a8989d8315f4b965d2fecc1e4e5d497d8a7eb38960400d5fdf190f398cbc8b"
+    },
+    {
+      "chunk": 77,
+      "file": "timecard_metrics\\chunk-000077.json",
+      "bytes": 33562132,
+      "employees": 1123,
+      "sha256": "474d169a387bf32226212840cf9a41c26c589678f10e5dfe0fe74bd1d8bd082b"
+    },
+    {
+      "chunk": 78,
+      "file": "timecard_metrics\\chunk-000078.json",
+      "bytes": 33561207,
+      "employees": 1123,
+      "sha256": "54ea1154abbcd7d9717e4447e698331c65d2ffbe3228f1b4f4514759733190a4"
+    },
+    {
+      "chunk": 79,
+      "file": "timecard_metrics\\chunk-000079.json",
+      "bytes": 33561933,
+      "employees": 1123,
+      "sha256": "f993ccdd5831a8c1d806c0ec28784acbc759ca708a46c40fa456dc7f1884e671"
+    },
+    {
+      "chunk": 80,
+      "file": "timecard_metrics\\chunk-000080.json",
+      "bytes": 33561085,
+      "employees": 1123,
+      "sha256": "587081a47326bcc384f16b87be3c464970bde42b15dfe1a4df07c923722d6968"
+    },
+    {
+      "chunk": 81,
+      "file": "timecard_metrics\\chunk-000081.json",
+      "bytes": 33563369,
+      "employees": 1123,
+      "sha256": "3cb35ae7f634abc9b3fc1b3e21eb21f78c15c381f34eedd47726e1e5a3b7852d"
+    },
+    {
+      "chunk": 82,
+      "file": "timecard_metrics\\chunk-000082.json",
+      "bytes": 33562133,
+      "employees": 1123,
+      "sha256": "323db2de360b5bb8e3ace1f74268b61b367d70a5ce9553eb101ad6c64e69fc2d"
+    },
+    {
+      "chunk": 83,
+      "file": "timecard_metrics\\chunk-000083.json",
+      "bytes": 33561205,
+      "employees": 1123,
+      "sha256": "9f428f6d26b7d531d8af779a541e6109acc81723c32b3263adfdc9011d0cce40"
+    },
+    {
+      "chunk": 84,
+      "file": "timecard_metrics\\chunk-000084.json",
+      "bytes": 33561933,
+      "employees": 1123,
+      "sha256": "e94b78feb72428e7baa68ea19a1e28f32aced21800deeaadd3a27a6957824487"
+    },
+    {
+      "chunk": 85,
+      "file": "timecard_metrics\\chunk-000085.json",
+      "bytes": 33561086,
+      "employees": 1123,
+      "sha256": "6f050e58d6e8ea1b3051b95ff16596d76302694aaa5a3a9111f1fbdfd0ef2147"
+    },
+    {
+      "chunk": 86,
+      "file": "timecard_metrics\\chunk-000086.json",
+      "bytes": 33561893,
+      "employees": 1123,
+      "sha256": "835da4b4935a87cd3f92783caa722411c7b0d324c6facff61b0e7a0a4e4107a6"
+    },
+    {
+      "chunk": 87,
+      "file": "timecard_metrics\\chunk-000087.json",
+      "bytes": 33562128,
+      "employees": 1123,
+      "sha256": "504f85139f58d0cd9329020db9ee2d2450cea6e87eebfb04aac4b5caa0c687c1"
+    },
+    {
+      "chunk": 88,
+      "file": "timecard_metrics\\chunk-000088.json",
+      "bytes": 33561210,
+      "employees": 1123,
+      "sha256": "984ac4f28d25ab607b16daa6767769b48efc7c024dc5897b93a8e46af3ef0081"
+    },
+    {
+      "chunk": 89,
+      "file": "timecard_metrics\\chunk-000089.json",
+      "bytes": 33563409,
+      "employees": 1123,
+      "sha256": "ef8127c3707d46608a4dbbf502b7e4ae04cd39fa9cd49031ef7acea510637458"
+    },
+    {
+      "chunk": 90,
+      "file": "timecard_metrics\\chunk-000090.json",
+      "bytes": 33562568,
+      "employees": 1123,
+      "sha256": "0da38b1349fca83afb9a2987e6cd252c5e53b8958e0b072795892202f8802d1b"
+    },
+    {
+      "chunk": 91,
+      "file": "timecard_metrics\\chunk-000091.json",
+      "bytes": 33560410,
+      "employees": 1123,
+      "sha256": "d67ceb4584c6c0f9e47b729bdb11583cc709a0a83ba0fccb275bf486f023ba95"
+    },
+    {
+      "chunk": 92,
+      "file": "timecard_metrics\\chunk-000092.json",
+      "bytes": 33562128,
+      "employees": 1123,
+      "sha256": "1c0640803176ead0a93b216a4c9248e3cb37ad00434a8ddda1ce123a0071724e"
+    },
+    {
+      "chunk": 93,
+      "file": "timecard_metrics\\chunk-000093.json",
+      "bytes": 33561211,
+      "employees": 1123,
+      "sha256": "7f0512fa987762d82b03c45563d1f6896ea8b2eeea4f1fdadfea4919e6b38dc7"
+    },
+    {
+      "chunk": 94,
+      "file": "timecard_metrics\\chunk-000094.json",
+      "bytes": 33561928,
+      "employees": 1123,
+      "sha256": "e4ed9eb99f7c56e7395877bafe447b011b673201bee8ac00935695ef6c1520ff"
+    },
+    {
+      "chunk": 95,
+      "file": "timecard_metrics\\chunk-000095.json",
+      "bytes": 33562573,
+      "employees": 1123,
+      "sha256": "f25dd63ef33993e556e9b8d2481523401f2b35acda039c74933e784e699a564e"
+    },
+    {
+      "chunk": 96,
+      "file": "timecard_metrics\\chunk-000096.json",
+      "bytes": 33560405,
+      "employees": 1123,
+      "sha256": "64766eb43f1dffc88dd7244bd442c68a6f7351d8c4b2019bf00e98f4b4845044"
+    },
+    {
+      "chunk": 97,
+      "file": "timecard_metrics\\chunk-000097.json",
+      "bytes": 33563614,
+      "employees": 1123,
+      "sha256": "4d4e38209ffb12a272f2df74d6aac4e1ed1f0d6893bbbf46d21fee5d0ed8d862"
+    },
+    {
+      "chunk": 98,
+      "file": "timecard_metrics\\chunk-000098.json",
+      "bytes": 33561207,
+      "employees": 1123,
+      "sha256": "88ff4d79bdebd6a62984dd4a0ca151a38af393d631c3e48c10251e712aa7ced5"
+    },
+    {
+      "chunk": 99,
+      "file": "timecard_metrics\\chunk-000099.json",
+      "bytes": 33561926,
+      "employees": 1123,
+      "sha256": "1f6cd0c346297e4e70dd24a19061f0ca21f2d96ec3c22ceb221614d3442b01ff"
+    },
+    {
+      "chunk": 100,
+      "file": "timecard_metrics\\chunk-000100.json",
+      "bytes": 33562573,
+      "employees": 1123,
+      "sha256": "4908ecffd61125b08bbdbd55840d4f43b991d0c81460676c8d1f59bbbfe6e903"
+    },
+    {
+      "chunk": 101,
+      "file": "timecard_metrics\\chunk-000101.json",
+      "bytes": 33560406,
+      "employees": 1123,
+      "sha256": "56e774b27246ba94399746dbc0cf73fabbbce7afd7941b78e4a938b2a71262e5"
+    },
+    {
+      "chunk": 102,
+      "file": "timecard_metrics\\chunk-000102.json",
+      "bytes": 33562133,
+      "employees": 1123,
+      "sha256": "78f8cd5bae616208ff8c0138f9172f6c9fde49a99d0555dc71da9348f9811917"
+    },
+    {
+      "chunk": 103,
+      "file": "timecard_metrics\\chunk-000103.json",
+      "bytes": 33562688,
+      "employees": 1123,
+      "sha256": "b859c5e4da729c7ec0e842b3f5ea07e28c95409f98b25b0ae453930472a3f3c2"
+    },
+    {
+      "chunk": 104,
+      "file": "timecard_metrics\\chunk-000104.json",
+      "bytes": 33560450,
+      "employees": 1123,
+      "sha256": "b76ffcf660caac7c7083e1f46c28a9502fdae4ce31bcd480fb832280530578ac"
+    },
+    {
+      "chunk": 105,
+      "file": "timecard_metrics\\chunk-000105.json",
+      "bytes": 33564049,
+      "employees": 1123,
+      "sha256": "f2a75807f81f13777bbd6ce3ccc93ae0b6ea0e6c53d20aacb228e5c15f2b4012"
+    },
+    {
+      "chunk": 106,
+      "file": "timecard_metrics\\chunk-000106.json",
+      "bytes": 33560412,
+      "employees": 1123,
+      "sha256": "2216b11f7bb9efb28779e5834f5a7d36b61dd8087b9b3a899f33ba3a7d0c0425"
+    },
+    {
+      "chunk": 107,
+      "file": "timecard_metrics\\chunk-000107.json",
+      "bytes": 33562126,
+      "employees": 1123,
+      "sha256": "f03f60ed9b87d362ba12c0f29bd6fcd44527cd8e9299aeb8c39c358520e32f7d"
+    },
+    {
+      "chunk": 108,
+      "file": "timecard_metrics\\chunk-000108.json",
+      "bytes": 33562688,
+      "employees": 1123,
+      "sha256": "ce8a201aa993f796120b0752a68f3e2ee972c90edc9500ec19c8a577be6a002e"
+    },
+    {
+      "chunk": 109,
+      "file": "timecard_metrics\\chunk-000109.json",
+      "bytes": 33560453,
+      "employees": 1123,
+      "sha256": "f5ac5ebb3239e436ae0dcc982ab673660d515a4022971f4767d01099c397357b"
+    },
+    {
+      "chunk": 110,
+      "file": "timecard_metrics\\chunk-000110.json",
+      "bytes": 33562566,
+      "employees": 1123,
+      "sha256": "55ec7dd558815b44567bdec04dbd9ce9286d690f4ba36645eed4a0c1d3c7da28"
+    },
+    {
+      "chunk": 111,
+      "file": "timecard_metrics\\chunk-000111.json",
+      "bytes": 33560412,
+      "employees": 1123,
+      "sha256": "91a9fb8b1f73297daf498ea6c1bcd32f45910e8573a2e80ebb5a432874c69b21"
+    },
+    {
+      "chunk": 112,
+      "file": "timecard_metrics\\chunk-000112.json",
+      "bytes": 33562126,
+      "employees": 1123,
+      "sha256": "94ca4e981cff9d431acd71c61cdfa710cad75853e4bd777268b87f9b5c434fc3"
+    },
+    {
+      "chunk": 113,
+      "file": "timecard_metrics\\chunk-000113.json",
+      "bytes": 33564174,
+      "employees": 1123,
+      "sha256": "d0abfe72c8e2a0e402c3daf434f6a11c624e7291c747c1fb3f9d558dbf1cdae4"
+    },
+    {
+      "chunk": 114,
+      "file": "timecard_metrics\\chunk-000114.json",
+      "bytes": 33560447,
+      "employees": 1123,
+      "sha256": "8c614f4b08784de86cc2b7137c9d98ab27ace9f0f715ff47d05166218c6913ee"
+    },
+    {
+      "chunk": 115,
+      "file": "timecard_metrics\\chunk-000115.json",
+      "bytes": 33562571,
+      "employees": 1123,
+      "sha256": "5d5f3916a59baee370c7126a107e9f6e80f98998061817e082765e7401f97060"
+    },
+    {
+      "chunk": 116,
+      "file": "timecard_metrics\\chunk-000116.json",
+      "bytes": 33560407,
+      "employees": 1123,
+      "sha256": "89dd427108026e70ed7f9b107c9c841585f5bcfc19a176c1d8915688cd5a7888"
+    },
+    {
+      "chunk": 117,
+      "file": "timecard_metrics\\chunk-000117.json",
+      "bytes": 33562129,
+      "employees": 1123,
+      "sha256": "fe2d3222495caf15ecbe16bc48647bb4606adb63826bb416c0714cd8946212a3"
+    },
+    {
+      "chunk": 118,
+      "file": "timecard_metrics\\chunk-000118.json",
+      "bytes": 33562691,
+      "employees": 1123,
+      "sha256": "e8c5b6e94f897ab605a8317f6e38dfde9613af2186eeb6bf11805ddc56f7a715"
+    },
+    {
+      "chunk": 119,
+      "file": "timecard_metrics\\chunk-000119.json",
+      "bytes": 33560447,
+      "employees": 1123,
+      "sha256": "ff42b22c692a358c87c641aaf6ca8c355896f2316178c14b9032338400d669a5"
+    },
+    {
+      "chunk": 120,
+      "file": "timecard_metrics\\chunk-000120.json",
+      "bytes": 33562571,
+      "employees": 1123,
+      "sha256": "80f175c04474e576955b08a910be9fae5b1d9db512d3ad585950c6e1a6dc3b02"
+    },
+    {
+      "chunk": 121,
+      "file": "timecard_metrics\\chunk-000121.json",
+      "bytes": 33563369,
+      "employees": 1123,
+      "sha256": "bc69fd56f543aeba6242fe856dbf8ababb039e682596471807f6146b1cb09645"
+    },
+    {
+      "chunk": 122,
+      "file": "timecard_metrics\\chunk-000122.json",
+      "bytes": 33560652,
+      "employees": 1123,
+      "sha256": "4f8b0d421487bfcd9b4a5c32f5cacc99ec557aeb7217eb6be6d53edabdd49612"
+    },
+    {
+      "chunk": 123,
+      "file": "timecard_metrics\\chunk-000123.json",
+      "bytes": 33562686,
+      "employees": 1123,
+      "sha256": "529a0aa83891d2985669904b77c9096db7e5c3843cd71297b8840e2a2c936e96"
+    },
+    {
+      "chunk": 124,
+      "file": "timecard_metrics\\chunk-000124.json",
+      "bytes": 33560452,
+      "employees": 1123,
+      "sha256": "7e1685619b38d0114ef7f040c643d785499e53b7067ee175fde85db917d553b5"
+    },
+    {
+      "chunk": 125,
+      "file": "timecard_metrics\\chunk-000125.json",
+      "bytes": 33562569,
+      "employees": 1123,
+      "sha256": "624062d626eb6161824ca6b4eac564650e8093aaca86e8dea17bd54989a95ec9"
+    },
+    {
+      "chunk": 126,
+      "file": "timecard_metrics\\chunk-000126.json",
+      "bytes": 33561886,
+      "employees": 1123,
+      "sha256": "3e7dea1469a5d7f900284d7c52eae9cb8205f90aad57a2d423d597b1d7563d5b"
+    },
+    {
+      "chunk": 127,
+      "file": "timecard_metrics\\chunk-000127.json",
+      "bytes": 33560652,
+      "employees": 1123,
+      "sha256": "f8d5cb8b8d6c47232dcc8f340603a044b419fc7ccee8a8a65ef51445639a8faf"
+    },
+    {
+      "chunk": 128,
+      "file": "timecard_metrics\\chunk-000128.json",
+      "bytes": 33562686,
+      "employees": 1123,
+      "sha256": "d4656e7cc5999ac0103eb2cb0475a1af8fd438db19df6c890cf82c59450e8c14"
+    },
+    {
+      "chunk": 129,
+      "file": "timecard_metrics\\chunk-000129.json",
+      "bytes": 33560452,
+      "employees": 1123,
+      "sha256": "4a50886afed5281b1ba612d1d61b582727a1861de9a130bcc0f9921317c03fa6"
+    },
+    {
+      "chunk": 130,
+      "file": "timecard_metrics\\chunk-000130.json",
+      "bytes": 33564049,
+      "employees": 1123,
+      "sha256": "231230bd7aa76de16a81cc8b4c8a90562065af11ee236a4861035a84e0b7c582"
+    },
+    {
+      "chunk": 131,
+      "file": "timecard_metrics\\chunk-000131.json",
+      "bytes": 33561891,
+      "employees": 1123,
+      "sha256": "58508f78f4a075cf8c43d89bd819cda0eb3e99322721601fbd7310d7284acbc0"
+    },
+    {
+      "chunk": 132,
+      "file": "timecard_metrics\\chunk-000132.json",
+      "bytes": 33560647,
+      "employees": 1123,
+      "sha256": "17baea125729f03eac3e7c1e6c5bab99d3bce02398ad8c49866945c27ff27b3c"
+    },
+    {
+      "chunk": 133,
+      "file": "timecard_metrics\\chunk-000133.json",
+      "bytes": 33562693,
+      "employees": 1123,
+      "sha256": "a30ee51df7da383ca0138de86ff1860fc714c3bbc1e0c2492e396d6f96e44adf"
+    },
+    {
+      "chunk": 134,
+      "file": "timecard_metrics\\chunk-000134.json",
+      "bytes": 33561927,
+      "employees": 1123,
+      "sha256": "7e510afb4b7cc72a9e033468e1472257885dfba1b4300d05f9e446af801a8466"
+    },
+    {
+      "chunk": 135,
+      "file": "timecard_metrics\\chunk-000135.json",
+      "bytes": 33561087,
+      "employees": 1123,
+      "sha256": "bc348689865dd74258ffbc6a56bd7c3db9da7d4a1b2e30e1cb8d876c9589daf6"
+    },
+    {
+      "chunk": 136,
+      "file": "timecard_metrics\\chunk-000136.json",
+      "bytes": 33561891,
+      "employees": 1123,
+      "sha256": "80bd2f5a316e00e56d84c2f92e11f2c522e48bd45c7ff80fb8755533cba8db99"
+    },
+    {
+      "chunk": 137,
+      "file": "timecard_metrics\\chunk-000137.json",
+      "bytes": 33560647,
+      "employees": 1123,
+      "sha256": "808f2d6337251f37b3b8fec5fa62eedf2d22c721697ade040eca277faaaa89ec"
+    },
+    {
+      "chunk": 138,
+      "file": "timecard_metrics\\chunk-000138.json",
+      "bytes": 33564174,
+      "employees": 1123,
+      "sha256": "69fbf2bccb56b423f8de0b2bc81fda1fd024db01e232006c33837f4af1a0625a"
+    },
+    {
+      "chunk": 139,
+      "file": "timecard_metrics\\chunk-000139.json",
+      "bytes": 33561926,
+      "employees": 1123,
+      "sha256": "a8979144b60c1f91e7962bd40cffdabf18be889705c496995e76b1cbd3360da4"
+    },
+    {
+      "chunk": 140,
+      "file": "timecard_metrics\\chunk-000140.json",
+      "bytes": 33561097,
+      "employees": 1123,
+      "sha256": "0784da1915ea5cc53421ffdfbf6de0693f4bc08f37ac08a171f55a8ca0d6247d"
+    },
+    {
+      "chunk": 141,
+      "file": "timecard_metrics\\chunk-000141.json",
+      "bytes": 33561888,
+      "employees": 1123,
+      "sha256": "3a329250a9b60ccf475fdc8b23d705f5c4cebfa820a96e1b3214c10f4764c385"
+    },
+    {
+      "chunk": 142,
+      "file": "timecard_metrics\\chunk-000142.json",
+      "bytes": 33560651,
+      "employees": 1123,
+      "sha256": "c8021f517c8c4d481ea2c41397d895e1a6d1a7b9499d54b1c0ce4353169c0dd0"
+    },
+    {
+      "chunk": 143,
+      "file": "timecard_metrics\\chunk-000143.json",
+      "bytes": 33562688,
+      "employees": 1123,
+      "sha256": "6bc6b8f851c1ee2d7498b117f3979ee45e798b93a64f7bf5deb904db735182be"
+    },
+    {
+      "chunk": 144,
+      "file": "timecard_metrics\\chunk-000144.json",
+      "bytes": 33561931,
+      "employees": 1123,
+      "sha256": "dbacc45ddbb50312aa096f7f4359cf82715fb95c6ce9efda51955649bd1de114"
+    },
+    {
+      "chunk": 145,
+      "file": "timecard_metrics\\chunk-000145.json",
+      "bytes": 33561087,
+      "employees": 1123,
+      "sha256": "dfb2f303d995ed8af67ffbdb6e2030362c97bcd4cf8db6904c4fbe1ace268e1d"
+    },
+    {
+      "chunk": 146,
+      "file": "timecard_metrics\\chunk-000146.json",
+      "bytes": 33563369,
+      "employees": 1123,
+      "sha256": "05c06f4d9b731745bdbe2e3f3be179bd30700df990fe618077d2b522262bcf8a"
+    },
+    {
+      "chunk": 147,
+      "file": "timecard_metrics\\chunk-000147.json",
+      "bytes": 33562131,
+      "employees": 1123,
+      "sha256": "dd2fc3f48a45ea969a95fc87107b6bee888890de8eee4041d74de9738aeffceb"
+    },
+    {
+      "chunk": 148,
+      "file": "timecard_metrics\\chunk-000148.json",
+      "bytes": 33561207,
+      "employees": 1123,
+      "sha256": "f404f95b24b46b06edd9faa3a7831a609b64a7886c74a600a80de31625f4f5ea"
+    },
+    {
+      "chunk": 149,
+      "file": "timecard_metrics\\chunk-000149.json",
+      "bytes": 33561933,
+      "employees": 1123,
+      "sha256": "fd1b93c3b1bd48edee1e19f6db4506a6b568a7b274ceced206eaf4e2187c03a7"
+    },
+    {
+      "chunk": 150,
+      "file": "timecard_metrics\\chunk-000150.json",
+      "bytes": 33561086,
+      "employees": 1123,
+      "sha256": "842c5ef849fd687158c2738db0f39e440c3b4a780ec1192192e82c037593d215"
+    },
+    {
+      "chunk": 151,
+      "file": "timecard_metrics\\chunk-000151.json",
+      "bytes": 33561893,
+      "employees": 1123,
+      "sha256": "b503fa8241babd22b16ba228684dcd6801c1573cc0eaa79a943cf01c9479624c"
+    },
+    {
+      "chunk": 152,
+      "file": "timecard_metrics\\chunk-000152.json",
+      "bytes": 33562128,
+      "employees": 1123,
+      "sha256": "baad76cfb05a50850fb8efefbd0bbb7422924ae679c273342f4bdee1d735e5db"
+    },
+    {
+      "chunk": 153,
+      "file": "timecard_metrics\\chunk-000153.json",
+      "bytes": 33561210,
+      "employees": 1123,
+      "sha256": "cebc21bd74f627ec7ca435aa44fae2a0559774ee8d257fda59287ef08b404b09"
+    },
+    {
+      "chunk": 154,
+      "file": "timecard_metrics\\chunk-000154.json",
+      "bytes": 33563409,
+      "employees": 1123,
+      "sha256": "6733e76f19567baacd009b1bfab088a98b9a7b6d855369e8959df31a72a27b2c"
+    },
+    {
+      "chunk": 155,
+      "file": "timecard_metrics\\chunk-000155.json",
+      "bytes": 33561085,
+      "employees": 1123,
+      "sha256": "6e4a2b038a7743870d685489dbc2ebc0eaff07ce9105a0f1f3bc2ba23ec52194"
+    },
+    {
+      "chunk": 156,
+      "file": "timecard_metrics\\chunk-000156.json",
+      "bytes": 33561893,
+      "employees": 1123,
+      "sha256": "bdab9d66b308ac46d2f7f02940bcd9569653c9811dc88c61bb100c1ebc86ae6e"
+    },
+    {
+      "chunk": 157,
+      "file": "timecard_metrics\\chunk-000157.json",
+      "bytes": 33562128,
+      "employees": 1123,
+      "sha256": "05a9d490633aa88a129856633d55c0a548b068234cd2e92fb588581a3a06da6e"
+    },
+    {
+      "chunk": 158,
+      "file": "timecard_metrics\\chunk-000158.json",
+      "bytes": 33561211,
+      "employees": 1123,
+      "sha256": "fa096d7c7ba032b8ed51315a4ca149ae0f4bbdec753d189516a5b6b638ad87ee"
+    },
+    {
+      "chunk": 159,
+      "file": "timecard_metrics\\chunk-000159.json",
+      "bytes": 33561928,
+      "employees": 1123,
+      "sha256": "65d747333ce0aa7c6d4033f11e02084ded6a398182c72345534e5029c4d2888c"
+    },
+    {
+      "chunk": 160,
+      "file": "timecard_metrics\\chunk-000160.json",
+      "bytes": 33562573,
+      "employees": 1123,
+      "sha256": "dcc067d2650a1d7f4f9d47f2652eb83d4be7964398e4985b4e512def41c6007e"
+    },
+    {
+      "chunk": 161,
+      "file": "timecard_metrics\\chunk-000161.json",
+      "bytes": 33560405,
+      "employees": 1123,
+      "sha256": "b403a1a296e5d29bd6452128ac575de5c52382724142c876ea7c8a06fac21e49"
+    },
+    {
+      "chunk": 162,
+      "file": "timecard_metrics\\chunk-000162.json",
+      "bytes": 33563614,
+      "employees": 1123,
+      "sha256": "bc26ac41a9e01e3204e277c13d29a676e24886b94d418d71bdbef76cfaa89f58"
+    },
+    {
+      "chunk": 163,
+      "file": "timecard_metrics\\chunk-000163.json",
+      "bytes": 33561205,
+      "employees": 1123,
+      "sha256": "ec3d940aaee8eda099ecc2122e87e11139577a0f96d57a22a568f88e5d2cf585"
+    },
+    {
+      "chunk": 164,
+      "file": "timecard_metrics\\chunk-000164.json",
+      "bytes": 33561928,
+      "employees": 1123,
+      "sha256": "5b36ab97b3143305fb2a23137686043f59a7c11ac2c495da96242ef12d84788f"
+    },
+    {
+      "chunk": 165,
+      "file": "timecard_metrics\\chunk-000165.json",
+      "bytes": 33562573,
+      "employees": 1123,
+      "sha256": "d76ee4f1dc83df85d5c1ea433d66aa13a392c0c6bfc969c204579c23e3aefb39"
+    },
+    {
+      "chunk": 166,
+      "file": "timecard_metrics\\chunk-000166.json",
+      "bytes": 33560406,
+      "employees": 1123,
+      "sha256": "91e3afe80a942166fb97fdb4c083a7a061b809d552189c05fe67f61f0f0ff03e"
+    },
+    {
+      "chunk": 167,
+      "file": "timecard_metrics\\chunk-000167.json",
+      "bytes": 33562133,
+      "employees": 1123,
+      "sha256": "2dc8dc417c667d7bab4efd475be89e1295a51c2dea9fef968ff8132e919d3a06"
+    },
+    {
+      "chunk": 168,
+      "file": "timecard_metrics\\chunk-000168.json",
+      "bytes": 33561207,
+      "employees": 1123,
+      "sha256": "fe87a4ab40723fced0ce02ca8c276106211a7446aa86455ec1050e3f4c8a6c0f"
+    },
+    {
+      "chunk": 169,
+      "file": "timecard_metrics\\chunk-000169.json",
+      "bytes": 33561931,
+      "employees": 1123,
+      "sha256": "63fecac7215730894bb9fd1837b7127a535410f410e197ddec5dbabc6844a486"
+    },
+    {
+      "chunk": 170,
+      "file": "timecard_metrics\\chunk-000170.json",
+      "bytes": 33564049,
+      "employees": 1123,
+      "sha256": "97a840afbaaca01d7ae2b5e97352ec24f85b71473f5414648436fa63a1cdb796"
+    },
+    {
+      "chunk": 171,
+      "file": "timecard_metrics\\chunk-000171.json",
+      "bytes": 33560410,
+      "employees": 1123,
+      "sha256": "6826504c267f8ed8b1e0f81ad6cfe3c1407f3707b65fa1acd664f451ca0b8e51"
+    },
+    {
+      "chunk": 172,
+      "file": "timecard_metrics\\chunk-000172.json",
+      "bytes": 33562128,
+      "employees": 1123,
+      "sha256": "325f2b7e0647eab87d22ba11ca0e1c24c2bb3e4fb0d4aa56c4a8b9dba2d15846"
+    },
+    {
+      "chunk": 173,
+      "file": "timecard_metrics\\chunk-000173.json",
+      "bytes": 33562688,
+      "employees": 1123,
+      "sha256": "fd804f60504e71c0b11039e789e803494e2ef972eb8eef390b857f0f562faba5"
+    },
+    {
+      "chunk": 174,
+      "file": "timecard_metrics\\chunk-000174.json",
+      "bytes": 33560451,
+      "employees": 1123,
+      "sha256": "cab841f7fe2419dea5156a8886746016151e8aa840f1c4171098937cd9fc0e85"
+    },
+    {
+      "chunk": 175,
+      "file": "timecard_metrics\\chunk-000175.json",
+      "bytes": 33562568,
+      "employees": 1123,
+      "sha256": "638d669e6e6c1288e7ad3c6b1131b084fcee2f3f3131c209adee6817592c31e0"
+    },
+    {
+      "chunk": 176,
+      "file": "timecard_metrics\\chunk-000176.json",
+      "bytes": 33560412,
+      "employees": 1123,
+      "sha256": "cebf2edef18b5bee77bc1b706a52e873c2f2aabc44388eb556b731ff4bbe58d7"
+    },
+    {
+      "chunk": 177,
+      "file": "timecard_metrics\\chunk-000177.json",
+      "bytes": 33562126,
+      "employees": 1123,
+      "sha256": "8d71ea43fee3d13e18a313f0e34e350d1cba617236a4afb9ebbac7e0364df034"
+    },
+    {
+      "chunk": 178,
+      "file": "timecard_metrics\\chunk-000178.json",
+      "bytes": 33564174,
+      "employees": 1123,
+      "sha256": "8307b28f4885a4976e6090f765b75fe2bf9516735a2d11f5bdf790d614a277c3"
+    },
+    {
+      "chunk": 179,
+      "file": "timecard_metrics\\chunk-000179.json",
+      "bytes": 33560445,
+      "employees": 1123,
+      "sha256": "c589dec6b94748f8df20c9b6defbf7d5041cf158a35cec37233dc4acc5ca3304"
+    },
+    {
+      "chunk": 180,
+      "file": "timecard_metrics\\chunk-000180.json",
+      "bytes": 33562573,
+      "employees": 1123,
+      "sha256": "658696517fd0a005703e3f46627d2011d8f81729948ad4899e6258afd5892989"
+    },
+    {
+      "chunk": 181,
+      "file": "timecard_metrics\\chunk-000181.json",
+      "bytes": 33560407,
+      "employees": 1123,
+      "sha256": "9f3beea9f98888f89da0cc5ed89bf5cf9dd5aeef11cb883e10819fe147dc69bd"
+    },
+    {
+      "chunk": 182,
+      "file": "timecard_metrics\\chunk-000182.json",
+      "bytes": 33562127,
+      "employees": 1123,
+      "sha256": "a158f928f8f56e42082ced51b0c264145ac3a1273d88943d68e9101902b55047"
+    },
+    {
+      "chunk": 183,
+      "file": "timecard_metrics\\chunk-000183.json",
+      "bytes": 33562693,
+      "employees": 1123,
+      "sha256": "ca6ec80b712611cfd2110ea522a964afb5086a3c97736eaafa8757f1197644d5"
+    },
+    {
+      "chunk": 184,
+      "file": "timecard_metrics\\chunk-000184.json",
+      "bytes": 33560447,
+      "employees": 1123,
+      "sha256": "9f611f99cf40b26426ed48b54a43bc75d24db700fa8036f4ad2d9d29c5d8f2cf"
+    },
+    {
+      "chunk": 185,
+      "file": "timecard_metrics\\chunk-000185.json",
+      "bytes": 33562571,
+      "employees": 1123,
+      "sha256": "c9cfbd93eebe0e59c26d285bbde377960fc7c04195d3bb80fccc592d33100224"
+    },
+    {
+      "chunk": 186,
+      "file": "timecard_metrics\\chunk-000186.json",
+      "bytes": 33563369,
+      "employees": 1123,
+      "sha256": "93bd2b6ba7bb397a46e73628556f29092024e7a890bdc3151466ac09d257cd78"
+    },
+    {
+      "chunk": 187,
+      "file": "timecard_metrics\\chunk-000187.json",
+      "bytes": 33560650,
+      "employees": 1123,
+      "sha256": "02c474b6416688a60c5d05a1642f7b6a7ee0cc37dd122c77fbb9c311f81c2a7a"
+    },
+    {
+      "chunk": 188,
+      "file": "timecard_metrics\\chunk-000188.json",
+      "bytes": 33562688,
+      "employees": 1123,
+      "sha256": "10115b3164aea25eeaee76d65ae6f9200aef7014c388ad80881ea28b66db247f"
+    },
+    {
+      "chunk": 189,
+      "file": "timecard_metrics\\chunk-000189.json",
+      "bytes": 33560452,
+      "employees": 1123,
+      "sha256": "228739fd3731bdbae9c06ec5f17c9d85f91944890da18a232766bf8c74c434f4"
+    },
+    {
+      "chunk": 190,
+      "file": "timecard_metrics\\chunk-000190.json",
+      "bytes": 33562567,
+      "employees": 1123,
+      "sha256": "891a325cc282c399bc04a3e9adf3d7751dc1aeac9ac9f1a5209d445a2b86615d"
+    },
+    {
+      "chunk": 191,
+      "file": "timecard_metrics\\chunk-000191.json",
+      "bytes": 33561888,
+      "employees": 1123,
+      "sha256": "2f007cc0d83b5b6cfacbe83b448b026af1d34a72afb720501ac41902fc2febf8"
+    },
+    {
+      "chunk": 192,
+      "file": "timecard_metrics\\chunk-000192.json",
+      "bytes": 33560652,
+      "employees": 1123,
+      "sha256": "4b74e07a066229af5b7b519308f45129c23ef5e198f4c9b9494ee66d58276444"
+    },
+    {
+      "chunk": 193,
+      "file": "timecard_metrics\\chunk-000193.json",
+      "bytes": 33562686,
+      "employees": 1123,
+      "sha256": "bc15b16aea34613630bd581b3aebe33175369f9048ff75916388bd57f8c070d3"
+    },
+    {
+      "chunk": 194,
+      "file": "timecard_metrics\\chunk-000194.json",
+      "bytes": 33560452,
+      "employees": 1123,
+      "sha256": "96e7ea86a3cb2cdd7ac4fa3eb30bffe9918a26ceef3ba006eb178b14914f91c9"
+    },
+    {
+      "chunk": 195,
+      "file": "timecard_metrics\\chunk-000195.json",
+      "bytes": 33564047,
+      "employees": 1123,
+      "sha256": "467bb150786d568d72258c588608f2968a79df7aaf6d7b91020ed8cb08ad7a6f"
+    },
+    {
+      "chunk": 196,
+      "file": "timecard_metrics\\chunk-000196.json",
+      "bytes": 33561893,
+      "employees": 1123,
+      "sha256": "93c58ccf3db516e9e0eb2a53cb9cfc4264c4dbc8e5201d173061fd7f51e3bf91"
+    },
+    {
+      "chunk": 197,
+      "file": "timecard_metrics\\chunk-000197.json",
+      "bytes": 33560647,
+      "employees": 1123,
+      "sha256": "50177e513ebf72a04c4d864903e2d9dd41a285cd2030192c668c0fd4d492ccb5"
+    },
+    {
+      "chunk": 198,
+      "file": "timecard_metrics\\chunk-000198.json",
+      "bytes": 33562691,
+      "employees": 1123,
+      "sha256": "95ffbc95320e2f6bc5baeabc47f2a765466964a6f3860edf076f72b02c12fa45"
+    },
+    {
+      "chunk": 199,
+      "file": "timecard_metrics\\chunk-000199.json",
+      "bytes": 33561929,
+      "employees": 1123,
+      "sha256": "faaa27e0fbc5923c1faea6ec5904b4250d3209f68702956829b1c2dc8d6825ce"
+    },
+    {
+      "chunk": 200,
+      "file": "timecard_metrics\\chunk-000200.json",
+      "bytes": 33561087,
+      "employees": 1123,
+      "sha256": "fcffd3045d5fdcd2874e7cd79cff2a160232740f9b869aeb64256ef660d97bb5"
+    },
+    {
+      "chunk": 201,
+      "file": "timecard_metrics\\chunk-000201.json",
+      "bytes": 33561891,
+      "employees": 1123,
+      "sha256": "fd650159718c72acb1c0b5e2c8fd94b50e62e0702d4363fdd203f917a4bd1fb2"
+    },
+    {
+      "chunk": 202,
+      "file": "timecard_metrics\\chunk-000202.json",
+      "bytes": 33560647,
+      "employees": 1123,
+      "sha256": "8c801396c228c95489090388fa2e979970dbc9db09e3d2eb4768cbe33407cc15"
+    },
+    {
+      "chunk": 203,
+      "file": "timecard_metrics\\chunk-000203.json",
+      "bytes": 33564174,
+      "employees": 1123,
+      "sha256": "e083ba204f96a7ef601f18af7e5e0c34e3f65ff869efb6f97d3f49ee91016b04"
+    },
+    {
+      "chunk": 204,
+      "file": "timecard_metrics\\chunk-000204.json",
+      "bytes": 33561926,
+      "employees": 1123,
+      "sha256": "e1c592400e905fa1fdd2a7223efcf6fc61a596d986f62a8cab95c76e6e5c28f5"
+    },
+    {
+      "chunk": 205,
+      "file": "timecard_metrics\\chunk-000205.json",
+      "bytes": 33561092,
+      "employees": 1123,
+      "sha256": "3bf1e985f75059863d32e915099d064e597fd5490022446973ab49439a17ff30"
+    },
+    {
+      "chunk": 206,
+      "file": "timecard_metrics\\chunk-000206.json",
+      "bytes": 33561886,
+      "employees": 1123,
+      "sha256": "8ea8fb005f95ac8952bf0b4768ba7bbc4b11cabdd724002b1c9396bcba44f5be"
+    },
+    {
+      "chunk": 207,
+      "file": "timecard_metrics\\chunk-000207.json",
+      "bytes": 33560653,
+      "employees": 1123,
+      "sha256": "0416df0eff94cf1f4494b678c007d63ff87a5fa3964b5674a3ca35bd329c2411"
+    },
+    {
+      "chunk": 208,
+      "file": "timecard_metrics\\chunk-000208.json",
+      "bytes": 33562688,
+      "employees": 1123,
+      "sha256": "75c7da69ba32c345c6b6d4f92751ba5bc49f717299d3f7660ca18936c88cb69a"
+    },
+    {
+      "chunk": 209,
+      "file": "timecard_metrics\\chunk-000209.json",
+      "bytes": 33561926,
+      "employees": 1123,
+      "sha256": "16c4e6742139dc87ba0903ae619f7cc077c3ce075e7b23dcc98189f64a1af8e2"
+    },
+    {
+      "chunk": 210,
+      "file": "timecard_metrics\\chunk-000210.json",
+      "bytes": 33561092,
+      "employees": 1123,
+      "sha256": "205299f7e02aa1e0ace83fe9fa5ad8ac7fc2e7dfd13cbbe355cfd1f030dad010"
+    },
+    {
+      "chunk": 211,
+      "file": "timecard_metrics\\chunk-000211.json",
+      "bytes": 33563369,
+      "employees": 1123,
+      "sha256": "07885f7b9bf76cffde4cb0176ea4ac6f6dac82a3a37972277119657b899d2c00"
+    },
+    {
+      "chunk": 212,
+      "file": "timecard_metrics\\chunk-000212.json",
+      "bytes": 33562131,
+      "employees": 1123,
+      "sha256": "baa249a0a4cd2721716bb798317bee336e9c814847e756c1587a2c26a07037b1"
+    },
+    {
+      "chunk": 213,
+      "file": "timecard_metrics\\chunk-000213.json",
+      "bytes": 33561207,
+      "employees": 1123,
+      "sha256": "a66fa15dfac87c2557074726638029f4fe06bb86dd0306d11aeb040a2a751ecc"
+    },
+    {
+      "chunk": 214,
+      "file": "timecard_metrics\\chunk-000214.json",
+      "bytes": 33561931,
+      "employees": 1123,
+      "sha256": "35e42e6c8173f4da6508b7bee01453cda843094f7d0884c7491e4caf32f317cb"
+    },
+    {
+      "chunk": 215,
+      "file": "timecard_metrics\\chunk-000215.json",
+      "bytes": 33561088,
+      "employees": 1123,
+      "sha256": "5e53e4df0866c3a25eefc55e988c7ac364a10ad9867282d9fff59cb71e16b4c0"
+    },
+    {
+      "chunk": 216,
+      "file": "timecard_metrics\\chunk-000216.json",
+      "bytes": 33561893,
+      "employees": 1123,
+      "sha256": "45b09123e81060c21fcd2d30c42a2b769f6e4d2f17639bc4f4ff6c9e5f9ba7ed"
+    },
+    {
+      "chunk": 217,
+      "file": "timecard_metrics\\chunk-000217.json",
+      "bytes": 33562126,
+      "employees": 1123,
+      "sha256": "beb0103daacf616a611420c871c929c77e86297acb1832bec214e67bd5dfe8a8"
+    },
+    {
+      "chunk": 218,
+      "file": "timecard_metrics\\chunk-000218.json",
+      "bytes": 33561207,
+      "employees": 1123,
+      "sha256": "eab9cfcf7bbca16edc58ca7543d0d9c6e26bbee6ccba73aff12127f26c7a406b"
+    },
+    {
+      "chunk": 219,
+      "file": "timecard_metrics\\chunk-000219.json",
+      "bytes": 33563414,
+      "employees": 1123,
+      "sha256": "e00a71dcb1825b7b2f32cdc559c3e8eb086f6adc9de61c65f9802c1e7eddcbab"
+    },
+    {
+      "chunk": 220,
+      "file": "timecard_metrics\\chunk-000220.json",
+      "bytes": 33561085,
+      "employees": 1123,
+      "sha256": "39561c5bfcfafe9f7fa35e5b7695a294d74b622ef35d7e8e7273809f081b088f"
+    },
+    {
+      "chunk": 221,
+      "file": "timecard_metrics\\chunk-000221.json",
+      "bytes": 33561893,
+      "employees": 1123,
+      "sha256": "fde34aa9d3694f24a196ef42bffd74e5f12d83d24b0ed51d5799c85ecc2c1b99"
+    },
+    {
+      "chunk": 222,
+      "file": "timecard_metrics\\chunk-000222.json",
+      "bytes": 33562126,
+      "employees": 1123,
+      "sha256": "960706410fd944925550dce807a745e9de0df86c25d40d02e4e5e2224172977f"
+    },
+    {
+      "chunk": 223,
+      "file": "timecard_metrics\\chunk-000223.json",
+      "bytes": 33561213,
+      "employees": 1123,
+      "sha256": "6b58e10a2f9e97ba89d6a4e1e14272fde729c0be7a94f4373a462aa67dde376b"
+    },
+    {
+      "chunk": 224,
+      "file": "timecard_metrics\\chunk-000224.json",
+      "bytes": 33561928,
+      "employees": 1123,
+      "sha256": "035d422adc8d0bc101a3f610bdd339c0fbef99dd99ce577423123e52741b0a33"
+    },
+    {
+      "chunk": 225,
+      "file": "timecard_metrics\\chunk-000225.json",
+      "bytes": 33562571,
+      "employees": 1123,
+      "sha256": "0bc61cb8210d48b6bded99a62fc61b957fc58bcc8e4bc671e42696e2b9f7dbcb"
+    },
+    {
+      "chunk": 226,
+      "file": "timecard_metrics\\chunk-000226.json",
+      "bytes": 33560407,
+      "employees": 1123,
+      "sha256": "ec7f1692bf6f33a6e4ac8a9c03c48195af48181000e76362bbe7c9da14cd79d6"
+    },
+    {
+      "chunk": 227,
+      "file": "timecard_metrics\\chunk-000227.json",
+      "bytes": 33563609,
+      "employees": 1123,
+      "sha256": "cb70a4f782c0500181a76885aec660068f999e736440b89e22a2521535264147"
+    },
+    {
+      "chunk": 228,
+      "file": "timecard_metrics\\chunk-000228.json",
+      "bytes": 33561210,
+      "employees": 1123,
+      "sha256": "df30f65956703c0a3f208bce82f6fa52a31d83fa6e4e199a6afce11b86234b20"
+    },
+    {
+      "chunk": 229,
+      "file": "timecard_metrics\\chunk-000229.json",
+      "bytes": 33561928,
+      "employees": 1123,
+      "sha256": "2339937de353755eb8b5d0e28a2e5e42a5e1bbd1809d448b836d7ff63110ded5"
+    },
+    {
+      "chunk": 230,
+      "file": "timecard_metrics\\chunk-000230.json",
+      "bytes": 33562571,
+      "employees": 1123,
+      "sha256": "fdf9e19167e15ef010c0303ccebcf085ccbe2836551fb02f9ef639309c4bc828"
+    },
+    {
+      "chunk": 231,
+      "file": "timecard_metrics\\chunk-000231.json",
+      "bytes": 33560408,
+      "employees": 1123,
+      "sha256": "87de29cffe9a5635070c5ca23866e6bad7cac7be4ca383b0e23fd1868d926957"
+    },
+    {
+      "chunk": 232,
+      "file": "timecard_metrics\\chunk-000232.json",
+      "bytes": 33562133,
+      "employees": 1123,
+      "sha256": "7c6c3fa0b8c7ed34b03825c88bbaa75e249706b0e954c1a330129aec7131a0fd"
+    },
+    {
+      "chunk": 233,
+      "file": "timecard_metrics\\chunk-000233.json",
+      "bytes": 33561205,
+      "employees": 1123,
+      "sha256": "e864013d30745441bb8e3cf9dc431e7c0ce9f4fc5b20fc077bd6f0c8d2952440"
+    },
+    {
+      "chunk": 234,
+      "file": "timecard_metrics\\chunk-000234.json",
+      "bytes": 33561933,
+      "employees": 1123,
+      "sha256": "810d5ab436190fa0f5c5129ce27bd6b73de31b09e5c5a51298f1faa7bfacdbb7"
+    },
+    {
+      "chunk": 235,
+      "file": "timecard_metrics\\chunk-000235.json",
+      "bytes": 33564049,
+      "employees": 1123,
+      "sha256": "a1654ed756e4dcb497a40014cb0c2f534d2645858dcaf9e978f7994e70caa849"
+    },
+    {
+      "chunk": 236,
+      "file": "timecard_metrics\\chunk-000236.json",
+      "bytes": 33560405,
+      "employees": 1123,
+      "sha256": "642935bb8ab6cb18ca209554296f2cefcd786f4f37e15d5d72b362d836e04efb"
+    },
+    {
+      "chunk": 237,
+      "file": "timecard_metrics\\chunk-000237.json",
+      "bytes": 33562133,
+      "employees": 1123,
+      "sha256": "b377f1ded6efc37822dbe2352c74db0a933daa4c3fbff974a6f01892a6186e47"
+    },
+    {
+      "chunk": 238,
+      "file": "timecard_metrics\\chunk-000238.json",
+      "bytes": 33562686,
+      "employees": 1123,
+      "sha256": "d43d87f4ccd912a036f8ac937e351001e52b957de88d90b2284a5f1270bf0be6"
+    },
+    {
+      "chunk": 239,
+      "file": "timecard_metrics\\chunk-000239.json",
+      "bytes": 33560453,
+      "employees": 1123,
+      "sha256": "115e60b5ef224111fff44be6014e38da6e152d761e44f0dff09a82b205e50cb2"
+    },
+    {
+      "chunk": 240,
+      "file": "timecard_metrics\\chunk-000240.json",
+      "bytes": 33562568,
+      "employees": 1123,
+      "sha256": "b6ec1e382b960457673d32b6169a17a649d55726cde9b2db1b48cf99476a6906"
+    },
+    {
+      "chunk": 241,
+      "file": "timecard_metrics\\chunk-000241.json",
+      "bytes": 33560410,
+      "employees": 1123,
+      "sha256": "ac8ada5ece38f68c7d0984624b5cb222b347f4398379713d6ef53b9aca8c2c32"
+    },
+    {
+      "chunk": 242,
+      "file": "timecard_metrics\\chunk-000242.json",
+      "bytes": 33562128,
+      "employees": 1123,
+      "sha256": "6b50c1bdc3c8522cfc4548c5ef90e70e173dcc53a34d1ed093f41cea1fed0cb3"
+    },
+    {
+      "chunk": 243,
+      "file": "timecard_metrics\\chunk-000243.json",
+      "bytes": 33564174,
+      "employees": 1123,
+      "sha256": "9848855924ed7cf182b38aa4b9a1b09caed569af70875754a533b0f697c2a973"
+    },
+    {
+      "chunk": 244,
+      "file": "timecard_metrics\\chunk-000244.json",
+      "bytes": 33560445,
+      "employees": 1123,
+      "sha256": "0c8e243901500b2f91c03da53b207abb089828fd123813010754ad331bf91414"
+    },
+    {
+      "chunk": 245,
+      "file": "timecard_metrics\\chunk-000245.json",
+      "bytes": 33562568,
+      "employees": 1123,
+      "sha256": "689049f33d81248cda449d8692d9fd4bd5f716f6d16905f7424be9d1e5b65bb5"
+    },
+    {
+      "chunk": 246,
+      "file": "timecard_metrics\\chunk-000246.json",
+      "bytes": 33560412,
+      "employees": 1123,
+      "sha256": "eeacd4cf682b4b30dce8efec093ecdd3e0130e74797f5443b5fbc6e8967615f6"
+    },
+    {
+      "chunk": 247,
+      "file": "timecard_metrics\\chunk-000247.json",
+      "bytes": 33562127,
+      "employees": 1123,
+      "sha256": "ab0e1a28967717fed0036a91839858847a5c73cab64492ecd421236ce6db559b"
+    },
+    {
+      "chunk": 248,
+      "file": "timecard_metrics\\chunk-000248.json",
+      "bytes": 33562693,
+      "employees": 1123,
+      "sha256": "04838fbabdeb7313056a2829776c604362647f67a2db8bd51acc879af89d24b9"
+    },
+    {
+      "chunk": 249,
+      "file": "timecard_metrics\\chunk-000249.json",
+      "bytes": 33560445,
+      "employees": 1123,
+      "sha256": "53ffd7f2bb492519af64bba09b89cd2b5fc5402edecc059bff083fde3bc7c41d"
+    },
+    {
+      "chunk": 250,
+      "file": "timecard_metrics\\chunk-000250.json",
+      "bytes": 33562573,
+      "employees": 1123,
+      "sha256": "25b2c3a9ea49cac7f7ade319f56d87e3ba15ad5f11c9f949b99c82c311bd3ab0"
+    },
+    {
+      "chunk": 251,
+      "file": "timecard_metrics\\chunk-000251.json",
+      "bytes": 33563369,
+      "employees": 1123,
+      "sha256": "1920f8c6794e528f75f8b904f62356603aa89f96b38d1556bc15228e22fcd4de"
+    },
+    {
+      "chunk": 252,
+      "file": "timecard_metrics\\chunk-000252.json",
+      "bytes": 33560650,
+      "employees": 1123,
+      "sha256": "2c6efd49d88df9188b594d449d9e0a68ce5c04e9c5465a3eb006727f04d850f7"
+    },
+    {
+      "chunk": 253,
+      "file": "timecard_metrics\\chunk-000253.json",
+      "bytes": 33562688,
+      "employees": 1123,
+      "sha256": "a29fcc33f637356577551be19e32030be74eee58bd147f45e914f38d8c72973e"
+    },
+    {
+      "chunk": 254,
+      "file": "timecard_metrics\\chunk-000254.json",
+      "bytes": 33560447,
+      "employees": 1123,
+      "sha256": "549b8f5cfd891ab902cc187f1026551b13c7fb3832ac130855f72d0a57b24e2b"
+    },
+    {
+      "chunk": 255,
+      "file": "timecard_metrics\\chunk-000255.json",
+      "bytes": 33562571,
+      "employees": 1123,
+      "sha256": "9a2e239e0d39c34474ba09f3880db740601de9da4646a505596db48b01f1a7e1"
+    },
+    {
+      "chunk": 256,
+      "file": "timecard_metrics\\chunk-000256.json",
+      "bytes": 33561889,
+      "employees": 1123,
+      "sha256": "2efc06f4d661c6bf92c645268a94c12737b9f1248b6fb16e77f30896de2f5a73"
+    },
+    {
+      "chunk": 257,
+      "file": "timecard_metrics\\chunk-000257.json",
+      "bytes": 33560650,
+      "employees": 1123,
+      "sha256": "30ea8e5de2da3768525e83fde12355401a0fc2e7b1dd83845f49eac17da5130d"
+    },
+    {
+      "chunk": 258,
+      "file": "timecard_metrics\\chunk-000258.json",
+      "bytes": 33562688,
+      "employees": 1123,
+      "sha256": "4539fafb2ad7410d460e1e782374b16f6d05c32a64c12e3b75f7ab1676261993"
+    },
+    {
+      "chunk": 259,
+      "file": "timecard_metrics\\chunk-000259.json",
+      "bytes": 33560452,
+      "employees": 1123,
+      "sha256": "902899853590fd9a3683db82a282469ec198c9c5ae60f45a03c41ee4d46a245a"
+    },
+    {
+      "chunk": 260,
+      "file": "timecard_metrics\\chunk-000260.json",
+      "bytes": 33564047,
+      "employees": 1123,
+      "sha256": "17efa2d0dffa7ab30be08bec7482a98723e1308a2d67d73230121cff8a43ef39"
+    },
+    {
+      "chunk": 261,
+      "file": "timecard_metrics\\chunk-000261.json",
+      "bytes": 33561893,
+      "employees": 1123,
+      "sha256": "63171a6f3950c9aa3a3a5c51c173ed12fa35921f407a2992cad8153fb3f9126b"
+    },
+    {
+      "chunk": 262,
+      "file": "timecard_metrics\\chunk-000262.json",
+      "bytes": 33560647,
+      "employees": 1123,
+      "sha256": "a1a7d7e47cc6c9f312156742aa729636b04c3f573dff5531b537d6318451715f"
+    },
+    {
+      "chunk": 263,
+      "file": "timecard_metrics\\chunk-000263.json",
+      "bytes": 33562686,
+      "employees": 1123,
+      "sha256": "1643e836555c999ac37448c7bdb998e5e434797d5c3b10af18090ab53bccc507"
+    },
+    {
+      "chunk": 264,
+      "file": "timecard_metrics\\chunk-000264.json",
+      "bytes": 33561934,
+      "employees": 1123,
+      "sha256": "0e44171558b006b0cf48868fd619eb0597b6fb390a8a4370d0a3869bd70f34a3"
+    },
+    {
+      "chunk": 265,
+      "file": "timecard_metrics\\chunk-000265.json",
+      "bytes": 33561085,
+      "employees": 1123,
+      "sha256": "7b0ea4848109838806cc09c4f00e9eeefef627ba60346a7529675cfffc160782"
+    },
+    {
+      "chunk": 266,
+      "file": "timecard_metrics\\chunk-000266.json",
+      "bytes": 33561893,
+      "employees": 1123,
+      "sha256": "e4a46f2c8c8b11db539a6103a36c1d051ac499c102ba4bb9d8bd74f3857034f5"
+    },
+    {
+      "chunk": 267,
+      "file": "timecard_metrics\\chunk-000267.json",
+      "bytes": 33560647,
+      "employees": 1123,
+      "sha256": "084b33799cf104f2e0060b50fe579da69d4948b79afc26afa7f2fdda162c93e5"
+    },
+    {
+      "chunk": 268,
+      "file": "timecard_metrics\\chunk-000268.json",
+      "bytes": 33564172,
+      "employees": 1123,
+      "sha256": "40b5e4aad1aff5b0674dd3330a9d6517597b8be059b2f846a10946f7bb86782c"
+    },
+    {
+      "chunk": 269,
+      "file": "timecard_metrics\\chunk-000269.json",
+      "bytes": 33561928,
+      "employees": 1123,
+      "sha256": "fcb7765cb86d68f2e731fd2b30064eefcca882b4318f06f0604fa004d7960b64"
+    },
+    {
+      "chunk": 270,
+      "file": "timecard_metrics\\chunk-000270.json",
+      "bytes": 33561092,
+      "employees": 1123,
+      "sha256": "64806b503a70dbac3859e7072e15166622f03acb7496cb22d3be9f7628e9eaea"
+    },
+    {
+      "chunk": 271,
+      "file": "timecard_metrics\\chunk-000271.json",
+      "bytes": 33561886,
+      "employees": 1123,
+      "sha256": "7e313c5da7c254da7ba261de6a50e1137d2e3caba0fa26661ad5003f8e3cfe21"
+    },
+    {
+      "chunk": 272,
+      "file": "timecard_metrics\\chunk-000272.json",
+      "bytes": 33560653,
+      "employees": 1123,
+      "sha256": "5e6f115cb0ca5e84e654e71c6820e5a7f7da1381bc4d5df47884dafc30e75a56"
+    },
+    {
+      "chunk": 273,
+      "file": "timecard_metrics\\chunk-000273.json",
+      "bytes": 33562686,
+      "employees": 1123,
+      "sha256": "74fca8071b3ba46ec72b7dae1835ac2bfa2c4c11a220027a6e80ed774bdfb8ad"
+    },
+    {
+      "chunk": 274,
+      "file": "timecard_metrics\\chunk-000274.json",
+      "bytes": 33561928,
+      "employees": 1123,
+      "sha256": "bd0f7e1d21c034598556f7ac11f6b8228b5945c059b56e355778f72d2a611a59"
+    },
+    {
+      "chunk": 275,
+      "file": "timecard_metrics\\chunk-000275.json",
+      "bytes": 33561092,
+      "employees": 1123,
+      "sha256": "a5f6bc9b37c0edf502f395cddd912cdbf735148f9602d9d34b5a8f7ceacf5dd0"
+    },
+    {
+      "chunk": 276,
+      "file": "timecard_metrics\\chunk-000276.json",
+      "bytes": 33563367,
+      "employees": 1123,
+      "sha256": "1fb410df8efe481f0962953fa2c6bed07990102ba059b6a50195d9f1e7aa3adb"
+    },
+    {
+      "chunk": 277,
+      "file": "timecard_metrics\\chunk-000277.json",
+      "bytes": 33562133,
+      "employees": 1123,
+      "sha256": "cafddb7d0449d3cc504b81a61014445a56a47a62f0dbad692c86ef9d88d51e10"
+    },
+    {
+      "chunk": 278,
+      "file": "timecard_metrics\\chunk-000278.json",
+      "bytes": 33561212,
+      "employees": 1123,
+      "sha256": "62c158308ab7ac23d18c0c4a99471edb2c4d5e5a8c67e523acf58444d61b4078"
+    },
+    {
+      "chunk": 279,
+      "file": "timecard_metrics\\chunk-000279.json",
+      "bytes": 33561931,
+      "employees": 1123,
+      "sha256": "ec514f77563b1464dbeeca0a7ecfc3c5d0e423fbee8ab7035362c20cc9197162"
+    },
+    {
+      "chunk": 280,
+      "file": "timecard_metrics\\chunk-000280.json",
+      "bytes": 33561088,
+      "employees": 1123,
+      "sha256": "862e640d8d8f48dee94693fe94e472548488269679248d32e4a2a90bfb9fa581"
+    },
+    {
+      "chunk": 281,
+      "file": "timecard_metrics\\chunk-000281.json",
+      "bytes": 33561891,
+      "employees": 1123,
+      "sha256": "0a250084076e091c2b863302286b53dbe71dbc04c252cd2aa718ffca5b1f9b05"
+    },
+    {
+      "chunk": 282,
+      "file": "timecard_metrics\\chunk-000282.json",
+      "bytes": 33562128,
+      "employees": 1123,
+      "sha256": "11b83815a1be69156bcc84fd9cbc4d3f622e17108554afc37f3855e0f5d97cb6"
+    },
+    {
+      "chunk": 283,
+      "file": "timecard_metrics\\chunk-000283.json",
+      "bytes": 33561207,
+      "employees": 1123,
+      "sha256": "6dd962e809a586f621e757890e58f1b39b296f356adb35edaa2c71773335c490"
+    },
+    {
+      "chunk": 284,
+      "file": "timecard_metrics\\chunk-000284.json",
+      "bytes": 33563412,
+      "employees": 1123,
+      "sha256": "42e1c348a2376e293577ad7c8c3062b4511ffc3e94568155734760019148aed4"
+    },
+    {
+      "chunk": 285,
+      "file": "timecard_metrics\\chunk-000285.json",
+      "bytes": 33561087,
+      "employees": 1123,
+      "sha256": "7c824ff2de4324cb45dde5634d416b14122d8d0c6b55ee158716626630d753fa"
+    },
+    {
+      "chunk": 286,
+      "file": "timecard_metrics\\chunk-000286.json",
+      "bytes": 33561893,
+      "employees": 1123,
+      "sha256": "a34ade926a76d991256c2e534d66891a9e99987d7a55d803625baabc41439fcb"
+    },
+    {
+      "chunk": 287,
+      "file": "timecard_metrics\\chunk-000287.json",
+      "bytes": 33562126,
+      "employees": 1123,
+      "sha256": "a5e8bcddc042f0d06970829460414c583c0159ddab85943a6394e2a7c3d035fb"
+    },
+    {
+      "chunk": 288,
+      "file": "timecard_metrics\\chunk-000288.json",
+      "bytes": 33561213,
+      "employees": 1123,
+      "sha256": "7dba4584ef5302dba9414afcdf0959f5c65ccd2d861b768e7f0dcbfe1243eb5e"
+    },
+    {
+      "chunk": 289,
+      "file": "timecard_metrics\\chunk-000289.json",
+      "bytes": 33561926,
+      "employees": 1123,
+      "sha256": "423d3468799ed34e3813858e66f008a528f61f0480a5dde65d14a5c8e40ecf1f"
+    },
+    {
+      "chunk": 290,
+      "file": "timecard_metrics\\chunk-000290.json",
+      "bytes": 33562573,
+      "employees": 1123,
+      "sha256": "14a0243397b19ee2121fbbb4eeed3d6e7dab813a0179857854df6fb0649a810b"
+    },
+    {
+      "chunk": 291,
+      "file": "timecard_metrics\\chunk-000291.json",
+      "bytes": 33560407,
+      "employees": 1123,
+      "sha256": "3b01004dc327be6dae3b4b01c39bbe561400487f4ce6f0e70939cd6fb6b22830"
+    },
+    {
+      "chunk": 292,
+      "file": "timecard_metrics\\chunk-000292.json",
+      "bytes": 33563607,
+      "employees": 1123,
+      "sha256": "d54e6de452e524eb2584e0a7b20055214741011856ecbaeec38cd4d376dab1c0"
+    },
+    {
+      "chunk": 293,
+      "file": "timecard_metrics\\chunk-000293.json",
+      "bytes": 33561212,
+      "employees": 1123,
+      "sha256": "b3cf099298409a5a63b4f4af44efbbe92b49bca8aab80b13c024384d4c473348"
+    },
+    {
+      "chunk": 294,
+      "file": "timecard_metrics\\chunk-000294.json",
+      "bytes": 33561928,
+      "employees": 1123,
+      "sha256": "ed5eaef3aca47f99fff2c8dce8e78caa90e4d18c283b7a67903fd1c040af78a1"
+    },
+    {
+      "chunk": 295,
+      "file": "timecard_metrics\\chunk-000295.json",
+      "bytes": 33562571,
+      "employees": 1123,
+      "sha256": "595bc9e1dea2360098e59b631bd1f947f9c0aceebc1e8b660fc9e244c7fbc443"
+    },
+    {
+      "chunk": 296,
+      "file": "timecard_metrics\\chunk-000296.json",
+      "bytes": 33560408,
+      "employees": 1123,
+      "sha256": "934225f373538acb243044288a97b4b71889840a73e13abcfcc25bd8676a6685"
+    },
+    {
+      "chunk": 297,
+      "file": "timecard_metrics\\chunk-000297.json",
+      "bytes": 33562133,
+      "employees": 1123,
+      "sha256": "d91ba8657bb1a2d1253684c2099d5ec143862198c3a064179a422d4f86c0bad1"
+    },
+    {
+      "chunk": 298,
+      "file": "timecard_metrics\\chunk-000298.json",
+      "bytes": 33561203,
+      "employees": 1123,
+      "sha256": "1aeba7272cde11eeb7e198068e8e86a384acce2d0d36fecbe204f40fcf7bdfd5"
+    },
+    {
+      "chunk": 299,
+      "file": "timecard_metrics\\chunk-000299.json",
+      "bytes": 33561933,
+      "employees": 1123,
+      "sha256": "c0064b1d4184bdd5aee1d2eae0aace29e1f04c16341498e30e6bfee7df0c5db9"
+    },
+    {
+      "chunk": 300,
+      "file": "timecard_metrics\\chunk-000300.json",
+      "bytes": 33564047,
+      "employees": 1123,
+      "sha256": "92f65007c7bafe82b8b70cb729c15be7b7973876c61d9bb9c0dd630145b9c556"
+    },
+    {
+      "chunk": 301,
+      "file": "timecard_metrics\\chunk-000301.json",
+      "bytes": 33560407,
+      "employees": 1123,
+      "sha256": "eb2e8653e156c257e109eba13496afcabe726630f346b3b2e2e178d2f2d8b6cb"
+    },
+    {
+      "chunk": 302,
+      "file": "timecard_metrics\\chunk-000302.json",
+      "bytes": 33562133,
+      "employees": 1123,
+      "sha256": "27d46e9d7342bdfdcae993c96d7a197bee170c783850182909ad849b1f31ddcc"
+    },
+    {
+      "chunk": 303,
+      "file": "timecard_metrics\\chunk-000303.json",
+      "bytes": 33562686,
+      "employees": 1123,
+      "sha256": "2d74b093075a15f824dd4a367165db6c290fd1d0d74a2250e78dce9eceedae16"
+    },
+    {
+      "chunk": 304,
+      "file": "timecard_metrics\\chunk-000304.json",
+      "bytes": 33560453,
+      "employees": 1123,
+      "sha256": "d98970f1174cce72ae0c0b0362624283ea29a07dd40a791a8bba2b964fb03f5a"
+    },
+    {
+      "chunk": 305,
+      "file": "timecard_metrics\\chunk-000305.json",
+      "bytes": 33562568,
+      "employees": 1123,
+      "sha256": "fcc1cc987902f868740b7f807e361616f0a310a60ee6de7e0dda5cb688c96958"
+    },
+    {
+      "chunk": 306,
+      "file": "timecard_metrics\\chunk-000306.json",
+      "bytes": 33560410,
+      "employees": 1123,
+      "sha256": "c976fb6b8447a06c0dee3b20b45c66ed15cbd30254cb1c1ae5a810d4880e49e0"
+    },
+    {
+      "chunk": 307,
+      "file": "timecard_metrics\\chunk-000307.json",
+      "bytes": 33562128,
+      "employees": 1123,
+      "sha256": "88ee8641981feea5c215f2e43b97f1a1125ea61a623fc8b3eb5ec44618e2d301"
+    },
+    {
+      "chunk": 308,
+      "file": "timecard_metrics\\chunk-000308.json",
+      "bytes": 33564172,
+      "employees": 1123,
+      "sha256": "d08aea9c8ce54b21fd018478d41a1940895d0bf59855621ff1a3e3cc1ac877b1"
+    },
+    {
+      "chunk": 309,
+      "file": "timecard_metrics\\chunk-000309.json",
+      "bytes": 33560447,
+      "employees": 1123,
+      "sha256": "006df84bc6de477b65a55c2501fa44806c481df2b0b90ba545501fa0cb5b6cf4"
+    },
+    {
+      "chunk": 310,
+      "file": "timecard_metrics\\chunk-000310.json",
+      "bytes": 33562568,
+      "employees": 1123,
+      "sha256": "6b48d2a48c51c3aacb224065ba293c5491f9850cf8914b476c7ba80f4a1688bf"
+    },
+    {
+      "chunk": 311,
+      "file": "timecard_metrics\\chunk-000311.json",
+      "bytes": 33560410,
+      "employees": 1123,
+      "sha256": "e402e88f01e4097c5e328a210113d678a46dad23ede665c4f7af940b3ea7d9cb"
+    },
+    {
+      "chunk": 312,
+      "file": "timecard_metrics\\chunk-000312.json",
+      "bytes": 33562129,
+      "employees": 1123,
+      "sha256": "271a56664b6201735774b161e82cc583c6bc2e5be3a6e1661eea78a36468e8b8"
+    },
+    {
+      "chunk": 313,
+      "file": "timecard_metrics\\chunk-000313.json",
+      "bytes": 33562693,
+      "employees": 1123,
+      "sha256": "cf2c22af6e0b6d04d4cecdb5fee975a5e21f303d78322ccb339ead3f707876e6"
+    },
+    {
+      "chunk": 314,
+      "file": "timecard_metrics\\chunk-000314.json",
+      "bytes": 33560445,
+      "employees": 1123,
+      "sha256": "e18658f89c0e9aecc0fb847fd5474bd8f724c391aea008d1cff1869334a46d15"
+    },
+    {
+      "chunk": 315,
+      "file": "timecard_metrics\\chunk-000315.json",
+      "bytes": 33562573,
+      "employees": 1123,
+      "sha256": "6b21bdfa70cedda989037d596962a8c10bcfae22774582b39048b934dfe8fff0"
+    },
+    {
+      "chunk": 316,
+      "file": "timecard_metrics\\chunk-000316.json",
+      "bytes": 33560405,
+      "employees": 1123,
+      "sha256": "0067759a6e97f98ac4bf3c7d4bb954fcd59116d187f4c656f7bc1c93506ef0fc"
+    },
+    {
+      "chunk": 317,
+      "file": "timecard_metrics\\chunk-000317.json",
+      "bytes": 33563614,
+      "employees": 1123,
+      "sha256": "33d120f605d06e9c5ab543777e41f8e5ee44036926ee5710cff73b5827b8eb42"
+    },
+    {
+      "chunk": 318,
+      "file": "timecard_metrics\\chunk-000318.json",
+      "bytes": 33562688,
+      "employees": 1123,
+      "sha256": "66c4ef134b5c8fb490520037fc922767e96b8e8000bc03275859ebe8fd6b922a"
+    },
+    {
+      "chunk": 319,
+      "file": "timecard_metrics\\chunk-000319.json",
+      "bytes": 33560445,
+      "employees": 1123,
+      "sha256": "d7d20be1173c482d7616db257abbfff1c899456c073da0b0a7b6f93161fc9906"
+    },
+    {
+      "chunk": 320,
+      "file": "timecard_metrics\\chunk-000320.json",
+      "bytes": 33562573,
+      "employees": 1123,
+      "sha256": "966c440353c4eb698c81b8821401f18a7f4163c3ee715de9c14a6d6d7b1c2f1e"
+    },
+    {
+      "chunk": 321,
+      "file": "timecard_metrics\\chunk-000321.json",
+      "bytes": 33561889,
+      "employees": 1123,
+      "sha256": "49a8088ffe21c3878df11dfa5b85f0250105df3e9ee4188b2bd980b9e7925e1c"
+    },
+    {
+      "chunk": 322,
+      "file": "timecard_metrics\\chunk-000322.json",
+      "bytes": 33560650,
+      "employees": 1123,
+      "sha256": "fe2fe9351db2c9a5a1dfadc29e177934b8543534ea7ccb03a56fc6a90e21dbb4"
+    },
+    {
+      "chunk": 323,
+      "file": "timecard_metrics\\chunk-000323.json",
+      "bytes": 33562688,
+      "employees": 1123,
+      "sha256": "8f6290118d54bfe5f5a4232f6c5401a27e37ccfb115571b424857e154abd10f1"
+    },
+    {
+      "chunk": 324,
+      "file": "timecard_metrics\\chunk-000324.json",
+      "bytes": 33560450,
+      "employees": 1123,
+      "sha256": "34470955008eecfd8a32d13e29d3c7e8fb59acc2aa0c2e7d9221d6abfb50010e"
+    },
+    {
+      "chunk": 325,
+      "file": "timecard_metrics\\chunk-000325.json",
+      "bytes": 33564049,
+      "employees": 1123,
+      "sha256": "b864926d18e7161e05f5ce8e26968d1e22e52f09343fd49d30ccda0e94bd3923"
+    },
+    {
+      "chunk": 326,
+      "file": "timecard_metrics\\chunk-000326.json",
+      "bytes": 33561893,
+      "employees": 1123,
+      "sha256": "0a57035c141f9008b73de2fd5ae22568cdb9be4d6aa6269af99ffa012c4c8eb7"
+    },
+    {
+      "chunk": 327,
+      "file": "timecard_metrics\\chunk-000327.json",
+      "bytes": 33560645,
+      "employees": 1123,
+      "sha256": "9951d32ebbfa93ad71c326ee2b1e0fd6523e5df17122a21a4aed659f3f226dd3"
+    },
+    {
+      "chunk": 328,
+      "file": "timecard_metrics\\chunk-000328.json",
+      "bytes": 33562688,
+      "employees": 1123,
+      "sha256": "9c16176ba7c9ba422ebe1d7acc85d1bad5ee01ae2700fcd1be5565cea51f515a"
+    },
+    {
+      "chunk": 329,
+      "file": "timecard_metrics\\chunk-000329.json",
+      "bytes": 33560453,
+      "employees": 1123,
+      "sha256": "34a187e131cb4f6ef2945d4ead2e71eed2482105ed2a89f1860315a17e898b10"
+    },
+    {
+      "chunk": 330,
+      "file": "timecard_metrics\\chunk-000330.json",
+      "bytes": 33562566,
+      "employees": 1123,
+      "sha256": "975577497ca240e9b9f314b68de26a3e06b45b68c341b3dc27a547beca5a1661"
+    },
+    {
+      "chunk": 331,
+      "file": "timecard_metrics\\chunk-000331.json",
+      "bytes": 33561893,
+      "employees": 1123,
+      "sha256": "b0bd0e7e419359886a9c581e5bda293726c1c35744d38eaffa88a72472de0f5a"
+    },
+    {
+      "chunk": 332,
+      "file": "timecard_metrics\\chunk-000332.json",
+      "bytes": 33560645,
+      "employees": 1123,
+      "sha256": "53eb5e30c41a1fa9b94a2abb541163d60fdaf821bbbf8049f91728bbaf1b91e1"
+    },
+    {
+      "chunk": 333,
+      "file": "timecard_metrics\\chunk-000333.json",
+      "bytes": 33564174,
+      "employees": 1123,
+      "sha256": "70de604b09419a82e612de62c0c0f9622c44563c8fd284bbe89d43a6e8b86179"
+    },
+    {
+      "chunk": 334,
+      "file": "timecard_metrics\\chunk-000334.json",
+      "bytes": 33561928,
+      "employees": 1123,
+      "sha256": "c0efdff5330ab622a19da87b544be6b2559692e45cf6c767d212b163c55d5fdc"
+    },
+    {
+      "chunk": 335,
+      "file": "timecard_metrics\\chunk-000335.json",
+      "bytes": 33561090,
+      "employees": 1123,
+      "sha256": "11205e738fbb3388c22a57d5ae664af6d921ad4130b35622c97780457c18c460"
+    },
+    {
+      "chunk": 336,
+      "file": "timecard_metrics\\chunk-000336.json",
+      "bytes": 33561888,
+      "employees": 1123,
+      "sha256": "bd9ca3c5e95d990ce89a0c1bfa454bddb502f387c7befa1ee6a09143d6d78291"
+    },
+    {
+      "chunk": 337,
+      "file": "timecard_metrics\\chunk-000337.json",
+      "bytes": 33560648,
+      "employees": 1123,
+      "sha256": "aacc8eb07c0ef733ee9007bf06a550299de11f1600719cb361290696c4cbb064"
+    },
+    {
+      "chunk": 338,
+      "file": "timecard_metrics\\chunk-000338.json",
+      "bytes": 33562691,
+      "employees": 1123,
+      "sha256": "5e573711eb057d13bd789532643fa607d8305ff8ed931f8e11bcee3e9902733d"
+    },
+    {
+      "chunk": 339,
+      "file": "timecard_metrics\\chunk-000339.json",
+      "bytes": 33561928,
+      "employees": 1123,
+      "sha256": "604adeab5fb28fa01268cdf84d59f33d2b325c713ac8c9bce25636f3bf13d471"
+    },
+    {
+      "chunk": 340,
+      "file": "timecard_metrics\\chunk-000340.json",
+      "bytes": 33561092,
+      "employees": 1123,
+      "sha256": "dfe1145166baa86ed0f58f0a4cc6f8e7dca97fd9690c16b16d6c5fcdebe44676"
+    },
+    {
+      "chunk": 341,
+      "file": "timecard_metrics\\chunk-000341.json",
+      "bytes": 33563367,
+      "employees": 1123,
+      "sha256": "85174fb993bc6321caf93973c53d170384d4c0e495c1b12f4e7ecd2c1163af32"
+    },
+    {
+      "chunk": 342,
+      "file": "timecard_metrics\\chunk-000342.json",
+      "bytes": 33560652,
+      "employees": 1123,
+      "sha256": "63359f6b09950818de3d8378f0649fcd65969002d46111da71b1f244efe54a55"
+    },
+    {
+      "chunk": 343,
+      "file": "timecard_metrics\\chunk-000343.json",
+      "bytes": 33562686,
+      "employees": 1123,
+      "sha256": "2df1af413b125d810a25473a60bdb298471057cbf0ffbe080a87e969c238438a"
+    },
+    {
+      "chunk": 344,
+      "file": "timecard_metrics\\chunk-000344.json",
+      "bytes": 33561933,
+      "employees": 1123,
+      "sha256": "152502b6b89fcaeeeba14e42d757e5e21641f260c68d397847da0e8ae0b72400"
+    },
+    {
+      "chunk": 345,
+      "file": "timecard_metrics\\chunk-000345.json",
+      "bytes": 33561088,
+      "employees": 1123,
+      "sha256": "ead832a3b31d37bbce38f181b14f375788d0586549703d4d74cacab4a97ebd93"
+    },
+    {
+      "chunk": 346,
+      "file": "timecard_metrics\\chunk-000346.json",
+      "bytes": 33561886,
+      "employees": 1123,
+      "sha256": "4340abd2d2040f682ae84d0d034d8f215ce3aee512c934259f543f34ba405371"
+    },
+    {
+      "chunk": 347,
+      "file": "timecard_metrics\\chunk-000347.json",
+      "bytes": 33562133,
+      "employees": 1123,
+      "sha256": "9b7e4855cf01e181e8cfa6d8b08c9ced3dcea8784969f8ffc85670c23d9dec26"
+    },
+    {
+      "chunk": 348,
+      "file": "timecard_metrics\\chunk-000348.json",
+      "bytes": 33561207,
+      "employees": 1123,
+      "sha256": "627239b1524f429dd987271804b5e7d923f99e3324884422390d2debb0b1b1fc"
+    },
+    {
+      "chunk": 349,
+      "file": "timecard_metrics\\chunk-000349.json",
+      "bytes": 33563412,
+      "employees": 1123,
+      "sha256": "448971d21dac90d3928400e7e4feb2f11f73c79fdc6c951ef3785f41213c0fc9"
+    },
+    {
+      "chunk": 350,
+      "file": "timecard_metrics\\chunk-000350.json",
+      "bytes": 33561087,
+      "employees": 1123,
+      "sha256": "ef95eaa8cfc0c805672c16718a2bf1c5f1dba2c1cab0c16b356f143c46c79959"
+    },
+    {
+      "chunk": 351,
+      "file": "timecard_metrics\\chunk-000351.json",
+      "bytes": 33561891,
+      "employees": 1123,
+      "sha256": "0b9cb3be74c1d69f8c4bb43b5edddbd2c4fedf76b1572d7854c256b27869a18b"
+    },
+    {
+      "chunk": 352,
+      "file": "timecard_metrics\\chunk-000352.json",
+      "bytes": 33562128,
+      "employees": 1123,
+      "sha256": "d7b28b440a2a0893a25ba14096e09e40c989be126ff51a44a1bf2837b1e66b2c"
+    },
+    {
+      "chunk": 353,
+      "file": "timecard_metrics\\chunk-000353.json",
+      "bytes": 33561213,
+      "employees": 1123,
+      "sha256": "82bb019efed6f8cef12cd57025b2dfdbc40ff0d5b636f401aa2fbfe7469c7952"
+    },
+    {
+      "chunk": 354,
+      "file": "timecard_metrics\\chunk-000354.json",
+      "bytes": 33561926,
+      "employees": 1123,
+      "sha256": "7a91012e67a3afaf374e73b1b522b4a8718b9629f124f0b750e6ac66f5ee4e42"
+    },
+    {
+      "chunk": 355,
+      "file": "timecard_metrics\\chunk-000355.json",
+      "bytes": 33561087,
+      "employees": 1123,
+      "sha256": "5890184273aad21258e0eefde8bd0a571772c26aef84a0a7e66938c284097bb1"
+    },
+    {
+      "chunk": 356,
+      "file": "timecard_metrics\\chunk-000356.json",
+      "bytes": 33561893,
+      "employees": 1123,
+      "sha256": "ed31293ca4e86ec5993134daa103917d45266a2655427d28c78a4a1084ebf9e7"
+    },
+    {
+      "chunk": 357,
+      "file": "timecard_metrics\\chunk-000357.json",
+      "bytes": 33563607,
+      "employees": 1123,
+      "sha256": "411ba4cd7f1eb2775f237dda273dec4d0ec0400b346a3e93e24ba52fa82d6171"
+    },
+    {
+      "chunk": 358,
+      "file": "timecard_metrics\\chunk-000358.json",
+      "bytes": 33561212,
+      "employees": 1123,
+      "sha256": "013ecfc2ac8cfedb8ef5d3c7ed63e25493252a6a50139532fb38f6a72bc4a4fb"
+    },
+    {
+      "chunk": 359,
+      "file": "timecard_metrics\\chunk-000359.json",
+      "bytes": 33561926,
+      "employees": 1123,
+      "sha256": "372e49c7c6feee1f2cb62656362804317b2850ec460e7ab88a35123531f4b076"
+    },
+    {
+      "chunk": 360,
+      "file": "timecard_metrics\\chunk-000360.json",
+      "bytes": 33562573,
+      "employees": 1123,
+      "sha256": "a40821abfa9eac6a75bb82b29c77ccddb524b0cbbdfe8eb8bb26ff84190e5f8e"
+    },
+    {
+      "chunk": 361,
+      "file": "timecard_metrics\\chunk-000361.json",
+      "bytes": 33560408,
+      "employees": 1123,
+      "sha256": "a213ce2c1de632f12ac094a4d2dd507aa15a8a68ff61914c3fcae4ccc670f27a"
+    },
+    {
+      "chunk": 362,
+      "file": "timecard_metrics\\chunk-000362.json",
+      "bytes": 33562131,
+      "employees": 1123,
+      "sha256": "648578ee8637c21761010559f5ab6efccdeafe2bcd1eb463af3e73144d9445a5"
+    },
+    {
+      "chunk": 363,
+      "file": "timecard_metrics\\chunk-000363.json",
+      "bytes": 33561207,
+      "employees": 1123,
+      "sha256": "ec1b2b28b59e6c0bb97043b63efa4bc30371615f29bddf50d1c85ebf38a610df"
+    },
+    {
+      "chunk": 364,
+      "file": "timecard_metrics\\chunk-000364.json",
+      "bytes": 33561928,
+      "employees": 1123,
+      "sha256": "77a76e0ac5688a482919f203e9ace66cbcbc18291bd3f0fab3331489aa24437a"
+    },
+    {
+      "chunk": 365,
+      "file": "timecard_metrics\\chunk-000365.json",
+      "bytes": 33564052,
+      "employees": 1123,
+      "sha256": "dee97e05bfa0542bf3018225fddd0c171bd4f3631acf79b62a4a35c8854040c6"
+    },
+    {
+      "chunk": 366,
+      "file": "timecard_metrics\\chunk-000366.json",
+      "bytes": 33560407,
+      "employees": 1123,
+      "sha256": "1dcb86bdfd699d67b1a18b6081daebb454839c121e5bae500ca6214d51772347"
+    },
+    {
+      "chunk": 367,
+      "file": "timecard_metrics\\chunk-000367.json",
+      "bytes": 33562131,
+      "employees": 1123,
+      "sha256": "38d66fb54e46f0907a12e01509ddc38f395c6563fecf9b01a6ec63973eb2f8c2"
+    },
+    {
+      "chunk": 368,
+      "file": "timecard_metrics\\chunk-000368.json",
+      "bytes": 33561207,
+      "employees": 1123,
+      "sha256": "3fa4d97766e02f97790072d6f38d0f0b44f1e5436387d500307bff3c110ba12a"
+    },
+    {
+      "chunk": 369,
+      "file": "timecard_metrics\\chunk-000369.json",
+      "bytes": 33561934,
+      "employees": 1123,
+      "sha256": "4bf8c1542d9981cfece20e67b45e526e4caad2fa491f3fb240ce12664a492e55"
+    },
+    {
+      "chunk": 370,
+      "file": "timecard_metrics\\chunk-000370.json",
+      "bytes": 33562566,
+      "employees": 1123,
+      "sha256": "20226c4f52cb43137c5f06847bb69cfd7d9fc998faf4724e7645508405740247"
+    },
+    {
+      "chunk": 371,
+      "file": "timecard_metrics\\chunk-000371.json",
+      "bytes": 33560412,
+      "employees": 1123,
+      "sha256": "4f6407ecd9f8a8e907db10d916078d4cc5064ad7f6bc98ba4a2a35b10d1d6d02"
+    },
+    {
+      "chunk": 372,
+      "file": "timecard_metrics\\chunk-000372.json",
+      "bytes": 33562128,
+      "employees": 1123,
+      "sha256": "4c2a3b8b832a7a81c0dbce9f0a3b02fd88183f8fe7a7b5db745218be4d93b075"
+    },
+    {
+      "chunk": 373,
+      "file": "timecard_metrics\\chunk-000373.json",
+      "bytes": 33564167,
+      "employees": 1123,
+      "sha256": "ec7b3b66bbcc5fd2787dbb8a2673b4cdf55a575ab2f4c48421c78e7dd40ec0ae"
+    },
+    {
+      "chunk": 374,
+      "file": "timecard_metrics\\chunk-000374.json",
+      "bytes": 12192471,
+      "employees": 408,
+      "sha256": "3b2f54ab7b5f0bf2d61f4bc4edcf4665d22f04dc6ec587e271e9496571f89fce"
+    }
+  ],
+  "generatedBytes": 12884931826,
+  "generatedGiB": 12.000027881935239,
+  "employeesGenerated": 418418
+}
