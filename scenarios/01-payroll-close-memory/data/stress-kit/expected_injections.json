@@ -1,0 +1,11 @@
+{
+  "deterministicSeed": 20260921,
+  "injections": [
+    {"everyNEmployees": 200, "type": "NEGATIVE_CORRECTION", "field": "isFromCorrection"},
+    {"everyNEmployees": 333, "type": "JOB_TRANSFER", "field": "jobTransfer"},
+    {"everyNEmployees": 500, "type": "NULL_HOURS", "expectedAction": "QUARANTINE"},
+    {"everyNEmployees": 777, "type": "UNKNOWN_COST_CENTER", "expectedAction": "QUARANTINE"},
+    {"everyNEmployees": 1000, "type": "DUPLICATE_UNIQUE_ID", "expectedAction": "DEDUPE_OR_QUARANTINE"},
+    {"employeeSequence": 2500, "type": "OVERSIZED_EMPLOYEE", "extraRows": 250000, "expectedAction": "FRAGMENT"}
+  ]
+}
