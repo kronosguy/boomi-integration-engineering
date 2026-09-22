@@ -1,0 +1,264 @@
+<process allowSimultaneous="false"
+         enableUserLog="false"
+         processLogOnErrorOnly="false"
+         purgeDataImmediately="false"
+         stopProcessingIfZeroDocuments="true"
+         updateRunDates="true"
+         workload="general">
+
+  <shapes>
+
+    <shape image="start"
+           name="shape1"
+           shapetype="start"
+           userlabel="Start - Manifest Controller"
+           x="48.0"
+           y="48.0">
+
+      <configuration>
+        <noaction/>
+      </configuration>
+
+      <dragpoints>
+        <dragpoint name="shape1.dragpoint1"
+                   toShape="shape2"
+                   x="256.0"
+                   y="56.0"/>
+      </dragpoints>
+
+    </shape>
+
+    <shape image="connectoraction_icon"
+           name="shape2"
+           shapetype="connectoraction"
+           userlabel="Read Stress Manifest"
+           x="272.0"
+           y="48.0">
+
+      <configuration>
+
+        <connectoraction
+            actionType="GET"
+            connectorType="disk-sdk"
+            connectionId="63270954-3a0e-474d-b082-968bcc03c75f"
+            operationId="96778406-f506-4369-8d3c-2c6e942db910"
+            parameter-profile="EMBEDDED|genericparameterchooser|96778406-f506-4369-8d3c-2c6e942db910">
+
+          <parameters>
+
+            <parametervalue
+                elementToSetId="0"
+                elementToSetName="ID"
+                key="0"
+                usesEncryption="false"
+                valueType="static">
+
+              <staticparameter staticproperty="manifest.json"/>
+
+            </parametervalue>
+
+          </parameters>
+
+          <dynamicProperties/>
+
+        </connectoraction>
+
+      </configuration>
+
+      <dragpoints>
+        <dragpoint name="shape2.dragpoint1"
+                   toShape="shape3"
+                   x="480.0"
+                   y="56.0"/>
+      </dragpoints>
+
+    </shape>
+
+    <shape image="dataprocess_icon"
+           name="shape3"
+           shapetype="dataprocess"
+           userlabel="Split Manifest into Chunk Documents"
+           x="496.0"
+           y="48.0">
+
+      <configuration>
+
+        <dataprocess>
+
+          <step index="1"
+                key="1"
+                name="Split Documents"
+                processtype="8">
+
+            <documentsplit profileType="json">
+
+              <SplitOptions>
+
+                <JSONOptions
+                    linkElementKey="12"
+                    linkElementName="ArrayElement1 (Root/Object/chunks/Array/ArrayElement1)"
+                    profileId="a56be4c1-cab4-49af-8cb2-138e4ab11ee1"/>
+
+              </SplitOptions>
+
+            </documentsplit>
+
+          </step>
+
+        </dataprocess>
+
+      </configuration>
+
+      <dragpoints>
+        <dragpoint name="shape3.dragpoint1"
+                   toShape="shape4"
+                   x="704.0"
+                   y="56.0"/>
+      </dragpoints>
+
+    </shape>
+
+    <shape image="flowcontrol_icon"
+           name="shape4"
+           shapetype="flowcontrol"
+           userlabel="Serialize Work Item Creation"
+           x="720.0"
+           y="48.0">
+
+      <configuration>
+
+        <flowcontrol
+            chunkStyle="threadOnly"
+            forEachCount="1"/>
+
+      </configuration>
+
+      <dragpoints>
+        <dragpoint name="shape4.dragpoint1"
+                   toShape="shape5"
+                   x="928.0"
+                   y="56.0"/>
+      </dragpoints>
+
+    </shape>
+
+    <shape image="map_icon"
+           name="shape5"
+           shapetype="map"
+           userlabel="Build Chunk Work Item"
+           x="944.0"
+           y="48.0">
+
+      <configuration>
+        <map mapId="d7611b60-b947-4246-8f8c-ac79a58558e9"/>
+      </configuration>
+
+      <dragpoints>
+        <dragpoint name="shape5.dragpoint1"
+                   toShape="shape6"
+                   x="1152.0"
+                   y="56.0"/>
+      </dragpoints>
+
+    </shape>
+
+    <shape image="documentproperties_icon"
+           name="shape6"
+           shapetype="documentproperties"
+           userlabel="Set READY Work Item Filename"
+           x="1168.0"
+           y="48.0">
+
+      <configuration>
+
+        <documentproperties>
+
+          <documentproperty
+              defaultValue=""
+              isDynamicCredential="false"
+              isTradingPartner="false"
+              name="Disk - File Name"
+              persist="false"
+              propertyId="connector.disk-sdk.fileName"
+              shouldEncrypt="false">
+
+            <sourcevalues>
+
+              <parametervalue
+                  key="0"
+                  valueType="profile">
+
+                <profileelement
+                    elementId="4"
+                    elementName="controlFileName (Root/Object/controlFileName)"
+                    profileId="cafc077c-3b9e-4762-81b5-6dd3dedda79f"
+                    profileType="profile.json"/>
+
+              </parametervalue>
+
+            </sourcevalues>
+
+          </documentproperty>
+
+        </documentproperties>
+
+      </configuration>
+
+      <dragpoints>
+        <dragpoint name="shape6.dragpoint1"
+                   toShape="shape7"
+                   x="1376.0"
+                   y="56.0"/>
+      </dragpoints>
+
+    </shape>
+
+    <shape image="connectoraction_icon"
+           name="shape7"
+           shapetype="connectoraction"
+           userlabel="Persist READY Work Item"
+           x="1392.0"
+           y="48.0">
+
+      <configuration>
+
+        <connectoraction
+            actionType="CREATE"
+            connectorType="disk-sdk"
+            connectionId="ea13ff88-c164-49fd-b148-3d01d93446b8"
+            operationId="3c31a9b5-e28e-42c3-999d-829cea82c6bf">
+
+          <parameters/>
+          <dynamicProperties/>
+
+        </connectoraction>
+
+      </configuration>
+
+      <dragpoints>
+        <dragpoint name="shape7.dragpoint1"
+                   toShape="shape8"
+                   x="1600.0"
+                   y="56.0"/>
+      </dragpoints>
+
+    </shape>
+
+    <shape image="stop_icon"
+           name="shape8"
+           shapetype="stop"
+           userlabel="Manifest Initialization Complete"
+           x="1616.0"
+           y="48.0">
+
+      <configuration>
+        <stop continue="true"/>
+      </configuration>
+
+      <dragpoints/>
+
+    </shape>
+
+  </shapes>
+
+</process>
