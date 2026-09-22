@@ -1,0 +1,83 @@
+<process allowSimultaneous="false" enableUserLog="false" processLogOnErrorOnly="false" purgeDataImmediately="false" stopProcessingIfZeroDocuments="true" updateRunDates="false" workload="general">
+  <shapes>
+    <shape image="start" name="shape1" shapetype="start" userlabel="Stream Integrity Input" x="48.0" y="48.0">
+      <configuration><passthroughaction/></configuration>
+      <dragpoints><dragpoint name="shape1.dragpoint1" toShape="shape2" x="256.0" y="56.0"/></dragpoints>
+    </shape>
+    <shape image="dataprocess_icon" name="shape2" shapetype="dataprocess" userlabel="64 KiB Stream SHA-256 + Byte Count" x="272.0" y="48.0">
+      <configuration>
+        <dataprocess>
+          <step index="1" key="1" name="Custom Scripting" processtype="12">
+            <dataprocessscript language="groovy2" useCache="true"><script><![CDATA[import java.util.Properties;
+import java.io.InputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.BufferedInputStream;
+import java.security.MessageDigest;
+
+for (int i = 0; i < dataContext.getDataCount(); i++) {
+    InputStream doc = dataContext.getStream(i);
+    Properties props = dataContext.getProperties(i);
+
+    String path = props.getProperty("document.dynamic.userdefined.DDP_P01_STREAM_FILE", "");
+    String expectedSha = props.getProperty("document.dynamic.userdefined.DDP_P01_EXPECTED_SHA256", "");
+    String expectedBytes = props.getProperty("document.dynamic.userdefined.DDP_P01_EXPECTED_BYTES", "");
+    File file = new File(path);
+
+    if (!file.isFile()) {
+        props.setProperty("document.dynamic.userdefined.DDP_P01_INTEGRITY_STATUS", "FAILED");
+        props.setProperty("document.dynamic.userdefined.DDP_P01_FAILURE_REASON", "SOURCE_NOT_FOUND: " + path);
+        dataContext.storeStream(doc, props);
+        continue;
+    }
+
+    MessageDigest digest = MessageDigest.getInstance("SHA-256");
+    byte[] buffer = new byte[65536];
+    long total = 0L;
+    BufferedInputStream input = new BufferedInputStream(new FileInputStream(file), 65536);
+    try {
+        int n;
+        while ((n = input.read(buffer)) != -1) {
+            digest.update(buffer, 0, n);
+            total += n;
+        }
+    }
+    finally {
+        input.close();
+    }
+
+    StringBuilder hex = new StringBuilder();
+    byte[] hash = digest.digest();
+    for (int j = 0; j < hash.length; j++) {
+        hex.append(String.format("%02x", hash[j] & 0xff));
+    }
+
+    String actualSha = hex.toString();
+    boolean hashOk = expectedSha == null || expectedSha.trim().length() == 0 || actualSha.equalsIgnoreCase(expectedSha.trim());
+    boolean bytesOk = true;
+    if (expectedBytes != null && expectedBytes.trim().length() > 0) {
+        bytesOk = total == Long.parseLong(expectedBytes.trim());
+    }
+
+    props.setProperty("document.dynamic.userdefined.DDP_P01_ACTUAL_BYTES", String.valueOf(total));
+    props.setProperty("document.dynamic.userdefined.DDP_P01_ACTUAL_SHA256", actualSha);
+    props.setProperty("document.dynamic.userdefined.DDP_P01_MAX_HEAP_BYTES", String.valueOf(Runtime.getRuntime().maxMemory()));
+    props.setProperty("document.dynamic.userdefined.DDP_P01_INTEGRITY_STATUS", (hashOk && bytesOk) ? "PASSED" : "FAILED");
+
+    if (!hashOk) props.setProperty("document.dynamic.userdefined.DDP_P01_FAILURE_REASON", "SHA256_MISMATCH");
+    else if (!bytesOk) props.setProperty("document.dynamic.userdefined.DDP_P01_FAILURE_REASON", "BYTE_COUNT_MISMATCH");
+    else props.setProperty("document.dynamic.userdefined.DDP_P01_FAILURE_REASON", "");
+
+    dataContext.storeStream(doc, props);
+}]]></script></dataprocessscript>
+          </step>
+        </dataprocess>
+      </configuration>
+      <dragpoints><dragpoint name="shape2.dragpoint1" toShape="shape3" x="480.0" y="56.0"/></dragpoints>
+    </shape>
+    <shape image="returndocuments_icon" name="shape3" shapetype="returndocuments" userlabel="Stream Integrity Result" x="496.0" y="48.0">
+      <configuration><returndocuments label="Stream Integrity Result"/></configuration>
+      <dragpoints/>
+    </shape>
+  </shapes>
+</process>
