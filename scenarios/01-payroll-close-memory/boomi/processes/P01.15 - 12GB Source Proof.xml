@@ -1,0 +1,79 @@
+<process allowSimultaneous="false" enableUserLog="false" processLogOnErrorOnly="false" purgeDataImmediately="false" stopProcessingIfZeroDocuments="true" updateRunDates="true" workload="general">
+  <shapes>
+    <shape image="start" name="shape1" shapetype="start" userlabel="12GB Source Proof" x="48.0" y="48.0">
+      <configuration><noaction/></configuration>
+      <dragpoints><dragpoint name="shape1.dragpoint1" toShape="shape2" x="256.0" y="56.0"/></dragpoints>
+    </shape>
+    <shape image="message_icon" name="shape2" shapetype="message" userlabel="Create Source-Proof Control Document" x="272.0" y="48.0">
+      <configuration><message combined="false"><msgTxt>'{}'</msgTxt><msgParameters/></message></configuration>
+      <dragpoints><dragpoint name="shape2.dragpoint1" toShape="shape3" x="480.0" y="56.0"/></dragpoints>
+    </shape>
+    <shape image="documentproperties_icon" name="shape3" shapetype="documentproperties" userlabel="Bind Actual 12GB Source" x="496.0" y="48.0">
+      <configuration>
+        <documentproperties>
+          <documentproperty defaultValue="" isDynamicCredential="false" isTradingPartner="false" name="Dynamic Document Property - DDP_P01_STREAM_FILE" persist="false" propertyId="dynamicdocument.DDP_P01_STREAM_FILE" shouldEncrypt="false"><sourcevalues><parametervalue key="0" valueType="static"><staticparameter staticproperty="D:\BoomiLab\Project01\source\monolithic\ukg-payroll-close-12gb.json"/></parametervalue></sourcevalues></documentproperty>
+          <documentproperty defaultValue="" isDynamicCredential="false" isTradingPartner="false" name="Dynamic Document Property - DDP_P01_EXPECTED_BYTES" persist="false" propertyId="dynamicdocument.DDP_P01_EXPECTED_BYTES" shouldEncrypt="false"><sourcevalues><parametervalue key="0" valueType="static"><staticparameter staticproperty="12884931079"/></parametervalue></sourcevalues></documentproperty>
+          <documentproperty defaultValue="" isDynamicCredential="false" isTradingPartner="false" name="Dynamic Document Property - DDP_P01_EXPECTED_SHA256" persist="false" propertyId="dynamicdocument.DDP_P01_EXPECTED_SHA256" shouldEncrypt="false"><sourcevalues><parametervalue key="0" valueType="static"><staticparameter staticproperty="d4f808f83cd00505cd180e6e6be78d923a1cd4056c419de097eb6e2125d2b7c8"/></parametervalue></sourcevalues></documentproperty>
+        </documentproperties>
+      </configuration>
+      <dragpoints><dragpoint name="shape3.dragpoint1" toShape="shape4" x="704.0" y="56.0"/></dragpoints>
+    </shape>
+    <shape image="processcall_icon" name="shape4" shapetype="processcall" userlabel="Stream Actual 12GB File" x="720.0" y="48.0">
+      <configuration>
+        <processcall abort="true" processId="e916f5ff-8e00-4353-88c3-63a94611eec9" wait="true"><parameters/><returnpaths><returnpaths childShapeName="shape3"/></returnpaths></processcall>
+      </configuration>
+      <dragpoints><dragpoint identifier="shape3" name="shape4.dragpoint1" toShape="shape5" x="928.0" y="56.0"/></dragpoints>
+    </shape>
+    <shape image="decision_icon" name="shape5" shapetype="decision" userlabel="12GB Integrity PASSED?" x="944.0" y="48.0">
+      <configuration><decision comparison="equals" name="12GB Integrity PASSED?"><decisionvalue valueType="track"><trackparameter defaultValue="" propertyId="dynamicdocument.DDP_P01_INTEGRITY_STATUS" propertyName="Dynamic Document Property - DDP_P01_INTEGRITY_STATUS"/></decisionvalue><decisionvalue valueType="static"><staticparameter staticproperty="PASSED"/></decisionvalue></decision></configuration>
+      <dragpoints><dragpoint identifier="true" name="shape5.dragpoint1" text="True" toShape="shape6" x="1152.0" y="56.0"/><dragpoint identifier="false" name="shape5.dragpoint2" text="False" toShape="shape8" x="1152.0" y="216.0"/></dragpoints>
+    </shape>
+    <shape image="dataprocess_icon" name="shape6" shapetype="dataprocess" userlabel="Write 12GB Runtime Proof" x="1168.0" y="48.0">
+      <configuration><dataprocess><step index="1" key="1" name="Custom Scripting" processtype="12"><dataprocessscript language="groovy2" useCache="true"><script><![CDATA[import java.util.Properties;
+import java.io.InputStream;
+import java.io.ByteArrayInputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import groovy.json.JsonSlurper;
+import groovy.json.JsonOutput;
+
+for (int i = 0; i < dataContext.getDataCount(); i++) {
+    InputStream is = dataContext.getStream(i);
+    Properties props = dataContext.getProperties(i);
+    is.close();
+
+    File manifestFile = new File("D:\\BoomiLab\\Project01\\source\\chunks\\manifest.json");
+    def manifest = new JsonSlurper().parse(manifestFile);
+    long actualBytes = Long.parseLong(props.getProperty("document.dynamic.userdefined.DDP_P01_ACTUAL_BYTES", "0"));
+    long maxHeap = Long.parseLong(props.getProperty("document.dynamic.userdefined.DDP_P01_MAX_HEAP_BYTES", "0"));
+
+    def proof = [
+        status: props.getProperty("document.dynamic.userdefined.DDP_P01_INTEGRITY_STATUS", "UNKNOWN"),
+        sourceFile: props.getProperty("document.dynamic.userdefined.DDP_P01_STREAM_FILE", ""),
+        sourceBytes: actualBytes,
+        sourceGiB: actualBytes / 1073741824.0,
+        expectedSha256: props.getProperty("document.dynamic.userdefined.DDP_P01_EXPECTED_SHA256", ""),
+        actualSha256: props.getProperty("document.dynamic.userdefined.DDP_P01_ACTUAL_SHA256", ""),
+        maxHeapBytes: maxHeap,
+        maxHeapGiB: maxHeap / 1073741824.0,
+        manifestChunks: manifest.chunks.size(),
+        manifestGeneratedBytes: manifest.generatedBytes,
+        manifestEmployees: manifest.employeesGenerated,
+        bufferBytes: 65536
+    ];
+
+    String json = JsonOutput.prettyPrint(JsonOutput.toJson(proof));
+    File evidenceDir = new File("D:\\BoomiLab\\Project01\\evidence");
+    evidenceDir.mkdirs();
+    File proofFile = new File(evidenceDir, "P01.15-12gb-source-proof.json");
+    FileOutputStream fos = new FileOutputStream(proofFile, false);
+    try { fos.write(json.getBytes("UTF-8")); } finally { fos.close(); }
+
+    dataContext.storeStream(new ByteArrayInputStream(json.getBytes("UTF-8")), props);
+}]]></script></dataprocessscript></step></dataprocess></configuration>
+      <dragpoints><dragpoint name="shape6.dragpoint1" toShape="shape7" x="1376.0" y="56.0"/></dragpoints>
+    </shape>
+    <shape image="stop_icon" name="shape7" shapetype="stop" userlabel="12GB Source VERIFIED" x="1392.0" y="48.0"><configuration><stop continue="true"/></configuration><dragpoints/></shape>
+    <shape image="exception_icon" name="shape8" shapetype="exception" userlabel="12GB Source Verification FAILED" x="1168.0" y="208.0"><configuration><exception stopProcessReturnSingleDoc="false" stopsingledoc="false" title="12GB Source Verification FAILED"><exMessage>Actual monolithic source did not match expected byte count and SHA-256.</exMessage><exParameters/></exception></configuration><dragpoints/></shape>
+  </shapes>
+</process>
