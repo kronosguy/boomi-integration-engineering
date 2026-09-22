@@ -1,0 +1,219 @@
+<process allowSimultaneous="false" enableUserLog="false" processLogOnErrorOnly="false" purgeDataImmediately="false" stopProcessingIfZeroDocuments="true" updateRunDates="true" workload="general">
+  <shapes>
+    <shape image="start" name="shape1" shapetype="start" userlabel="Chunk Processor - Manifest Driven" x="48.0" y="48.0"><configuration><noaction/></configuration><dragpoints><dragpoint name="shape1.dragpoint1" toShape="shape2" x="256.0" y="56.0"/></dragpoints></shape>
+    <shape image="connectoraction_icon" name="shape2" shapetype="connectoraction" userlabel="Read Manifest - ONE Connector Document" x="272.0" y="48.0"><configuration><connectoraction actionType="GET" connectorType="disk-sdk" connectionId="63270954-3a0e-474d-b082-968bcc03c75f" operationId="96778406-f506-4369-8d3c-2c6e942db910" parameter-profile="EMBEDDED|genericparameterchooser|96778406-f506-4369-8d3c-2c6e942db910"><parameters><parametervalue elementToSetId="0" elementToSetName="ID" key="0" usesEncryption="false" valueType="static"><staticparameter staticproperty="manifest.json"/></parametervalue></parameters><dynamicProperties/></connectoraction></configuration><dragpoints><dragpoint name="shape2.dragpoint1" toShape="shape3" x="480.0" y="56.0"/></dragpoints></shape>
+    <shape image="dataprocess_icon" name="shape3" shapetype="dataprocess" userlabel="Split Manifest into Internal Work Documents" x="496.0" y="48.0"><configuration><dataprocess><step index="1" key="1" name="Split Documents" processtype="8"><documentsplit profileType="json"><SplitOptions><JSONOptions linkElementKey="12" linkElementName="ArrayElement1 (Root/Object/chunks/Array/ArrayElement1)" profileId="a56be4c1-cab4-49af-8cb2-138e4ab11ee1"/></SplitOptions></documentsplit></step></dataprocess></configuration><dragpoints><dragpoint name="shape3.dragpoint1" toShape="shape4" x="704.0" y="56.0"/></dragpoints></shape>
+    <shape image="flowcontrol_icon" name="shape4" shapetype="flowcontrol" userlabel="ONE Chunk at a Time" x="720.0" y="48.0"><configuration><flowcontrol chunkStyle="threadOnly" forEachCount="1"/></configuration><dragpoints><dragpoint name="shape4.dragpoint1" toShape="shape5" x="928.0" y="56.0"/></dragpoints></shape>
+    <shape image="map_icon" name="shape5" shapetype="map" userlabel="Build Chunk Work Item" x="944.0" y="48.0"><configuration><map mapId="d7611b60-b947-4246-8f8c-ac79a58558e9"/></configuration><dragpoints><dragpoint name="shape5.dragpoint1" toShape="shape6" x="1152.0" y="56.0"/></dragpoints></shape>
+    <shape image="documentproperties_icon" name="shape6" shapetype="documentproperties" userlabel="Load Work Item Contract" x="1168.0" y="48.0"><configuration><documentproperties><documentproperty defaultValue="" isDynamicCredential="false" isTradingPartner="false" name="Dynamic Document Property - DDP_P01_CHUNK_NUMBER" persist="false" propertyId="dynamicdocument.DDP_P01_CHUNK_NUMBER" shouldEncrypt="false">
+  <sourcevalues>
+    <parametervalue key="0" valueType="profile">
+      <profileelement elementId="3" elementName="chunkNumber (Root/Object/chunkNumber)" profileId="cafc077c-3b9e-4762-81b5-6dd3dedda79f" profileType="profile.json"/>
+    </parametervalue>
+  </sourcevalues>
+</documentproperty>
+<documentproperty defaultValue="" isDynamicCredential="false" isTradingPartner="false" name="Dynamic Document Property - DDP_P01_CONTROL_FILE" persist="false" propertyId="dynamicdocument.DDP_P01_CONTROL_FILE" shouldEncrypt="false">
+  <sourcevalues>
+    <parametervalue key="1" valueType="profile">
+      <profileelement elementId="4" elementName="controlFileName (Root/Object/controlFileName)" profileId="cafc077c-3b9e-4762-81b5-6dd3dedda79f" profileType="profile.json"/>
+    </parametervalue>
+  </sourcevalues>
+</documentproperty>
+<documentproperty defaultValue="" isDynamicCredential="false" isTradingPartner="false" name="Dynamic Document Property - DDP_P01_SOURCE_PATH" persist="false" propertyId="dynamicdocument.DDP_P01_SOURCE_PATH" shouldEncrypt="false">
+  <sourcevalues>
+    <parametervalue key="2" valueType="profile">
+      <profileelement elementId="5" elementName="sourceRelativePath (Root/Object/sourceRelativePath)" profileId="cafc077c-3b9e-4762-81b5-6dd3dedda79f" profileType="profile.json"/>
+    </parametervalue>
+  </sourcevalues>
+</documentproperty>
+<documentproperty defaultValue="" isDynamicCredential="false" isTradingPartner="false" name="Dynamic Document Property - DDP_P01_SOURCE_FILE" persist="false" propertyId="dynamicdocument.DDP_P01_SOURCE_FILE" shouldEncrypt="false">
+  <sourcevalues>
+    <parametervalue key="3" valueType="profile">
+      <profileelement elementId="6" elementName="sourceFileName (Root/Object/sourceFileName)" profileId="cafc077c-3b9e-4762-81b5-6dd3dedda79f" profileType="profile.json"/>
+    </parametervalue>
+  </sourcevalues>
+</documentproperty>
+<documentproperty defaultValue="" isDynamicCredential="false" isTradingPartner="false" name="Dynamic Document Property - DDP_P01_EXPECTED_BYTES" persist="false" propertyId="dynamicdocument.DDP_P01_EXPECTED_BYTES" shouldEncrypt="false">
+  <sourcevalues>
+    <parametervalue key="4" valueType="profile">
+      <profileelement elementId="7" elementName="expectedBytes (Root/Object/expectedBytes)" profileId="cafc077c-3b9e-4762-81b5-6dd3dedda79f" profileType="profile.json"/>
+    </parametervalue>
+  </sourcevalues>
+</documentproperty>
+<documentproperty defaultValue="" isDynamicCredential="false" isTradingPartner="false" name="Dynamic Document Property - DDP_P01_EXPECTED_EMPLOYEES" persist="false" propertyId="dynamicdocument.DDP_P01_EXPECTED_EMPLOYEES" shouldEncrypt="false">
+  <sourcevalues>
+    <parametervalue key="5" valueType="profile">
+      <profileelement elementId="8" elementName="expectedEmployees (Root/Object/expectedEmployees)" profileId="cafc077c-3b9e-4762-81b5-6dd3dedda79f" profileType="profile.json"/>
+    </parametervalue>
+  </sourcevalues>
+</documentproperty>
+<documentproperty defaultValue="" isDynamicCredential="false" isTradingPartner="false" name="Dynamic Document Property - DDP_P01_EXPECTED_SHA256" persist="false" propertyId="dynamicdocument.DDP_P01_EXPECTED_SHA256" shouldEncrypt="false">
+  <sourcevalues>
+    <parametervalue key="6" valueType="profile">
+      <profileelement elementId="9" elementName="expectedSha256 (Root/Object/expectedSha256)" profileId="cafc077c-3b9e-4762-81b5-6dd3dedda79f" profileType="profile.json"/>
+    </parametervalue>
+  </sourcevalues>
+</documentproperty></documentproperties></configuration><dragpoints><dragpoint name="shape6.dragpoint1" toShape="shape7" x="1376.0" y="56.0"/></dragpoints></shape>
+    <shape image="dataprocess_icon" name="shape7" shapetype="dataprocess" userlabel="Atomic READY to PROCESSING Claim" x="1392.0" y="48.0"><configuration><dataprocess><step index="1" key="1" name="Custom Scripting" processtype="12"><dataprocessscript language="groovy2" useCache="true"><script><![CDATA[import java.util.Properties;
+import java.io.InputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.nio.file.Files;
+import java.nio.file.StandardCopyOption;
+import java.nio.file.AtomicMoveNotSupportedException;
+import groovy.json.JsonSlurper;
+import groovy.json.JsonOutput;
+
+for (int i = 0; i < dataContext.getDataCount(); i++) {
+    InputStream is = dataContext.getStream(i);
+    Properties props = dataContext.getProperties(i);
+    String control = props.getProperty("document.dynamic.userdefined.DDP_P01_CONTROL_FILE", "");
+    String sourceRel = props.getProperty("document.dynamic.userdefined.DDP_P01_SOURCE_PATH", "");
+    String base = control.endsWith(".ready.json") ? control.substring(0, control.length() - 11) : control;
+    String processingName = base + ".processing.json";
+    String committedName = base + ".committed.json";
+    String quarantineName = base + ".quarantine.json";
+
+    File ready = new File("D:\\BoomiLab\\Project01\\work\\ready", control);
+    File processing = new File("D:\\BoomiLab\\Project01\\work\\processing", processingName);
+    File committed = new File("D:\\BoomiLab\\Project01\\work\\committed", committedName);
+    File source = new File("D:\\BoomiLab\\Project01\\source\\chunks", sourceRel);
+    String status = "";
+
+    if (committed.exists()) {
+        status = "SKIP_COMMITTED";
+    }
+    else if (ready.exists() && !processing.exists()) {
+        try { Files.move(ready.toPath(), processing.toPath(), StandardCopyOption.ATOMIC_MOVE); }
+        catch (AtomicMoveNotSupportedException ex) { Files.move(ready.toPath(), processing.toPath()); }
+        status = "CLAIMED";
+    }
+    else if (!ready.exists() && processing.exists()) {
+        long ageMs = System.currentTimeMillis() - processing.lastModified();
+        if (ageMs > 1800000L) {
+            try { Files.move(processing.toPath(), ready.toPath(), StandardCopyOption.ATOMIC_MOVE); }
+            catch (AtomicMoveNotSupportedException ex) { Files.move(processing.toPath(), ready.toPath()); }
+            try { Files.move(ready.toPath(), processing.toPath(), StandardCopyOption.ATOMIC_MOVE); }
+            catch (AtomicMoveNotSupportedException ex) { Files.move(ready.toPath(), processing.toPath()); }
+            status = "CLAIMED";
+            props.setProperty("document.dynamic.userdefined.DDP_P01_RECOVERED_STALE", "true");
+        }
+        else status = "ALREADY_PROCESSING";
+    }
+    else if (ready.exists() && processing.exists()) status = "STATE_COLLISION";
+    else status = "MISSING_READY";
+
+    if ("CLAIMED".equals(status) && processing.exists()) {
+        try {
+            def state = new JsonSlurper().parse(processing);
+            state.status = "PROCESSING";
+            state.controlFileName = processingName;
+            state.processingStartedEpochMs = System.currentTimeMillis();
+            String stateJson = JsonOutput.prettyPrint(JsonOutput.toJson(state));
+            FileOutputStream fos = new FileOutputStream(processing, false);
+            try { fos.write(stateJson.getBytes("UTF-8")); } finally { fos.close(); }
+        }
+        catch (Exception ex) {
+            status = "CLAIM_METADATA_WRITE_FAILED";
+            props.setProperty("document.dynamic.userdefined.DDP_P01_FAILURE_REASON", ex.getClass().getSimpleName() + ": " + ex.getMessage());
+        }
+    }
+
+    props.setProperty("document.dynamic.userdefined.DDP_P01_PROCESSING_FILE", processingName);
+    props.setProperty("document.dynamic.userdefined.DDP_P01_COMMITTED_FILE", committedName);
+    props.setProperty("document.dynamic.userdefined.DDP_P01_QUARANTINE_FILE", quarantineName);
+    props.setProperty("document.dynamic.userdefined.DDP_P01_STREAM_FILE", source.getAbsolutePath());
+    props.setProperty("document.dynamic.userdefined.DDP_P01_CLAIM_STATUS", status);
+    dataContext.storeStream(is, props);
+}]]></script></dataprocessscript></step></dataprocess></configuration><dragpoints><dragpoint name="shape7.dragpoint1" toShape="shape8" x="1600.0" y="56.0"/></dragpoints></shape>
+    <shape image="decision_icon" name="shape8" shapetype="decision" userlabel="Claimed?" x="1616.0" y="48.0"><configuration><decision comparison="equals" name="Claimed?"><decisionvalue valueType="track"><trackparameter defaultValue="" propertyId="dynamicdocument.DDP_P01_CLAIM_STATUS" propertyName="Dynamic Document Property - DDP_P01_CLAIM_STATUS"/></decisionvalue><decisionvalue valueType="static"><staticparameter staticproperty="CLAIMED"/></decisionvalue></decision></configuration><dragpoints><dragpoint identifier="true" name="shape8.dragpoint1" text="True" toShape="shape9" x="1824.0" y="56.0"/><dragpoint identifier="false" name="shape8.dragpoint2" text="False" toShape="shape18" x="1824.0" y="376.0"/></dragpoints></shape>
+    <shape image="processcall_icon" name="shape9" shapetype="processcall" userlabel="Stream Chunk - NO Boomi Payload Materialization" x="1840.0" y="48.0"><configuration><processcall abort="true" processId="e916f5ff-8e00-4353-88c3-63a94611eec9" wait="true"><parameters/><returnpaths><returnpaths childShapeName="shape3"/></returnpaths></processcall></configuration><dragpoints><dragpoint identifier="shape3" name="shape9.dragpoint1" toShape="shape10" x="2048.0" y="56.0"/></dragpoints></shape>
+    <shape image="decision_icon" name="shape10" shapetype="decision" userlabel="Chunk Integrity PASSED?" x="2064.0" y="48.0"><configuration><decision comparison="equals" name="Chunk Integrity PASSED?"><decisionvalue valueType="track"><trackparameter defaultValue="" propertyId="dynamicdocument.DDP_P01_INTEGRITY_STATUS" propertyName="Dynamic Document Property - DDP_P01_INTEGRITY_STATUS"/></decisionvalue><decisionvalue valueType="static"><staticparameter staticproperty="PASSED"/></decisionvalue></decision></configuration><dragpoints><dragpoint identifier="true" name="shape10.dragpoint1" text="True" toShape="shape11" x="2272.0" y="56.0"/><dragpoint identifier="false" name="shape10.dragpoint2" text="False" toShape="shape15" x="2272.0" y="216.0"/></dragpoints></shape>
+    <shape image="processcall_icon" name="shape11" shapetype="processcall" userlabel="P01.40 - Validate Chunk" x="2288.0" y="48.0"><configuration><processcall abort="true" processId="2b1bc38e-71fa-4b0c-98c8-47a14bdab506" wait="true"><parameters/><returnpaths><returnpaths childShapeName="shape6"/></returnpaths></processcall></configuration><dragpoints><dragpoint identifier="shape6" name="shape11.dragpoint1" toShape="shape12" x="2496.0" y="56.0"/></dragpoints></shape>
+    <shape image="processcall_icon" name="shape12" shapetype="processcall" userlabel="P01.50 - SQL Staging Contract" x="2512.0" y="48.0"><configuration><processcall abort="true" processId="b645fd29-edc1-46ed-a999-0b0c40f3e716" wait="true"><parameters/><returnpaths><returnpaths childShapeName="shape6"/></returnpaths></processcall></configuration><dragpoints><dragpoint identifier="shape6" name="shape12.dragpoint1" toShape="shape13" x="2720.0" y="56.0"/></dragpoints></shape>
+    <shape image="dataprocess_icon" name="shape13" shapetype="dataprocess" userlabel="Atomic PROCESSING to COMMITTED" x="2736.0" y="48.0"><configuration><dataprocess><step index="1" key="1" name="Custom Scripting" processtype="12"><dataprocessscript language="groovy2" useCache="true"><script><![CDATA[import java.util.Properties;
+import java.io.InputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.nio.file.Files;
+import java.nio.file.StandardCopyOption;
+import java.nio.file.AtomicMoveNotSupportedException;
+import groovy.json.JsonSlurper;
+import groovy.json.JsonOutput;
+
+for (int i = 0; i < dataContext.getDataCount(); i++) {
+    InputStream is = dataContext.getStream(i);
+    Properties props = dataContext.getProperties(i);
+    File processing = new File("D:\\BoomiLab\\Project01\\work\\processing", props.getProperty("document.dynamic.userdefined.DDP_P01_PROCESSING_FILE", ""));
+    File committed = new File("D:\\BoomiLab\\Project01\\work\\committed", props.getProperty("document.dynamic.userdefined.DDP_P01_COMMITTED_FILE", ""));
+
+    if (committed.exists()) {
+        props.setProperty("document.dynamic.userdefined.DDP_P01_COMMIT_STATUS", "COMMITTED");
+    }
+    else if (!processing.exists()) {
+        props.setProperty("document.dynamic.userdefined.DDP_P01_COMMIT_STATUS", "MISSING_PROCESSING");
+    }
+    else {
+        def state = new JsonSlurper().parse(processing);
+        state.status = "COMMITTED";
+        state.controlFileName = committed.getName();
+        state.validationStatus = props.getProperty("document.dynamic.userdefined.DDP_P01_VALIDATION_STATUS", "");
+        state.actualBytes = props.getProperty("document.dynamic.userdefined.DDP_P01_ACTUAL_BYTES", "");
+        state.actualSha256 = props.getProperty("document.dynamic.userdefined.DDP_P01_ACTUAL_SHA256", "");
+        state.committedEpochMs = System.currentTimeMillis();
+        String stateJson = JsonOutput.prettyPrint(JsonOutput.toJson(state));
+        FileOutputStream fos = new FileOutputStream(processing, false);
+        try { fos.write(stateJson.getBytes("UTF-8")); } finally { fos.close(); }
+
+        try { Files.move(processing.toPath(), committed.toPath(), StandardCopyOption.ATOMIC_MOVE); }
+        catch (AtomicMoveNotSupportedException ex) { Files.move(processing.toPath(), committed.toPath()); }
+        props.setProperty("document.dynamic.userdefined.DDP_P01_COMMIT_STATUS", "COMMITTED");
+    }
+
+    dataContext.storeStream(is, props);
+}]]></script></dataprocessscript></step></dataprocess></configuration><dragpoints><dragpoint name="shape13.dragpoint1" toShape="shape14" x="2944.0" y="56.0"/></dragpoints></shape>
+    <shape image="decision_icon" name="shape14" shapetype="decision" userlabel="Commit Complete?" x="2960.0" y="48.0"><configuration><decision comparison="equals" name="Commit Complete?"><decisionvalue valueType="track"><trackparameter defaultValue="" propertyId="dynamicdocument.DDP_P01_COMMIT_STATUS" propertyName="Dynamic Document Property - DDP_P01_COMMIT_STATUS"/></decisionvalue><decisionvalue valueType="static"><staticparameter staticproperty="COMMITTED"/></decisionvalue></decision></configuration><dragpoints><dragpoint identifier="true" name="shape14.dragpoint1" text="True" toShape="shape17" x="3168.0" y="56.0"/><dragpoint identifier="false" name="shape14.dragpoint2" text="False" toShape="shape20" x="3168.0" y="216.0"/></dragpoints></shape>
+    <shape image="dataprocess_icon" name="shape15" shapetype="dataprocess" userlabel="Move Failed Chunk to QUARANTINE" x="2288.0" y="208.0"><configuration><dataprocess><step index="1" key="1" name="Custom Scripting" processtype="12"><dataprocessscript language="groovy2" useCache="true"><script><![CDATA[import java.util.Properties;
+import java.io.InputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.nio.file.Files;
+import java.nio.file.StandardCopyOption;
+import java.nio.file.AtomicMoveNotSupportedException;
+import groovy.json.JsonSlurper;
+import groovy.json.JsonOutput;
+
+for (int i = 0; i < dataContext.getDataCount(); i++) {
+    InputStream is = dataContext.getStream(i);
+    Properties props = dataContext.getProperties(i);
+    File processing = new File("D:\\BoomiLab\\Project01\\work\\processing", props.getProperty("document.dynamic.userdefined.DDP_P01_PROCESSING_FILE", ""));
+    File quarantine = new File("D:\\BoomiLab\\Project01\\work\\quarantine", props.getProperty("document.dynamic.userdefined.DDP_P01_QUARANTINE_FILE", ""));
+
+    if (processing.exists() && !quarantine.exists()) {
+        try {
+            def state = new JsonSlurper().parse(processing);
+            state.status = "QUARANTINED";
+            state.controlFileName = quarantine.getName();
+            state.failureReason = props.getProperty("document.dynamic.userdefined.DDP_P01_FAILURE_REASON", "INTEGRITY_VALIDATION_FAILED");
+            state.actualBytes = props.getProperty("document.dynamic.userdefined.DDP_P01_ACTUAL_BYTES", "");
+            state.actualSha256 = props.getProperty("document.dynamic.userdefined.DDP_P01_ACTUAL_SHA256", "");
+            state.quarantinedEpochMs = System.currentTimeMillis();
+            String stateJson = JsonOutput.prettyPrint(JsonOutput.toJson(state));
+            FileOutputStream fos = new FileOutputStream(processing, false);
+            try { fos.write(stateJson.getBytes("UTF-8")); } finally { fos.close(); }
+        }
+        catch (Exception ignored) {}
+
+        try { Files.move(processing.toPath(), quarantine.toPath(), StandardCopyOption.ATOMIC_MOVE); }
+        catch (AtomicMoveNotSupportedException ex) { Files.move(processing.toPath(), quarantine.toPath()); }
+    }
+    props.setProperty("document.dynamic.userdefined.DDP_P01_QUARANTINE_STATUS", quarantine.exists() ? "QUARANTINED" : "QUARANTINE_MOVE_FAILED");
+    dataContext.storeStream(is, props);
+}]]></script></dataprocessscript></step></dataprocess></configuration><dragpoints><dragpoint name="shape15.dragpoint1" toShape="shape16" x="2496.0" y="216.0"/></dragpoints></shape>
+    <shape image="stop_icon" name="shape16" shapetype="stop" userlabel="Chunk QUARANTINED" x="2512.0" y="208.0"><configuration><stop continue="true"/></configuration><dragpoints/></shape>
+    <shape image="stop_icon" name="shape17" shapetype="stop" userlabel="Chunk COMMITTED" x="3184.0" y="48.0"><configuration><stop continue="true"/></configuration><dragpoints/></shape>
+    <shape image="decision_icon" name="shape18" shapetype="decision" userlabel="Already COMMITTED?" x="1840.0" y="368.0"><configuration><decision comparison="equals" name="Already COMMITTED?"><decisionvalue valueType="track"><trackparameter defaultValue="" propertyId="dynamicdocument.DDP_P01_CLAIM_STATUS" propertyName="Dynamic Document Property - DDP_P01_CLAIM_STATUS"/></decisionvalue><decisionvalue valueType="static"><staticparameter staticproperty="SKIP_COMMITTED"/></decisionvalue></decision></configuration><dragpoints><dragpoint identifier="true" name="shape18.dragpoint1" text="True" toShape="shape19" x="2048.0" y="376.0"/><dragpoint identifier="false" name="shape18.dragpoint2" text="False" toShape="shape19" x="2048.0" y="536.0"/></dragpoints></shape>
+    <shape image="stop_icon" name="shape19" shapetype="stop" userlabel="Chunk Not Claimed / Already Complete" x="2064.0" y="368.0"><configuration><stop continue="true"/></configuration><dragpoints/></shape>
+    <shape image="exception_icon" name="shape20" shapetype="exception" userlabel="Commit State Failure" x="3184.0" y="208.0"><configuration><exception stopProcessReturnSingleDoc="false" stopsingledoc="true" title="Commit State Failure"><exMessage>PROCESSING control record could not transition to COMMITTED.</exMessage><exParameters/></exception></configuration><dragpoints/></shape>
+  </shapes>
+</process>
