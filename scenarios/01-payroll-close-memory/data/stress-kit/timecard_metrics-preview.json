@@ -1,0 +1,1851 @@
+[
+  {
+    "employeeId": {
+      "id": 900000001,
+      "qualifier": "COH000000001",
+      "name": "COH000000001"
+    },
+    "actualTotals": [
+      {
+        "uniqueId": "900000001:2026-09-14:2000000008",
+        "employee": {
+          "id": 900000001,
+          "qualifier": "COH000000001",
+          "name": "COH000000001"
+        },
+        "payCode": {
+          "id": 2000000008,
+          "qualifier": "Worked Hours",
+          "name": "Worked Hours"
+        },
+        "hoursAmount": 8,
+        "wages": 0,
+        "wagesCurrency": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "daysAmount": 0,
+        "applyDate": "2026-09-14",
+        "job": {
+          "id": 70002,
+          "qualifier": "COH/TRANSIT/METRO/BUS/Operator",
+          "name": "COH/TRANSIT/METRO/BUS/Operator"
+        },
+        "jobTransfer": false,
+        "laborTransfer": false,
+        "amountType": "HOUR",
+        "isFromCorrection": false,
+        "combined": true,
+        "payPeriodWeek": 1,
+        "payPeriodNumber": 20,
+        "signedOff": false,
+        "wageAddition": 0,
+        "wageMultiplier": 0,
+        "laborCategories": {
+          "referenceId": 500000001,
+          "laborString": "100000000001,Empty,Empty",
+          "entries": [
+            {
+              "laborCategory": {
+                "id": 9,
+                "qualifier": "Position Number",
+                "name": "Position Number"
+              },
+              "laborCategoryOrderNum": 1,
+              "laborCategoryEntry": {
+                "id": 600000001,
+                "qualifier": "100000000001",
+                "name": "100000000001"
+              },
+              "laborCategoryEntryDescription": "Synthetic Position"
+            },
+            {
+              "laborCategory": {
+                "id": 59,
+                "qualifier": "Career Ladder",
+                "name": "Career Ladder"
+              },
+              "laborCategoryOrderNum": 2,
+              "laborCategoryEntry": {
+                "id": 22201,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            },
+            {
+              "laborCategory": {
+                "id": 109,
+                "qualifier": "Cert",
+                "name": "Cert"
+              },
+              "laborCategoryOrderNum": 3,
+              "laborCategoryEntry": {
+                "id": 31172,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            }
+          ]
+        },
+        "costCenter": {
+          "referenceId": 500000001,
+          "costCenter": {
+            "id": 81002,
+            "qualifier": "METROBUS",
+            "name": "METROBUS"
+          }
+        }
+      },
+      {
+        "uniqueId": "900000001:2026-09-14:2000000010",
+        "employee": {
+          "id": 900000001,
+          "qualifier": "COH000000001",
+          "name": "COH000000001"
+        },
+        "payCode": {
+          "id": 2000000010,
+          "qualifier": "Actual combined hours",
+          "name": "Actual combined hours"
+        },
+        "hoursAmount": 8,
+        "wages": 0,
+        "wagesCurrency": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "daysAmount": 0,
+        "applyDate": "2026-09-14",
+        "job": {
+          "id": 70002,
+          "qualifier": "COH/TRANSIT/METRO/BUS/Operator",
+          "name": "COH/TRANSIT/METRO/BUS/Operator"
+        },
+        "jobTransfer": false,
+        "laborTransfer": false,
+        "amountType": "HOUR",
+        "isFromCorrection": false,
+        "combined": true,
+        "payPeriodWeek": 1,
+        "payPeriodNumber": 20,
+        "signedOff": false,
+        "wageAddition": 0,
+        "wageMultiplier": 0,
+        "laborCategories": {
+          "referenceId": 500000001,
+          "laborString": "100000000001,Empty,Empty",
+          "entries": [
+            {
+              "laborCategory": {
+                "id": 9,
+                "qualifier": "Position Number",
+                "name": "Position Number"
+              },
+              "laborCategoryOrderNum": 1,
+              "laborCategoryEntry": {
+                "id": 600000001,
+                "qualifier": "100000000001",
+                "name": "100000000001"
+              },
+              "laborCategoryEntryDescription": "Synthetic Position"
+            },
+            {
+              "laborCategory": {
+                "id": 59,
+                "qualifier": "Career Ladder",
+                "name": "Career Ladder"
+              },
+              "laborCategoryOrderNum": 2,
+              "laborCategoryEntry": {
+                "id": 22201,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            },
+            {
+              "laborCategory": {
+                "id": 109,
+                "qualifier": "Cert",
+                "name": "Cert"
+              },
+              "laborCategoryOrderNum": 3,
+              "laborCategoryEntry": {
+                "id": 31172,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            }
+          ]
+        },
+        "costCenter": {
+          "referenceId": 500000001,
+          "costCenter": {
+            "id": 81002,
+            "qualifier": "METROBUS",
+            "name": "METROBUS"
+          }
+        }
+      },
+      {
+        "uniqueId": "900000001:2026-09-14:1551",
+        "employee": {
+          "id": 900000001,
+          "qualifier": "COH000000001",
+          "name": "COH000000001"
+        },
+        "payCode": {
+          "id": 1551,
+          "qualifier": "Analytics - Paid Hours",
+          "name": "Analytics - Paid Hours"
+        },
+        "hoursAmount": 8,
+        "wages": 0,
+        "wagesCurrency": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "daysAmount": 0,
+        "applyDate": "2026-09-14",
+        "job": {
+          "id": 70002,
+          "qualifier": "COH/TRANSIT/METRO/BUS/Operator",
+          "name": "COH/TRANSIT/METRO/BUS/Operator"
+        },
+        "jobTransfer": false,
+        "laborTransfer": false,
+        "amountType": "HOUR",
+        "isFromCorrection": false,
+        "combined": true,
+        "payPeriodWeek": 1,
+        "payPeriodNumber": 20,
+        "signedOff": false,
+        "wageAddition": 0,
+        "wageMultiplier": 0,
+        "laborCategories": {
+          "referenceId": 500000001,
+          "laborString": "100000000001,Empty,Empty",
+          "entries": [
+            {
+              "laborCategory": {
+                "id": 9,
+                "qualifier": "Position Number",
+                "name": "Position Number"
+              },
+              "laborCategoryOrderNum": 1,
+              "laborCategoryEntry": {
+                "id": 600000001,
+                "qualifier": "100000000001",
+                "name": "100000000001"
+              },
+              "laborCategoryEntryDescription": "Synthetic Position"
+            },
+            {
+              "laborCategory": {
+                "id": 59,
+                "qualifier": "Career Ladder",
+                "name": "Career Ladder"
+              },
+              "laborCategoryOrderNum": 2,
+              "laborCategoryEntry": {
+                "id": 22201,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            },
+            {
+              "laborCategory": {
+                "id": 109,
+                "qualifier": "Cert",
+                "name": "Cert"
+              },
+              "laborCategoryOrderNum": 3,
+              "laborCategoryEntry": {
+                "id": 31172,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            }
+          ]
+        },
+        "costCenter": {
+          "referenceId": 500000001,
+          "costCenter": {
+            "id": 81002,
+            "qualifier": "METROBUS",
+            "name": "METROBUS"
+          }
+        }
+      },
+      {
+        "uniqueId": "900000001:2026-09-14:114",
+        "employee": {
+          "id": 900000001,
+          "qualifier": "COH000000001",
+          "name": "COH000000001"
+        },
+        "payCode": {
+          "id": 114,
+          "qualifier": "REG",
+          "name": "REG"
+        },
+        "hoursAmount": 8,
+        "wages": 0,
+        "wagesCurrency": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "daysAmount": 0,
+        "applyDate": "2026-09-14",
+        "job": {
+          "id": 70002,
+          "qualifier": "COH/TRANSIT/METRO/BUS/Operator",
+          "name": "COH/TRANSIT/METRO/BUS/Operator"
+        },
+        "jobTransfer": false,
+        "laborTransfer": false,
+        "amountType": "HOUR",
+        "isFromCorrection": false,
+        "combined": false,
+        "payPeriodWeek": 1,
+        "payPeriodNumber": 20,
+        "signedOff": false,
+        "wageAddition": 0,
+        "wageMultiplier": 1,
+        "laborCategories": {
+          "referenceId": 500000001,
+          "laborString": "100000000001,Empty,Empty",
+          "entries": [
+            {
+              "laborCategory": {
+                "id": 9,
+                "qualifier": "Position Number",
+                "name": "Position Number"
+              },
+              "laborCategoryOrderNum": 1,
+              "laborCategoryEntry": {
+                "id": 600000001,
+                "qualifier": "100000000001",
+                "name": "100000000001"
+              },
+              "laborCategoryEntryDescription": "Synthetic Position"
+            },
+            {
+              "laborCategory": {
+                "id": 59,
+                "qualifier": "Career Ladder",
+                "name": "Career Ladder"
+              },
+              "laborCategoryOrderNum": 2,
+              "laborCategoryEntry": {
+                "id": 22201,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            },
+            {
+              "laborCategory": {
+                "id": 109,
+                "qualifier": "Cert",
+                "name": "Cert"
+              },
+              "laborCategoryOrderNum": 3,
+              "laborCategoryEntry": {
+                "id": 31172,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            }
+          ]
+        },
+        "costCenter": {
+          "referenceId": 500000001,
+          "costCenter": {
+            "id": 81002,
+            "qualifier": "METROBUS",
+            "name": "METROBUS"
+          }
+        }
+      },
+      {
+        "uniqueId": "900000001:2026-09-15:2000000008",
+        "employee": {
+          "id": 900000001,
+          "qualifier": "COH000000001",
+          "name": "COH000000001"
+        },
+        "payCode": {
+          "id": 2000000008,
+          "qualifier": "Worked Hours",
+          "name": "Worked Hours"
+        },
+        "hoursAmount": 8,
+        "wages": 0,
+        "wagesCurrency": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "daysAmount": 0,
+        "applyDate": "2026-09-15",
+        "job": {
+          "id": 70002,
+          "qualifier": "COH/TRANSIT/METRO/BUS/Operator",
+          "name": "COH/TRANSIT/METRO/BUS/Operator"
+        },
+        "jobTransfer": false,
+        "laborTransfer": false,
+        "amountType": "HOUR",
+        "isFromCorrection": false,
+        "combined": true,
+        "payPeriodWeek": 1,
+        "payPeriodNumber": 20,
+        "signedOff": false,
+        "wageAddition": 0,
+        "wageMultiplier": 0,
+        "laborCategories": {
+          "referenceId": 500000001,
+          "laborString": "100000000001,Empty,Empty",
+          "entries": [
+            {
+              "laborCategory": {
+                "id": 9,
+                "qualifier": "Position Number",
+                "name": "Position Number"
+              },
+              "laborCategoryOrderNum": 1,
+              "laborCategoryEntry": {
+                "id": 600000001,
+                "qualifier": "100000000001",
+                "name": "100000000001"
+              },
+              "laborCategoryEntryDescription": "Synthetic Position"
+            },
+            {
+              "laborCategory": {
+                "id": 59,
+                "qualifier": "Career Ladder",
+                "name": "Career Ladder"
+              },
+              "laborCategoryOrderNum": 2,
+              "laborCategoryEntry": {
+                "id": 22201,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            },
+            {
+              "laborCategory": {
+                "id": 109,
+                "qualifier": "Cert",
+                "name": "Cert"
+              },
+              "laborCategoryOrderNum": 3,
+              "laborCategoryEntry": {
+                "id": 31172,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            }
+          ]
+        },
+        "costCenter": {
+          "referenceId": 500000001,
+          "costCenter": {
+            "id": 81002,
+            "qualifier": "METROBUS",
+            "name": "METROBUS"
+          }
+        }
+      },
+      {
+        "uniqueId": "900000001:2026-09-15:2000000010",
+        "employee": {
+          "id": 900000001,
+          "qualifier": "COH000000001",
+          "name": "COH000000001"
+        },
+        "payCode": {
+          "id": 2000000010,
+          "qualifier": "Actual combined hours",
+          "name": "Actual combined hours"
+        },
+        "hoursAmount": 8,
+        "wages": 0,
+        "wagesCurrency": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "daysAmount": 0,
+        "applyDate": "2026-09-15",
+        "job": {
+          "id": 70002,
+          "qualifier": "COH/TRANSIT/METRO/BUS/Operator",
+          "name": "COH/TRANSIT/METRO/BUS/Operator"
+        },
+        "jobTransfer": false,
+        "laborTransfer": false,
+        "amountType": "HOUR",
+        "isFromCorrection": false,
+        "combined": true,
+        "payPeriodWeek": 1,
+        "payPeriodNumber": 20,
+        "signedOff": false,
+        "wageAddition": 0,
+        "wageMultiplier": 0,
+        "laborCategories": {
+          "referenceId": 500000001,
+          "laborString": "100000000001,Empty,Empty",
+          "entries": [
+            {
+              "laborCategory": {
+                "id": 9,
+                "qualifier": "Position Number",
+                "name": "Position Number"
+              },
+              "laborCategoryOrderNum": 1,
+              "laborCategoryEntry": {
+                "id": 600000001,
+                "qualifier": "100000000001",
+                "name": "100000000001"
+              },
+              "laborCategoryEntryDescription": "Synthetic Position"
+            },
+            {
+              "laborCategory": {
+                "id": 59,
+                "qualifier": "Career Ladder",
+                "name": "Career Ladder"
+              },
+              "laborCategoryOrderNum": 2,
+              "laborCategoryEntry": {
+                "id": 22201,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            },
+            {
+              "laborCategory": {
+                "id": 109,
+                "qualifier": "Cert",
+                "name": "Cert"
+              },
+              "laborCategoryOrderNum": 3,
+              "laborCategoryEntry": {
+                "id": 31172,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            }
+          ]
+        },
+        "costCenter": {
+          "referenceId": 500000001,
+          "costCenter": {
+            "id": 81002,
+            "qualifier": "METROBUS",
+            "name": "METROBUS"
+          }
+        }
+      },
+      {
+        "uniqueId": "900000001:2026-09-15:1551",
+        "employee": {
+          "id": 900000001,
+          "qualifier": "COH000000001",
+          "name": "COH000000001"
+        },
+        "payCode": {
+          "id": 1551,
+          "qualifier": "Analytics - Paid Hours",
+          "name": "Analytics - Paid Hours"
+        },
+        "hoursAmount": 8,
+        "wages": 0,
+        "wagesCurrency": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "daysAmount": 0,
+        "applyDate": "2026-09-15",
+        "job": {
+          "id": 70002,
+          "qualifier": "COH/TRANSIT/METRO/BUS/Operator",
+          "name": "COH/TRANSIT/METRO/BUS/Operator"
+        },
+        "jobTransfer": false,
+        "laborTransfer": false,
+        "amountType": "HOUR",
+        "isFromCorrection": false,
+        "combined": true,
+        "payPeriodWeek": 1,
+        "payPeriodNumber": 20,
+        "signedOff": false,
+        "wageAddition": 0,
+        "wageMultiplier": 0,
+        "laborCategories": {
+          "referenceId": 500000001,
+          "laborString": "100000000001,Empty,Empty",
+          "entries": [
+            {
+              "laborCategory": {
+                "id": 9,
+                "qualifier": "Position Number",
+                "name": "Position Number"
+              },
+              "laborCategoryOrderNum": 1,
+              "laborCategoryEntry": {
+                "id": 600000001,
+                "qualifier": "100000000001",
+                "name": "100000000001"
+              },
+              "laborCategoryEntryDescription": "Synthetic Position"
+            },
+            {
+              "laborCategory": {
+                "id": 59,
+                "qualifier": "Career Ladder",
+                "name": "Career Ladder"
+              },
+              "laborCategoryOrderNum": 2,
+              "laborCategoryEntry": {
+                "id": 22201,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            },
+            {
+              "laborCategory": {
+                "id": 109,
+                "qualifier": "Cert",
+                "name": "Cert"
+              },
+              "laborCategoryOrderNum": 3,
+              "laborCategoryEntry": {
+                "id": 31172,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            }
+          ]
+        },
+        "costCenter": {
+          "referenceId": 500000001,
+          "costCenter": {
+            "id": 81002,
+            "qualifier": "METROBUS",
+            "name": "METROBUS"
+          }
+        }
+      },
+      {
+        "uniqueId": "900000001:2026-09-15:114",
+        "employee": {
+          "id": 900000001,
+          "qualifier": "COH000000001",
+          "name": "COH000000001"
+        },
+        "payCode": {
+          "id": 114,
+          "qualifier": "REG",
+          "name": "REG"
+        },
+        "hoursAmount": 8,
+        "wages": 0,
+        "wagesCurrency": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "daysAmount": 0,
+        "applyDate": "2026-09-15",
+        "job": {
+          "id": 70002,
+          "qualifier": "COH/TRANSIT/METRO/BUS/Operator",
+          "name": "COH/TRANSIT/METRO/BUS/Operator"
+        },
+        "jobTransfer": false,
+        "laborTransfer": false,
+        "amountType": "HOUR",
+        "isFromCorrection": false,
+        "combined": false,
+        "payPeriodWeek": 1,
+        "payPeriodNumber": 20,
+        "signedOff": false,
+        "wageAddition": 0,
+        "wageMultiplier": 1,
+        "laborCategories": {
+          "referenceId": 500000001,
+          "laborString": "100000000001,Empty,Empty",
+          "entries": [
+            {
+              "laborCategory": {
+                "id": 9,
+                "qualifier": "Position Number",
+                "name": "Position Number"
+              },
+              "laborCategoryOrderNum": 1,
+              "laborCategoryEntry": {
+                "id": 600000001,
+                "qualifier": "100000000001",
+                "name": "100000000001"
+              },
+              "laborCategoryEntryDescription": "Synthetic Position"
+            },
+            {
+              "laborCategory": {
+                "id": 59,
+                "qualifier": "Career Ladder",
+                "name": "Career Ladder"
+              },
+              "laborCategoryOrderNum": 2,
+              "laborCategoryEntry": {
+                "id": 22201,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            },
+            {
+              "laborCategory": {
+                "id": 109,
+                "qualifier": "Cert",
+                "name": "Cert"
+              },
+              "laborCategoryOrderNum": 3,
+              "laborCategoryEntry": {
+                "id": 31172,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            }
+          ]
+        },
+        "costCenter": {
+          "referenceId": 500000001,
+          "costCenter": {
+            "id": 81002,
+            "qualifier": "METROBUS",
+            "name": "METROBUS"
+          }
+        }
+      },
+      {
+        "uniqueId": "900000001:2026-09-16:2000000008",
+        "employee": {
+          "id": 900000001,
+          "qualifier": "COH000000001",
+          "name": "COH000000001"
+        },
+        "payCode": {
+          "id": 2000000008,
+          "qualifier": "Worked Hours",
+          "name": "Worked Hours"
+        },
+        "hoursAmount": 8,
+        "wages": 0,
+        "wagesCurrency": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "daysAmount": 0,
+        "applyDate": "2026-09-16",
+        "job": {
+          "id": 70002,
+          "qualifier": "COH/TRANSIT/METRO/BUS/Operator",
+          "name": "COH/TRANSIT/METRO/BUS/Operator"
+        },
+        "jobTransfer": false,
+        "laborTransfer": false,
+        "amountType": "HOUR",
+        "isFromCorrection": false,
+        "combined": true,
+        "payPeriodWeek": 1,
+        "payPeriodNumber": 20,
+        "signedOff": false,
+        "wageAddition": 0,
+        "wageMultiplier": 0,
+        "laborCategories": {
+          "referenceId": 500000001,
+          "laborString": "100000000001,Empty,Empty",
+          "entries": [
+            {
+              "laborCategory": {
+                "id": 9,
+                "qualifier": "Position Number",
+                "name": "Position Number"
+              },
+              "laborCategoryOrderNum": 1,
+              "laborCategoryEntry": {
+                "id": 600000001,
+                "qualifier": "100000000001",
+                "name": "100000000001"
+              },
+              "laborCategoryEntryDescription": "Synthetic Position"
+            },
+            {
+              "laborCategory": {
+                "id": 59,
+                "qualifier": "Career Ladder",
+                "name": "Career Ladder"
+              },
+              "laborCategoryOrderNum": 2,
+              "laborCategoryEntry": {
+                "id": 22201,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            },
+            {
+              "laborCategory": {
+                "id": 109,
+                "qualifier": "Cert",
+                "name": "Cert"
+              },
+              "laborCategoryOrderNum": 3,
+              "laborCategoryEntry": {
+                "id": 31172,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            }
+          ]
+        },
+        "costCenter": {
+          "referenceId": 500000001,
+          "costCenter": {
+            "id": 81002,
+            "qualifier": "METROBUS",
+            "name": "METROBUS"
+          }
+        }
+      },
+      {
+        "uniqueId": "900000001:2026-09-16:2000000010",
+        "employee": {
+          "id": 900000001,
+          "qualifier": "COH000000001",
+          "name": "COH000000001"
+        },
+        "payCode": {
+          "id": 2000000010,
+          "qualifier": "Actual combined hours",
+          "name": "Actual combined hours"
+        },
+        "hoursAmount": 8,
+        "wages": 0,
+        "wagesCurrency": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "daysAmount": 0,
+        "applyDate": "2026-09-16",
+        "job": {
+          "id": 70002,
+          "qualifier": "COH/TRANSIT/METRO/BUS/Operator",
+          "name": "COH/TRANSIT/METRO/BUS/Operator"
+        },
+        "jobTransfer": false,
+        "laborTransfer": false,
+        "amountType": "HOUR",
+        "isFromCorrection": false,
+        "combined": true,
+        "payPeriodWeek": 1,
+        "payPeriodNumber": 20,
+        "signedOff": false,
+        "wageAddition": 0,
+        "wageMultiplier": 0,
+        "laborCategories": {
+          "referenceId": 500000001,
+          "laborString": "100000000001,Empty,Empty",
+          "entries": [
+            {
+              "laborCategory": {
+                "id": 9,
+                "qualifier": "Position Number",
+                "name": "Position Number"
+              },
+              "laborCategoryOrderNum": 1,
+              "laborCategoryEntry": {
+                "id": 600000001,
+                "qualifier": "100000000001",
+                "name": "100000000001"
+              },
+              "laborCategoryEntryDescription": "Synthetic Position"
+            },
+            {
+              "laborCategory": {
+                "id": 59,
+                "qualifier": "Career Ladder",
+                "name": "Career Ladder"
+              },
+              "laborCategoryOrderNum": 2,
+              "laborCategoryEntry": {
+                "id": 22201,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            },
+            {
+              "laborCategory": {
+                "id": 109,
+                "qualifier": "Cert",
+                "name": "Cert"
+              },
+              "laborCategoryOrderNum": 3,
+              "laborCategoryEntry": {
+                "id": 31172,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            }
+          ]
+        },
+        "costCenter": {
+          "referenceId": 500000001,
+          "costCenter": {
+            "id": 81002,
+            "qualifier": "METROBUS",
+            "name": "METROBUS"
+          }
+        }
+      },
+      {
+        "uniqueId": "900000001:2026-09-16:1551",
+        "employee": {
+          "id": 900000001,
+          "qualifier": "COH000000001",
+          "name": "COH000000001"
+        },
+        "payCode": {
+          "id": 1551,
+          "qualifier": "Analytics - Paid Hours",
+          "name": "Analytics - Paid Hours"
+        },
+        "hoursAmount": 8,
+        "wages": 0,
+        "wagesCurrency": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "daysAmount": 0,
+        "applyDate": "2026-09-16",
+        "job": {
+          "id": 70002,
+          "qualifier": "COH/TRANSIT/METRO/BUS/Operator",
+          "name": "COH/TRANSIT/METRO/BUS/Operator"
+        },
+        "jobTransfer": false,
+        "laborTransfer": false,
+        "amountType": "HOUR",
+        "isFromCorrection": false,
+        "combined": true,
+        "payPeriodWeek": 1,
+        "payPeriodNumber": 20,
+        "signedOff": false,
+        "wageAddition": 0,
+        "wageMultiplier": 0,
+        "laborCategories": {
+          "referenceId": 500000001,
+          "laborString": "100000000001,Empty,Empty",
+          "entries": [
+            {
+              "laborCategory": {
+                "id": 9,
+                "qualifier": "Position Number",
+                "name": "Position Number"
+              },
+              "laborCategoryOrderNum": 1,
+              "laborCategoryEntry": {
+                "id": 600000001,
+                "qualifier": "100000000001",
+                "name": "100000000001"
+              },
+              "laborCategoryEntryDescription": "Synthetic Position"
+            },
+            {
+              "laborCategory": {
+                "id": 59,
+                "qualifier": "Career Ladder",
+                "name": "Career Ladder"
+              },
+              "laborCategoryOrderNum": 2,
+              "laborCategoryEntry": {
+                "id": 22201,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            },
+            {
+              "laborCategory": {
+                "id": 109,
+                "qualifier": "Cert",
+                "name": "Cert"
+              },
+              "laborCategoryOrderNum": 3,
+              "laborCategoryEntry": {
+                "id": 31172,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            }
+          ]
+        },
+        "costCenter": {
+          "referenceId": 500000001,
+          "costCenter": {
+            "id": 81002,
+            "qualifier": "METROBUS",
+            "name": "METROBUS"
+          }
+        }
+      },
+      {
+        "uniqueId": "900000001:2026-09-16:114",
+        "employee": {
+          "id": 900000001,
+          "qualifier": "COH000000001",
+          "name": "COH000000001"
+        },
+        "payCode": {
+          "id": 114,
+          "qualifier": "REG",
+          "name": "REG"
+        },
+        "hoursAmount": 8,
+        "wages": 0,
+        "wagesCurrency": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "daysAmount": 0,
+        "applyDate": "2026-09-16",
+        "job": {
+          "id": 70002,
+          "qualifier": "COH/TRANSIT/METRO/BUS/Operator",
+          "name": "COH/TRANSIT/METRO/BUS/Operator"
+        },
+        "jobTransfer": false,
+        "laborTransfer": false,
+        "amountType": "HOUR",
+        "isFromCorrection": false,
+        "combined": false,
+        "payPeriodWeek": 1,
+        "payPeriodNumber": 20,
+        "signedOff": false,
+        "wageAddition": 0,
+        "wageMultiplier": 1,
+        "laborCategories": {
+          "referenceId": 500000001,
+          "laborString": "100000000001,Empty,Empty",
+          "entries": [
+            {
+              "laborCategory": {
+                "id": 9,
+                "qualifier": "Position Number",
+                "name": "Position Number"
+              },
+              "laborCategoryOrderNum": 1,
+              "laborCategoryEntry": {
+                "id": 600000001,
+                "qualifier": "100000000001",
+                "name": "100000000001"
+              },
+              "laborCategoryEntryDescription": "Synthetic Position"
+            },
+            {
+              "laborCategory": {
+                "id": 59,
+                "qualifier": "Career Ladder",
+                "name": "Career Ladder"
+              },
+              "laborCategoryOrderNum": 2,
+              "laborCategoryEntry": {
+                "id": 22201,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            },
+            {
+              "laborCategory": {
+                "id": 109,
+                "qualifier": "Cert",
+                "name": "Cert"
+              },
+              "laborCategoryOrderNum": 3,
+              "laborCategoryEntry": {
+                "id": 31172,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            }
+          ]
+        },
+        "costCenter": {
+          "referenceId": 500000001,
+          "costCenter": {
+            "id": 81002,
+            "qualifier": "METROBUS",
+            "name": "METROBUS"
+          }
+        }
+      },
+      {
+        "uniqueId": "900000001:2026-09-17:2000000008",
+        "employee": {
+          "id": 900000001,
+          "qualifier": "COH000000001",
+          "name": "COH000000001"
+        },
+        "payCode": {
+          "id": 2000000008,
+          "qualifier": "Worked Hours",
+          "name": "Worked Hours"
+        },
+        "hoursAmount": 8,
+        "wages": 0,
+        "wagesCurrency": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "daysAmount": 0,
+        "applyDate": "2026-09-17",
+        "job": {
+          "id": 70002,
+          "qualifier": "COH/TRANSIT/METRO/BUS/Operator",
+          "name": "COH/TRANSIT/METRO/BUS/Operator"
+        },
+        "jobTransfer": false,
+        "laborTransfer": false,
+        "amountType": "HOUR",
+        "isFromCorrection": false,
+        "combined": true,
+        "payPeriodWeek": 1,
+        "payPeriodNumber": 20,
+        "signedOff": false,
+        "wageAddition": 0,
+        "wageMultiplier": 0,
+        "laborCategories": {
+          "referenceId": 500000001,
+          "laborString": "100000000001,Empty,Empty",
+          "entries": [
+            {
+              "laborCategory": {
+                "id": 9,
+                "qualifier": "Position Number",
+                "name": "Position Number"
+              },
+              "laborCategoryOrderNum": 1,
+              "laborCategoryEntry": {
+                "id": 600000001,
+                "qualifier": "100000000001",
+                "name": "100000000001"
+              },
+              "laborCategoryEntryDescription": "Synthetic Position"
+            },
+            {
+              "laborCategory": {
+                "id": 59,
+                "qualifier": "Career Ladder",
+                "name": "Career Ladder"
+              },
+              "laborCategoryOrderNum": 2,
+              "laborCategoryEntry": {
+                "id": 22201,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            },
+            {
+              "laborCategory": {
+                "id": 109,
+                "qualifier": "Cert",
+                "name": "Cert"
+              },
+              "laborCategoryOrderNum": 3,
+              "laborCategoryEntry": {
+                "id": 31172,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            }
+          ]
+        },
+        "costCenter": {
+          "referenceId": 500000001,
+          "costCenter": {
+            "id": 81002,
+            "qualifier": "METROBUS",
+            "name": "METROBUS"
+          }
+        }
+      },
+      {
+        "uniqueId": "900000001:2026-09-17:2000000010",
+        "employee": {
+          "id": 900000001,
+          "qualifier": "COH000000001",
+          "name": "COH000000001"
+        },
+        "payCode": {
+          "id": 2000000010,
+          "qualifier": "Actual combined hours",
+          "name": "Actual combined hours"
+        },
+        "hoursAmount": 8,
+        "wages": 0,
+        "wagesCurrency": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "daysAmount": 0,
+        "applyDate": "2026-09-17",
+        "job": {
+          "id": 70002,
+          "qualifier": "COH/TRANSIT/METRO/BUS/Operator",
+          "name": "COH/TRANSIT/METRO/BUS/Operator"
+        },
+        "jobTransfer": false,
+        "laborTransfer": false,
+        "amountType": "HOUR",
+        "isFromCorrection": false,
+        "combined": true,
+        "payPeriodWeek": 1,
+        "payPeriodNumber": 20,
+        "signedOff": false,
+        "wageAddition": 0,
+        "wageMultiplier": 0,
+        "laborCategories": {
+          "referenceId": 500000001,
+          "laborString": "100000000001,Empty,Empty",
+          "entries": [
+            {
+              "laborCategory": {
+                "id": 9,
+                "qualifier": "Position Number",
+                "name": "Position Number"
+              },
+              "laborCategoryOrderNum": 1,
+              "laborCategoryEntry": {
+                "id": 600000001,
+                "qualifier": "100000000001",
+                "name": "100000000001"
+              },
+              "laborCategoryEntryDescription": "Synthetic Position"
+            },
+            {
+              "laborCategory": {
+                "id": 59,
+                "qualifier": "Career Ladder",
+                "name": "Career Ladder"
+              },
+              "laborCategoryOrderNum": 2,
+              "laborCategoryEntry": {
+                "id": 22201,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            },
+            {
+              "laborCategory": {
+                "id": 109,
+                "qualifier": "Cert",
+                "name": "Cert"
+              },
+              "laborCategoryOrderNum": 3,
+              "laborCategoryEntry": {
+                "id": 31172,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            }
+          ]
+        },
+        "costCenter": {
+          "referenceId": 500000001,
+          "costCenter": {
+            "id": 81002,
+            "qualifier": "METROBUS",
+            "name": "METROBUS"
+          }
+        }
+      },
+      {
+        "uniqueId": "900000001:2026-09-17:1551",
+        "employee": {
+          "id": 900000001,
+          "qualifier": "COH000000001",
+          "name": "COH000000001"
+        },
+        "payCode": {
+          "id": 1551,
+          "qualifier": "Analytics - Paid Hours",
+          "name": "Analytics - Paid Hours"
+        },
+        "hoursAmount": 8,
+        "wages": 0,
+        "wagesCurrency": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "daysAmount": 0,
+        "applyDate": "2026-09-17",
+        "job": {
+          "id": 70002,
+          "qualifier": "COH/TRANSIT/METRO/BUS/Operator",
+          "name": "COH/TRANSIT/METRO/BUS/Operator"
+        },
+        "jobTransfer": false,
+        "laborTransfer": false,
+        "amountType": "HOUR",
+        "isFromCorrection": false,
+        "combined": true,
+        "payPeriodWeek": 1,
+        "payPeriodNumber": 20,
+        "signedOff": false,
+        "wageAddition": 0,
+        "wageMultiplier": 0,
+        "laborCategories": {
+          "referenceId": 500000001,
+          "laborString": "100000000001,Empty,Empty",
+          "entries": [
+            {
+              "laborCategory": {
+                "id": 9,
+                "qualifier": "Position Number",
+                "name": "Position Number"
+              },
+              "laborCategoryOrderNum": 1,
+              "laborCategoryEntry": {
+                "id": 600000001,
+                "qualifier": "100000000001",
+                "name": "100000000001"
+              },
+              "laborCategoryEntryDescription": "Synthetic Position"
+            },
+            {
+              "laborCategory": {
+                "id": 59,
+                "qualifier": "Career Ladder",
+                "name": "Career Ladder"
+              },
+              "laborCategoryOrderNum": 2,
+              "laborCategoryEntry": {
+                "id": 22201,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            },
+            {
+              "laborCategory": {
+                "id": 109,
+                "qualifier": "Cert",
+                "name": "Cert"
+              },
+              "laborCategoryOrderNum": 3,
+              "laborCategoryEntry": {
+                "id": 31172,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            }
+          ]
+        },
+        "costCenter": {
+          "referenceId": 500000001,
+          "costCenter": {
+            "id": 81002,
+            "qualifier": "METROBUS",
+            "name": "METROBUS"
+          }
+        }
+      },
+      {
+        "uniqueId": "900000001:2026-09-17:114",
+        "employee": {
+          "id": 900000001,
+          "qualifier": "COH000000001",
+          "name": "COH000000001"
+        },
+        "payCode": {
+          "id": 114,
+          "qualifier": "REG",
+          "name": "REG"
+        },
+        "hoursAmount": 8,
+        "wages": 0,
+        "wagesCurrency": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "daysAmount": 0,
+        "applyDate": "2026-09-17",
+        "job": {
+          "id": 70002,
+          "qualifier": "COH/TRANSIT/METRO/BUS/Operator",
+          "name": "COH/TRANSIT/METRO/BUS/Operator"
+        },
+        "jobTransfer": false,
+        "laborTransfer": false,
+        "amountType": "HOUR",
+        "isFromCorrection": false,
+        "combined": false,
+        "payPeriodWeek": 1,
+        "payPeriodNumber": 20,
+        "signedOff": false,
+        "wageAddition": 0,
+        "wageMultiplier": 1,
+        "laborCategories": {
+          "referenceId": 500000001,
+          "laborString": "100000000001,Empty,Empty",
+          "entries": [
+            {
+              "laborCategory": {
+                "id": 9,
+                "qualifier": "Position Number",
+                "name": "Position Number"
+              },
+              "laborCategoryOrderNum": 1,
+              "laborCategoryEntry": {
+                "id": 600000001,
+                "qualifier": "100000000001",
+                "name": "100000000001"
+              },
+              "laborCategoryEntryDescription": "Synthetic Position"
+            },
+            {
+              "laborCategory": {
+                "id": 59,
+                "qualifier": "Career Ladder",
+                "name": "Career Ladder"
+              },
+              "laborCategoryOrderNum": 2,
+              "laborCategoryEntry": {
+                "id": 22201,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            },
+            {
+              "laborCategory": {
+                "id": 109,
+                "qualifier": "Cert",
+                "name": "Cert"
+              },
+              "laborCategoryOrderNum": 3,
+              "laborCategoryEntry": {
+                "id": 31172,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            }
+          ]
+        },
+        "costCenter": {
+          "referenceId": 500000001,
+          "costCenter": {
+            "id": 81002,
+            "qualifier": "METROBUS",
+            "name": "METROBUS"
+          }
+        }
+      },
+      {
+        "uniqueId": "900000001:2026-09-18:2000000008",
+        "employee": {
+          "id": 900000001,
+          "qualifier": "COH000000001",
+          "name": "COH000000001"
+        },
+        "payCode": {
+          "id": 2000000008,
+          "qualifier": "Worked Hours",
+          "name": "Worked Hours"
+        },
+        "hoursAmount": 8,
+        "wages": 0,
+        "wagesCurrency": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "daysAmount": 0,
+        "applyDate": "2026-09-18",
+        "job": {
+          "id": 70002,
+          "qualifier": "COH/TRANSIT/METRO/BUS/Operator",
+          "name": "COH/TRANSIT/METRO/BUS/Operator"
+        },
+        "jobTransfer": false,
+        "laborTransfer": false,
+        "amountType": "HOUR",
+        "isFromCorrection": false,
+        "combined": true,
+        "payPeriodWeek": 1,
+        "payPeriodNumber": 20,
+        "signedOff": false,
+        "wageAddition": 0,
+        "wageMultiplier": 0,
+        "laborCategories": {
+          "referenceId": 500000001,
+          "laborString": "100000000001,Empty,Empty",
+          "entries": [
+            {
+              "laborCategory": {
+                "id": 9,
+                "qualifier": "Position Number",
+                "name": "Position Number"
+              },
+              "laborCategoryOrderNum": 1,
+              "laborCategoryEntry": {
+                "id": 600000001,
+                "qualifier": "100000000001",
+                "name": "100000000001"
+              },
+              "laborCategoryEntryDescription": "Synthetic Position"
+            },
+            {
+              "laborCategory": {
+                "id": 59,
+                "qualifier": "Career Ladder",
+                "name": "Career Ladder"
+              },
+              "laborCategoryOrderNum": 2,
+              "laborCategoryEntry": {
+                "id": 22201,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            },
+            {
+              "laborCategory": {
+                "id": 109,
+                "qualifier": "Cert",
+                "name": "Cert"
+              },
+              "laborCategoryOrderNum": 3,
+              "laborCategoryEntry": {
+                "id": 31172,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            }
+          ]
+        },
+        "costCenter": {
+          "referenceId": 500000001,
+          "costCenter": {
+            "id": 81002,
+            "qualifier": "METROBUS",
+            "name": "METROBUS"
+          }
+        }
+      },
+      {
+        "uniqueId": "900000001:2026-09-18:2000000010",
+        "employee": {
+          "id": 900000001,
+          "qualifier": "COH000000001",
+          "name": "COH000000001"
+        },
+        "payCode": {
+          "id": 2000000010,
+          "qualifier": "Actual combined hours",
+          "name": "Actual combined hours"
+        },
+        "hoursAmount": 8,
+        "wages": 0,
+        "wagesCurrency": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "daysAmount": 0,
+        "applyDate": "2026-09-18",
+        "job": {
+          "id": 70002,
+          "qualifier": "COH/TRANSIT/METRO/BUS/Operator",
+          "name": "COH/TRANSIT/METRO/BUS/Operator"
+        },
+        "jobTransfer": false,
+        "laborTransfer": false,
+        "amountType": "HOUR",
+        "isFromCorrection": false,
+        "combined": true,
+        "payPeriodWeek": 1,
+        "payPeriodNumber": 20,
+        "signedOff": false,
+        "wageAddition": 0,
+        "wageMultiplier": 0,
+        "laborCategories": {
+          "referenceId": 500000001,
+          "laborString": "100000000001,Empty,Empty",
+          "entries": [
+            {
+              "laborCategory": {
+                "id": 9,
+                "qualifier": "Position Number",
+                "name": "Position Number"
+              },
+              "laborCategoryOrderNum": 1,
+              "laborCategoryEntry": {
+                "id": 600000001,
+                "qualifier": "100000000001",
+                "name": "100000000001"
+              },
+              "laborCategoryEntryDescription": "Synthetic Position"
+            },
+            {
+              "laborCategory": {
+                "id": 59,
+                "qualifier": "Career Ladder",
+                "name": "Career Ladder"
+              },
+              "laborCategoryOrderNum": 2,
+              "laborCategoryEntry": {
+                "id": 22201,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            },
+            {
+              "laborCategory": {
+                "id": 109,
+                "qualifier": "Cert",
+                "name": "Cert"
+              },
+              "laborCategoryOrderNum": 3,
+              "laborCategoryEntry": {
+                "id": 31172,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            }
+          ]
+        },
+        "costCenter": {
+          "referenceId": 500000001,
+          "costCenter": {
+            "id": 81002,
+            "qualifier": "METROBUS",
+            "name": "METROBUS"
+          }
+        }
+      },
+      {
+        "uniqueId": "900000001:2026-09-18:1551",
+        "employee": {
+          "id": 900000001,
+          "qualifier": "COH000000001",
+          "name": "COH000000001"
+        },
+        "payCode": {
+          "id": 1551,
+          "qualifier": "Analytics - Paid Hours",
+          "name": "Analytics - Paid Hours"
+        },
+        "hoursAmount": 8,
+        "wages": 0,
+        "wagesCurrency": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "daysAmount": 0,
+        "applyDate": "2026-09-18",
+        "job": {
+          "id": 70002,
+          "qualifier": "COH/TRANSIT/METRO/BUS/Operator",
+          "name": "COH/TRANSIT/METRO/BUS/Operator"
+        },
+        "jobTransfer": false,
+        "laborTransfer": false,
+        "amountType": "HOUR",
+        "isFromCorrection": false,
+        "combined": true,
+        "payPeriodWeek": 1,
+        "payPeriodNumber": 20,
+        "signedOff": false,
+        "wageAddition": 0,
+        "wageMultiplier": 0,
+        "laborCategories": {
+          "referenceId": 500000001,
+          "laborString": "100000000001,Empty,Empty",
+          "entries": [
+            {
+              "laborCategory": {
+                "id": 9,
+                "qualifier": "Position Number",
+                "name": "Position Number"
+              },
+              "laborCategoryOrderNum": 1,
+              "laborCategoryEntry": {
+                "id": 600000001,
+                "qualifier": "100000000001",
+                "name": "100000000001"
+              },
+              "laborCategoryEntryDescription": "Synthetic Position"
+            },
+            {
+              "laborCategory": {
+                "id": 59,
+                "qualifier": "Career Ladder",
+                "name": "Career Ladder"
+              },
+              "laborCategoryOrderNum": 2,
+              "laborCategoryEntry": {
+                "id": 22201,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            },
+            {
+              "laborCategory": {
+                "id": 109,
+                "qualifier": "Cert",
+                "name": "Cert"
+              },
+              "laborCategoryOrderNum": 3,
+              "laborCategoryEntry": {
+                "id": 31172,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            }
+          ]
+        },
+        "costCenter": {
+          "referenceId": 500000001,
+          "costCenter": {
+            "id": 81002,
+            "qualifier": "METROBUS",
+            "name": "METROBUS"
+          }
+        }
+      },
+      {
+        "uniqueId": "900000001:2026-09-18:114",
+        "employee": {
+          "id": 900000001,
+          "qualifier": "COH000000001",
+          "name": "COH000000001"
+        },
+        "payCode": {
+          "id": 114,
+          "qualifier": "REG",
+          "name": "REG"
+        },
+        "hoursAmount": 8,
+        "wages": 0,
+        "wagesCurrency": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "daysAmount": 0,
+        "applyDate": "2026-09-18",
+        "job": {
+          "id": 70002,
+          "qualifier": "COH/TRANSIT/METRO/BUS/Operator",
+          "name": "COH/TRANSIT/METRO/BUS/Operator"
+        },
+        "jobTransfer": false,
+        "laborTransfer": false,
+        "amountType": "HOUR",
+        "isFromCorrection": false,
+        "combined": false,
+        "payPeriodWeek": 1,
+        "payPeriodNumber": 20,
+        "signedOff": false,
+        "wageAddition": 0,
+        "wageMultiplier": 1,
+        "laborCategories": {
+          "referenceId": 500000001,
+          "laborString": "100000000001,Empty,Empty",
+          "entries": [
+            {
+              "laborCategory": {
+                "id": 9,
+                "qualifier": "Position Number",
+                "name": "Position Number"
+              },
+              "laborCategoryOrderNum": 1,
+              "laborCategoryEntry": {
+                "id": 600000001,
+                "qualifier": "100000000001",
+                "name": "100000000001"
+              },
+              "laborCategoryEntryDescription": "Synthetic Position"
+            },
+            {
+              "laborCategory": {
+                "id": 59,
+                "qualifier": "Career Ladder",
+                "name": "Career Ladder"
+              },
+              "laborCategoryOrderNum": 2,
+              "laborCategoryEntry": {
+                "id": 22201,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            },
+            {
+              "laborCategory": {
+                "id": 109,
+                "qualifier": "Cert",
+                "name": "Cert"
+              },
+              "laborCategoryOrderNum": 3,
+              "laborCategoryEntry": {
+                "id": 31172,
+                "qualifier": "Empty",
+                "name": "Empty"
+              },
+              "laborCategoryEntryDescription": "Empty"
+            }
+          ]
+        },
+        "costCenter": {
+          "referenceId": 500000001,
+          "costCenter": {
+            "id": 81002,
+            "qualifier": "METROBUS",
+            "name": "METROBUS"
+          }
+        }
+      }
+    ]
+  }
+]
