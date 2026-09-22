@@ -1,0 +1,21 @@
+{
+  "targetGiB": 12,
+  "chunkTargetMiB": 32,
+  "period": {
+    "startDate": "2026-09-14",
+    "endDate": "2026-09-20"
+  },
+  "records": {
+    "normalEmployeesPercent": 98.9,
+    "correctionEmployeesPercent": 0.5,
+    "transferEmployeesPercent": 0.3,
+    "dirtyEmployeesPercent": 0.2,
+    "oversizedEmployeesPercent": 0.1
+  },
+  "rules": {
+    "payrollDetail": "combined == false",
+    "calculatedTotals": "combined == true",
+    "oversizedEmployeeExtraRows": 250000
+  },
+  "output": "dataset/timecard_metrics/chunk-XXXXXX.json"
+}
